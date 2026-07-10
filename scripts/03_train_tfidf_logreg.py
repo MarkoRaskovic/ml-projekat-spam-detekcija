@@ -1,5 +1,6 @@
 from pathlib import Path
 
+from itertools import product
 import joblib
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -29,15 +30,10 @@ y_validation = validation_df["label"]
 
 # Biramo nekoliko brzih kombinacija hiperparametara.
 # Najbolji model biramo prema F1 meri za spam klasu na validacionom skupu.
-candidate_parameters = [
-    {"ngram_range": (1, 1), "min_df": 2, "max_df": 0.95, "C": 1.0},
-    {"ngram_range": (1, 2), "min_df": 2, "max_df": 0.95, "C": 1.0},
-    {"ngram_range": (1, 2), "min_df": 5, "max_df": 0.90, "C": 5.0},
-    {"ngram_range": (1, 2), "min_df": 2, "max_df": 0.95, "C": 5.0},
-]
+candidate_parameters = [(i,j*0.2) for i in range(2,21) for j in range(1,51)]
 
 
-def napravi_model(params):
+def napravi_model(min_df_param,C_param):
     return Pipeline(
         [
             (
@@ -45,16 +41,16 @@ def napravi_model(params):
                 TfidfVectorizer(
                     lowercase=True,
                     strip_accents="unicode",
-                    ngram_range=params["ngram_range"],
-                    min_df=params["min_df"],
-                    max_df=params["max_df"],
+                    ngram_range=(1,2),
+                    min_df=min_df_param,
+                    max_df=0.90,
                     sublinear_tf=True,
                 ),
             ),
             (
                 "logistic_regression",
                 LogisticRegression(
-                    C=params["C"],
+                    C=C_param,
                     max_iter=1000,
                     class_weight="balanced",
                     random_state=42,
@@ -69,20 +65,21 @@ all_results = []
 best_model = None
 best_params = None
 best_spam_f1 = -1
+best_ham_f1 = -1
 
 for params in candidate_parameters:
-    candidate_model = napravi_model(params)
+    (min_df_param,C_param)=params
+    candidate_model = napravi_model(min_df_param,C_param)
     candidate_model.fit(x_train, y_train)
     predictions = candidate_model.predict(x_validation)
-
-    spam_precision = precision_score(y_validation, predictions, pos_label="spam", zero_division=0)
-    spam_recall = recall_score(y_validation, predictions, pos_label="spam", zero_division=0)
     spam_f1 = f1_score(y_validation, predictions, pos_label="spam", zero_division=0)
+    ham_f1 = f1_score(y_validation, predictions, pos_label="ham", zero_division=0)
 
-    all_results.append([params["ngram_range"], params["min_df"], params["max_df"], params["C"], spam_precision, spam_recall, spam_f1])
+    all_results.append([min_df_param,C_param, spam_f1,ham_f1])
 
-    if spam_f1 > best_spam_f1:
+    if spam_f1+ham_f1 > best_spam_f1+ham_f1:
         best_spam_f1 = spam_f1
+        best_ham_f1=ham_f1
         best_params = params
         best_model = candidate_model
 
@@ -93,7 +90,7 @@ validation_report = classification_report(y_validation, validation_predictions)
 validation_confusion_matrix = confusion_matrix(y_validation, validation_predictions, labels=["ham", "spam"])
 results_table = pd.DataFrame(
     all_results,
-    columns=["ngram_range", "min_df", "max_df", "C", "spam_precision", "spam_recall", "spam_f1"],
+    columns=["min_df", "C", "spam_f1", "ham_f1"],
 ).sort_values("spam_f1", ascending=False)
 
 print("IZBOR HIPERPARAMETARA")

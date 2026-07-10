@@ -46,7 +46,7 @@ validation_df, test_df = train_test_split(
     stratify=temp_df["label"],
     random_state=42,
 )
-
+# Cuvamo podatke da bi mogli da im pristupima iz drugih skripti
 CLEAN_PATH.parent.mkdir(parents=True, exist_ok=True)
 SPLIT_DIR.mkdir(parents=True, exist_ok=True)
 
