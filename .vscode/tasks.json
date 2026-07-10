@@ -3,44 +3,72 @@
   "tasks": [
     {
       "label": "1. Napravi Python okruzenje",
-      "type": "shell",
-      "command": "python3 -m venv .venv",
+      "type": "process",
+      "command": "python3",
+      "args": ["-m", "venv", ".venv"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": []
     },
     {
       "label": "2. Instaliraj pakete",
-      "type": "shell",
-      "command": ".venv/bin/python -m pip install -r requirements.txt",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": ["-m", "pip", "install", "-r", "requirements.txt"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": []
     },
     {
       "label": "3. Pripremi podatke",
-      "type": "shell",
-      "command": ".venv/bin/python scripts/01_prepare_data.py",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": ["scripts/01_prepare_data.py"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": []
     },
     {
       "label": "4. Pokreni TF-IDF model",
-      "type": "shell",
-      "command": ".venv/bin/python scripts/03_train_tfidf_logreg.py",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": ["scripts/03_train_tfidf_logreg.py"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": []
     },
     {
       "label": "5. Finalno testiraj TF-IDF model",
-      "type": "shell",
-      "command": ".venv/bin/python scripts/04_evaluate_tfidf_test.py",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": ["scripts/04_evaluate_tfidf_test.py"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": []
     },
     {
       "label": "6. Pokreni LSTM model",
-      "type": "shell",
-      "command": ".venv/bin/python scripts/05_train_lstm.py",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": ["scripts/05_train_lstm.py"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": []
     },
     {
       "label": "7. Uporedi modele",
-      "type": "shell",
-      "command": ".venv/bin/python scripts/06_compare_models.py",
+      "type": "process",
+      "command": "${workspaceFolder}/.venv/bin/python",
+      "args": ["scripts/06_compare_models.py"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": []
     }
   ]

@@ -3,41 +3,46 @@
   "configurations": [
     {
       "name": "Pripremi podatke",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "${workspaceFolder}/scripts/01_prepare_data.py",
+      "python": "${workspaceFolder}/.venv/bin/python",
       "console": "integratedTerminal",
       "cwd": "${workspaceFolder}"
     },
     {
       "name": "Pokreni TF-IDF + Logistic Regression",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "${workspaceFolder}/scripts/03_train_tfidf_logreg.py",
+      "python": "${workspaceFolder}/.venv/bin/python",
       "console": "integratedTerminal",
       "cwd": "${workspaceFolder}"
     },
     {
       "name": "Finalno testiraj TF-IDF model",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "${workspaceFolder}/scripts/04_evaluate_tfidf_test.py",
+      "python": "${workspaceFolder}/.venv/bin/python",
       "console": "integratedTerminal",
       "cwd": "${workspaceFolder}"
     },
     {
       "name": "Pokreni LSTM model",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "${workspaceFolder}/scripts/05_train_lstm.py",
+      "python": "${workspaceFolder}/.venv/bin/python",
       "console": "integratedTerminal",
       "cwd": "${workspaceFolder}"
     },
     {
       "name": "Uporedi modele",
-      "type": "python",
+      "type": "debugpy",
       "request": "launch",
       "program": "${workspaceFolder}/scripts/06_compare_models.py",
+      "python": "${workspaceFolder}/.venv/bin/python",
       "console": "integratedTerminal",
       "cwd": "${workspaceFolder}"
     }
