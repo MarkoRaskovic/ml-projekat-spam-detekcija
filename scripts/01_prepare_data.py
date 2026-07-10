@@ -30,6 +30,14 @@ df["has_currency"] = df["message"].str.contains(r"[$\u00a3\u20ac]", regex=True)
 df["has_long_number"] = df["message"].str.contains(r"\d{5,}", regex=True)
 df["normalized_message"] = df["message"].str.lower().str.replace(r"\s+", " ", regex=True).str.strip()
 
+class_counts = df["label"].value_counts()
+duplicate_count = df.duplicated(["label", "message"]).sum()
+
+print("OSNOVNE INFORMACIJE O PODACIMA")
+print(f"Broj ham poruka: {class_counts['ham']}")
+print(f"Broj spam poruka: {class_counts['spam']}")
+print(f"Broj duplikata: {duplicate_count}")
+
 df_modeling = df.drop_duplicates(["label", "message"]).reset_index(drop=True)
 
 # Stratifikovana podela cuva isti odnos ham/spam poruka u svakom skupu.
