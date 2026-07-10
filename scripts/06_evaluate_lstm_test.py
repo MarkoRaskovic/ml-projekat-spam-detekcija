@@ -10,6 +10,8 @@ from torch.nn.utils.rnn import pack_padded_sequence
 from torch.utils.data import DataLoader, TensorDataset
 
 
+# Potrebno je na kraju proveriti model na test skupu podataka.
+
 ROOT = Path(__file__).resolve().parents[1]
 
 TEST_PATH = ROOT / "data" / "processed" / "splits" / "test.csv"

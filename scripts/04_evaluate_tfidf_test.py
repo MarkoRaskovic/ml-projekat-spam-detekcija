@@ -4,6 +4,7 @@ import joblib
 import pandas as pd
 from sklearn.metrics import classification_report, confusion_matrix
 
+# Potrebno je na kraju proveriti model na test skupu podataka.
 
 ROOT = Path(__file__).resolve().parents[1]
 

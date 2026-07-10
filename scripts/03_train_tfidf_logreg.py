@@ -29,10 +29,10 @@ y_validation = validation_df["label"]
 
 
 # Biramo nekoliko brzih kombinacija hiperparametara.
-# Najbolji model biramo prema F1 meri za spam klasu na validacionom skupu.
+# Najbolji model biramo prema F1 meri za spam i ham klasu na validacionom skupu.
 candidate_parameters = [(i,j*0.2) for i in range(2,21) for j in range(1,51)]
 
-
+# Pravimo model koji izvrsava logisticku regresiju.
 def napravi_model(min_df_param,C_param):
     return Pipeline(
         [
@@ -52,7 +52,7 @@ def napravi_model(min_df_param,C_param):
                 LogisticRegression(
                     C=C_param,
                     max_iter=1000,
-                    class_weight="balanced",
+                    class_weight="balanced",    # Koristimo class_weight="balanced" jer podaci nisu balansirani.
                     random_state=42,
                     solver="liblinear",
                 ),
@@ -66,6 +66,8 @@ best_model = None
 best_params = None
 best_spam_f1 = -1
 best_ham_f1 = -1
+
+# Pokrecemo model za sve razlicite parametre i cuvamo najbolje.
 
 for params in candidate_parameters:
     (min_df_param,C_param)=params
@@ -83,6 +85,7 @@ for params in candidate_parameters:
         best_params = params
         best_model = candidate_model
 
+#Ispisujemo rezultate najboljeg parametra
 
 validation_predictions = best_model.predict(x_validation)
 
@@ -106,6 +109,8 @@ MODEL_PATH.parent.mkdir(parents=True, exist_ok=True)
 RESULTS_PATH.parent.mkdir(parents=True, exist_ok=True)
 
 joblib.dump(best_model, MODEL_PATH)
+
+# Zapisujemo rezultate u fajl
 
 with open(RESULTS_PATH, "w", encoding="utf-8") as file:
     file.write("IZBOR HIPERPARAMETARA\n")
