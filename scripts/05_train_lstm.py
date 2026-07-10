@@ -27,6 +27,8 @@ LEARNING_RATE = 0.001
 DROPOUT = 0.2
 
 
+# Ne radimo veliku grid pretragu jer bi trajala predugo.
+# Umesto toga proveravamo mali broj smislenih kombinacija hiperparametara.
 candidate_parameters = [
     {"max_words": 1000, "epochs": 8, "embedding_dim": 32, "lstm_dim": 32},
     {"max_words": 3000, "epochs": 8, "embedding_dim": 64, "lstm_dim": 64},
@@ -51,18 +53,26 @@ validation_df = pd.read_csv(VALIDATION_PATH)
 
 
 def tokenize(text):
+    # Poruku pretvaramo u mala slova i izdvajamo samo reci.
+    # Na primer: "Call me NOW!" postaje ["call", "me", "now"].
     return re.findall(r"[a-z]+(?:'[a-z]+)?", str(text).lower())
 
 
 word_counter = Counter()
 
+# Recnik pravimo iskljucivo na trening skupu.
+# Validacioni skup ne sme da utice na recnik, jer bi to bilo "gledanje unapred".
 for message in train_df["message"]:
     word_counter.update(tokenize(message))
 
 
 def make_vocab(max_words):
+    # <PAD> popunjava kratke poruke do iste duzine.
+    # <UNK> oznacava rec koju model nije video u trening skupu.
     vocab = {"<PAD>": 0, "<UNK>": 1}
 
+    # U recnik ulazi samo max_words najcescih reci.
+    # Redje reci ce kasnije biti zamenjene oznakom <UNK>.
     for word, _ in word_counter.most_common(max_words - 2):
         vocab[word] = len(vocab)
 
@@ -70,8 +80,11 @@ def make_vocab(max_words):
 
 
 def encode_message(message, vocab):
+    # LSTM ne radi direktno sa tekstom, pa svaku rec menjamo njenim brojem iz recnika.
     tokens = tokenize(message)
     numbers = [vocab.get(token, vocab["<UNK>"]) for token in tokens]
+
+    # Sve poruke moraju imati istu duzinu: duge skracujemo, kratke dopunjavamo nulama.
     numbers = numbers[:MAX_LEN]
     length = max(1, len(numbers))
     numbers += [vocab["<PAD>"]] * (MAX_LEN - len(numbers))
@@ -79,6 +92,9 @@ def encode_message(message, vocab):
 
 
 def make_dataset(df, vocab):
+    # Od pandas tabele pravimo PyTorch TensorDataset.
+    # x su poruke pretvorene u brojeve, lengths su stvarne duzine poruka,
+    # y je ciljna klasa: 0 za ham, 1 za spam.
     encoded_messages = [encode_message(message, vocab) for message in df["message"]]
     x = [message for message, _ in encoded_messages]
     lengths = [length for _, length in encoded_messages]
@@ -94,15 +110,25 @@ def make_dataset(df, vocab):
 class LSTMClassifier(nn.Module):
     def __init__(self, vocab_size, embedding_dim, lstm_dim):
         super().__init__()
+
+        # Embedding sloj pretvara broj reci u mali vektor koji model moze da uci.
         self.embedding = nn.Embedding(vocab_size, embedding_dim, padding_idx=0)
+
+        # LSTM cita poruku kao niz reci i pamti informacije iz prethodnih reci.
         self.lstm = nn.LSTM(embedding_dim, lstm_dim, batch_first=True)
+
+        # Dropout smanjuje rizik da model samo zapamti trening primere.
         self.dropout = nn.Dropout(DROPOUT)
+
+        # Linearni sloj svodi LSTM izlaz na jedan broj: spam skor.
         self.linear = nn.Linear(lstm_dim, 1)
 
     def forward(self, x, lengths):
         # Padding reci ne treba da utice na LSTM, pa koristimo stvarne duzine poruka.
         x = self.embedding(x)
         x = pack_padded_sequence(x, lengths.cpu(), batch_first=True, enforce_sorted=False)
+
+        # hidden[-1] je zavrsno LSTM stanje i predstavlja celu poruku.
         _, (hidden, _) = self.lstm(x)
         x = self.dropout(hidden[-1])
         x = self.linear(x)
@@ -110,17 +136,21 @@ class LSTMClassifier(nn.Module):
 
 
 def train_model(params):
+    # Fiksiramo seed da bi ponovna pokretanja dala sto slicnije rezultate.
     torch.manual_seed(42)
 
+    # Svaki kandidat moze imati drugaciju velicinu recnika, pa dataset pravimo ponovo.
     vocab = make_vocab(params["max_words"])
     train_dataset = make_dataset(train_df, vocab)
     validation_dataset = make_dataset(validation_df, vocab)
 
+    # DataLoader deli podatke na manje grupe poruka koje model obradjuje odjednom.
     train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
     validation_loader = DataLoader(validation_dataset, batch_size=BATCH_SIZE)
 
     model = LSTMClassifier(len(vocab), params["embedding_dim"], params["lstm_dim"]).to(device)
 
+    # Spam je manjinska klasa, pa joj u funkciji greske dajemo vecu tezinu.
     spam_count = (train_df["label"] == "spam").sum()
     ham_count = (train_df["label"] == "ham").sum()
     pos_weight = torch.tensor([ham_count / spam_count], dtype=torch.float32).to(device)
@@ -129,6 +159,7 @@ def train_model(params):
     optimizer = torch.optim.Adam(model.parameters(), lr=LEARNING_RATE)
 
     for epoch in range(params["epochs"]):
+        # Trening faza: model menja tezine na osnovu greske.
         model.train()
         total_loss = 0
 
@@ -140,7 +171,11 @@ def train_model(params):
             optimizer.zero_grad()
             predictions = model(x_batch, lengths)
             loss = loss_function(predictions, y_batch)
+
+            # Backpropagation racuna kako svaka tezina doprinosi gresci.
             loss.backward()
+
+            # Optimizer zatim koriguje tezine modela.
             optimizer.step()
 
             total_loss += loss.item()
@@ -148,6 +183,7 @@ def train_model(params):
         average_loss = total_loss / len(train_loader)
         print(f"  epoch {epoch + 1}/{params['epochs']} - loss: {average_loss:.8f}")
 
+    # Validaciona faza: model se samo proverava, bez dodatnog ucenja.
     model.eval()
     all_predictions = []
     all_labels = []
@@ -159,6 +195,8 @@ def train_model(params):
 
             logits = model(x_batch, lengths)
             probabilities = torch.sigmoid(logits)
+
+            # Ako je verovatnoca bar 0.5, poruku proglasavamo za spam.
             predictions = (probabilities >= 0.5).int().cpu().tolist()
 
             all_predictions.extend(predictions)
@@ -168,6 +206,7 @@ def train_model(params):
     real_labels = [label_names[label] for label in all_labels]
     predicted_labels = [label_names[label] for label in all_predictions]
 
+    # Za izbor modela gledamo metrike spam klase, jer je spam bitnija i redja klasa.
     spam_precision = precision_score(real_labels, predicted_labels, pos_label="spam", zero_division=0)
     spam_recall = recall_score(real_labels, predicted_labels, pos_label="spam", zero_division=0)
     spam_f1 = f1_score(real_labels, predicted_labels, pos_label="spam", zero_division=0)
@@ -187,6 +226,7 @@ for index, params in enumerate(candidate_parameters, start=1):
     print(f"\nKandidat {index}/{len(candidate_parameters)}: {params}")
     model, vocab, real_labels, predicted_labels, spam_precision, spam_recall, spam_f1 = train_model(params)
 
+    # Cuvamo rezultate svih kandidata da bismo ih uporedili u izvestaju.
     all_results.append(
         [
             params["max_words"],
@@ -199,6 +239,7 @@ for index, params in enumerate(candidate_parameters, start=1):
         ]
     )
 
+    # Najbolji kandidat je onaj koji ima najveci F1 za spam na validacionom skupu.
     if spam_f1 > best_spam_f1:
         best_spam_f1 = spam_f1
         best_model = model
@@ -230,6 +271,7 @@ print(pd.DataFrame(validation_confusion_matrix, index=["stvarno_ham", "stvarno_s
 MODEL_PATH.parent.mkdir(parents=True, exist_ok=True)
 RESULTS_PATH.parent.mkdir(parents=True, exist_ok=True)
 
+# Cuvamo samo najbolji model, a ne sve kandidate.
 torch.save(best_model.state_dict(), MODEL_PATH)
 joblib.dump(
     {
