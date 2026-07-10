@@ -57,11 +57,10 @@ Ovaj model je dodat da projekat ispuni zahtev da postoji rekurentni model, ali j
 
 ## Rezultati
 
-Detaljni rezultati se cuvaju u folderu `reports/`.
+Rezultati treniranja i evaluacije modela cuvaju se u folderu `reports/`.
 
 Najvazniji fajlovi:
 
-- `reports/01_prepare_data_results.txt` - osnovna analiza i podela podataka
 - `reports/03_tfidf_logreg_results.txt` - izbor hiperparametara i validacija TF-IDF modela
 - `reports/04_tfidf_test_results.txt` - finalna provera TF-IDF modela na test skupu
 - `reports/05_lstm_results.txt` - validacija LSTM modela
