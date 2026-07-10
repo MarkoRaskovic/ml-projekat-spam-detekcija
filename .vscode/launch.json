@@ -36,15 +36,6 @@
       "python": "${workspaceFolder}/.venv/bin/python",
       "console": "integratedTerminal",
       "cwd": "${workspaceFolder}"
-    },
-    {
-      "name": "Uporedi modele",
-      "type": "debugpy",
-      "request": "launch",
-      "program": "${workspaceFolder}/scripts/06_compare_models.py",
-      "python": "${workspaceFolder}/.venv/bin/python",
-      "console": "integratedTerminal",
-      "cwd": "${workspaceFolder}"
     }
   ]
 }

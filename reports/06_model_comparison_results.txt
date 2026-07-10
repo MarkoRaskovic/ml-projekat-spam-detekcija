@@ -1,6 +1,0 @@
-POREDJENJE MODELA NA VALIDACIONOM SKUPU
-                          model  spam_precision  spam_recall  spam_f1
-0  TF-IDF + Logistic Regression            0.94         0.94     0.94
-1                          LSTM            0.91         0.89     0.90
-
-Zakljucak: najbolji model prema F1 meri za spam klasu na validacionom skupu je TF-IDF + Logistic Regression.

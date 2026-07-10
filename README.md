@@ -64,8 +64,6 @@ Najvazniji fajlovi:
 - `reports/03_tfidf_logreg_results.txt` - izbor hiperparametara i validacija TF-IDF modela
 - `reports/04_tfidf_test_results.txt` - finalna provera TF-IDF modela na test skupu
 - `reports/05_lstm_results.txt` - validacija LSTM modela
-- `reports/06_model_comparison_results.txt` - poredjenje modela
-- `reports/model_comparison.png` - graficki prikaz poredjenja modela
 
 Za spam detekciju su najvaznije metrike `precision`, `recall` i `F1-score`, jer je skup nebalansiran.
 
@@ -107,7 +105,6 @@ Zatim pokrenuti skripte ovim redosledom:
 .venv/bin/python scripts/01_prepare_data.py
 .venv/bin/python scripts/03_train_tfidf_logreg.py
 .venv/bin/python scripts/05_train_lstm.py
-.venv/bin/python scripts/06_compare_models.py
 ```
 
 Finalni test TF-IDF modela pokrece se posebno:
@@ -118,7 +115,17 @@ Finalni test TF-IDF modela pokrece se posebno:
 
 ## Pokretanje iz VS Code-a
 
-U VS Code-u otvoriti folder projekta, zatim izabrati:
+U VS Code-u otvoriti glavni folder projekta:
+
+```text
+/Users/markoraskovic/Desktop/ML projekat
+```
+
+Ne treba otvarati podfolder `scripts`, jer se tada ne vide taskovi iz `.vscode/tasks.json`.
+
+Najjednostavnije je otvoriti fajl `ML projekat.code-workspace` iz glavnog foldera projekta.
+
+Zatim izabrati:
 
 `Terminal -> Run Task...`
 
@@ -129,7 +136,6 @@ Redosled taskova:
 3. `3. Pripremi podatke`
 4. `4. Pokreni TF-IDF model`
 5. `6. Pokreni LSTM model`
-6. `7. Uporedi modele`
 
 Task `5. Finalno testiraj TF-IDF model` koristi se samo za finalnu proveru na test skupu.
 

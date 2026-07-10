@@ -60,16 +60,6 @@
         "cwd": "${workspaceFolder}"
       },
       "problemMatcher": []
-    },
-    {
-      "label": "7. Uporedi modele",
-      "type": "process",
-      "command": "${workspaceFolder}/.venv/bin/python",
-      "args": ["scripts/06_compare_models.py"],
-      "options": {
-        "cwd": "${workspaceFolder}"
-      },
-      "problemMatcher": []
     }
   ]
 }
