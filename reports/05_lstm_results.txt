@@ -1,24 +1,40 @@
-HIPERPARAMETRI
+IZBOR HIPERPARAMETARA
+ max_words  epochs  embedding_dim  lstm_dim  spam_precision  spam_recall  spam_f1
+      5000      12             64        64        0.945055     0.877551 0.910053
+      5000      16             64        64        0.916667     0.897959 0.907216
+      5000      20             64        64        0.916667     0.897959 0.907216
+      5000       8             64        64        0.906250     0.887755 0.896907
+      5000      16            128       128        0.914894     0.877551 0.895833
+      5000      20            128       128        0.914894     0.877551 0.895833
+      5000      12            128       128        0.895833     0.877551 0.886598
+      1000       8             32        32        0.855769     0.908163 0.881188
+      3000       8             64        64        0.800000     0.897959 0.846154
+
+Najbolji parametri: {'max_words': 5000, 'epochs': 12, 'embedding_dim': 64, 'lstm_dim': 64}
+
+HIPERPARAMETRI NAJBOLJEG MODELA
 max_words: 5000
 max_len: 50
 batch_size: 64
-epochs: 8
+epochs: 12
 embedding_dim: 64
 lstm_dim: 64
+learning_rate: 0.001
+dropout: 0.2
 device: cpu
 
 VALIDACIONI SKUP
               precision    recall  f1-score   support
 
          ham       0.98      0.99      0.99       678
-        spam       0.91      0.89      0.90        98
+        spam       0.95      0.88      0.91        98
 
-    accuracy                           0.97       776
-   macro avg       0.95      0.94      0.94       776
-weighted avg       0.97      0.97      0.97       776
+    accuracy                           0.98       776
+   macro avg       0.96      0.94      0.95       776
+weighted avg       0.98      0.98      0.98       776
 
 
 MATRICA KONFUZIJE NA VALIDACIONOM SKUPU
               pred_ham  pred_spam
-stvarno_ham        669          9
-stvarno_spam        11         87
+stvarno_ham        673          5
+stvarno_spam        12         86
