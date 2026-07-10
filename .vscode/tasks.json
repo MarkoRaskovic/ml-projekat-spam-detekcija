@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "1. Napravi Python okruzenje",
+      "type": "shell",
+      "command": "python3 -m venv .venv",
+      "problemMatcher": []
+    },
+    {
+      "label": "2. Instaliraj pakete",
+      "type": "shell",
+      "command": ".venv/bin/python -m pip install -r requirements.txt",
+      "problemMatcher": []
+    },
+    {
+      "label": "3. Pripremi podatke",
+      "type": "shell",
+      "command": ".venv/bin/python scripts/01_prepare_data.py",
+      "problemMatcher": []
+    },
+    {
+      "label": "4. Pokreni TF-IDF model",
+      "type": "shell",
+      "command": ".venv/bin/python scripts/03_train_tfidf_logreg.py",
+      "problemMatcher": []
+    },
+    {
+      "label": "5. Finalno testiraj TF-IDF model",
+      "type": "shell",
+      "command": ".venv/bin/python scripts/04_evaluate_tfidf_test.py",
+      "problemMatcher": []
+    },
+    {
+      "label": "6. Pokreni LSTM model",
+      "type": "shell",
+      "command": ".venv/bin/python scripts/05_train_lstm.py",
+      "problemMatcher": []
+    },
+    {
+      "label": "7. Uporedi modele",
+      "type": "shell",
+      "command": ".venv/bin/python scripts/06_compare_models.py",
+      "problemMatcher": []
+    }
+  ]
+}

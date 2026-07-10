@@ -1,0 +1,777 @@
+label,message,label_id,char_count,word_count,digit_count,has_currency,has_long_number,normalized_message
+ham,"Awesome question with a cute answer: Someone asked a boy ""how is ur life?"" . . He smiled &amp; answered: . . ""She is fine!"" Gudnite",0,131,26,0,False,False,"awesome question with a cute answer: someone asked a boy ""how is ur life?"" . . he smiled &amp; answered: . . ""she is fine!"" gudnite"
+ham,K fyi x has a ride early tomorrow morning but he's crashing at our place tonight,0,80,16,0,False,False,k fyi x has a ride early tomorrow morning but he's crashing at our place tonight
+spam,Todays Voda numbers ending 5226 are selected to receive a ?350 award. If you hava a match please call 08712300220 quoting claim code 1131 standard rates app ,1,157,27,22,False,True,todays voda numbers ending 5226 are selected to receive a ?350 award. if you hava a match please call 08712300220 quoting claim code 1131 standard rates app
+spam,"Dear Voucher Holder, 2 claim this weeks offer, at your PC go to http://www.e-tlp.co.uk/expressoffer Ts&Cs apply.2 stop texts txt STOP to 80062.",1,143,22,7,False,True,"dear voucher holder, 2 claim this weeks offer, at your pc go to http://www.e-tlp.co.uk/expressoffer ts&cs apply.2 stop texts txt stop to 80062."
+ham,Well then you have a great weekend!,0,35,7,0,False,False,well then you have a great weekend!
+ham,You still at grand prix?,0,24,5,0,False,False,you still at grand prix?
+ham,IM GONNA MISS U SO MUCH,0,23,6,0,False,False,im gonna miss u so much
+ham,Sorry about that this is my mates phone and i didnt write it love Kate,0,70,15,0,False,False,sorry about that this is my mates phone and i didnt write it love kate
+ham,Forgot to tell ü smth.. Can ü like number the sections so that it's clearer..,0,77,15,0,False,False,forgot to tell ü smth.. can ü like number the sections so that it's clearer..
+ham,Reading gud habit.. Nan bari hudgi yorge pataistha ertini kano:-),0,65,10,0,False,False,reading gud habit.. nan bari hudgi yorge pataistha ertini kano:-)
+ham,"I can't keep going through this. It was never my intention to run you out, but if you choose to do that rather than keep the room clean so *I* don't have to say no to visitors, then maybe that's the best choice. Yes, I wanted you to be embarassed, so maybe you'd feel for once how I feel when i have a friend who wants to drop buy and i have to say no, as happened this morning. I've tried everything. I don't know what else to do.",0,431,89,0,False,False,"i can't keep going through this. it was never my intention to run you out, but if you choose to do that rather than keep the room clean so *i* don't have to say no to visitors, then maybe that's the best choice. yes, i wanted you to be embarassed, so maybe you'd feel for once how i feel when i have a friend who wants to drop buy and i have to say no, as happened this morning. i've tried everything. i don't know what else to do."
+ham,HIYA STU WOT U UP 2.IM IN SO MUCH TRUBLE AT HOME AT MOMENT EVONE HATES ME EVEN U! WOT THE HELL AV I DONE NOW? Y WONT U JUST TELL ME TEXT BCK PLEASE LUV DAN ,0,156,37,1,False,False,hiya stu wot u up 2.im in so much truble at home at moment evone hates me even u! wot the hell av i done now? y wont u just tell me text bck please luv dan
+spam,"Our dating service has been asked 2 contact U by someone shy! CALL 09058091870 NOW all will be revealed. POBox84, M26 3UZ 150p",1,126,23,20,False,True,"our dating service has been asked 2 contact u by someone shy! call 09058091870 now all will be revealed. pobox84, m26 3uz 150p"
+ham,Eh sorry leh... I din c ur msg. Not sad already lar. Me watching tv now. U still in office?,0,91,20,0,False,False,eh sorry leh... i din c ur msg. not sad already lar. me watching tv now. u still in office?
+ham,Hey you gave them your photo when you registered for driving ah? Tmr wanna meet at yck? ,0,88,17,0,False,False,hey you gave them your photo when you registered for driving ah? tmr wanna meet at yck?
+ham,Good day to You too.Pray for me.Remove the teeth as its painful maintaining other stuff.,0,88,15,0,False,False,good day to you too.pray for me.remove the teeth as its painful maintaining other stuff.
+ham,It is only yesterday true true.,0,31,6,0,False,False,it is only yesterday true true.
+ham,Kaiez... Enjoy ur tuition... Gee... Thk e second option sounds beta... I'll go yan jiu den msg u...,0,99,18,0,False,False,kaiez... enjoy ur tuition... gee... thk e second option sounds beta... i'll go yan jiu den msg u...
+ham,Die... I accidentally deleted e msg i suppose 2 put in e sim archive. Haiz... I so sad...,0,89,18,1,False,False,die... i accidentally deleted e msg i suppose 2 put in e sim archive. haiz... i so sad...
+ham,"I've not called you in a while. This is hoping it was l8r malaria and that you know that we miss you guys. I miss Bani big, so pls give her my love especially. Have a great day.",0,177,38,1,False,False,"i've not called you in a while. this is hoping it was l8r malaria and that you know that we miss you guys. i miss bani big, so pls give her my love especially. have a great day."
+ham,"I sent you the prices and do you mean the  &lt;#&gt; g,",0,55,12,0,False,False,"i sent you the prices and do you mean the &lt;#&gt; g,"
+ham,Okay lor... Wah... like that def they wont let us go... Haha... What did they say in the terms and conditions?,0,110,21,0,False,False,okay lor... wah... like that def they wont let us go... haha... what did they say in the terms and conditions?
+ham," came to look at the flat, seems ok, in his 50s? * Is away alot wiv work. Got woman coming at 6.30 too.",0,103,23,5,False,False,"came to look at the flat, seems ok, in his 50s? * is away alot wiv work. got woman coming at 6.30 too."
+ham,Watching tv lor. Nice one then i like lor.,0,42,9,0,False,False,watching tv lor. nice one then i like lor.
+ham,Good night my dear.. Sleepwell&amp;Take care,0,44,6,0,False,False,good night my dear.. sleepwell&amp;take care
+ham,Where do you need to go to get it?,0,34,9,0,False,False,where do you need to go to get it?
+ham,And do you have any one that can teach me how to ship cars.,0,59,14,0,False,False,and do you have any one that can teach me how to ship cars.
+ham,"""Life is nothing wen v get everything"". But ""life is everything wen v miss something "". Real value of people wil be realized only in their absence.... gud mrng",0,159,29,0,False,False,"""life is nothing wen v get everything"". but ""life is everything wen v miss something "". real value of people wil be realized only in their absence.... gud mrng"
+ham,Boy you best get yo ass out here quick,0,38,9,0,False,False,boy you best get yo ass out here quick
+ham,"A Boy loved a gal. He propsd bt she didnt mind. He gv lv lttrs, Bt her frnds threw thm. Again d boy decided 2 aproach d gal , dt time a truck was speeding towards d gal. Wn it was about 2 hit d girl,d boy ran like hell n saved her. She asked 'hw cn u run so fast?' D boy replied ""Boost is d secret of my energy"" n instantly d girl shouted ""our energy"" n Thy lived happily 2gthr drinking boost evrydy Moral of d story:- I hv free msgs:D;): gud ni8",0,446,96,4,False,False,"a boy loved a gal. he propsd bt she didnt mind. he gv lv lttrs, bt her frnds threw thm. again d boy decided 2 aproach d gal , dt time a truck was speeding towards d gal. wn it was about 2 hit d girl,d boy ran like hell n saved her. she asked 'hw cn u run so fast?' d boy replied ""boost is d secret of my energy"" n instantly d girl shouted ""our energy"" n thy lived happily 2gthr drinking boost evrydy moral of d story:- i hv free msgs:d;): gud ni8"
+ham,I'm working technical support :)voice process.networking field.,0,63,7,0,False,False,i'm working technical support :)voice process.networking field.
+ham,"Yup. Anything lor, if u dun wan it's ok...",0,42,9,0,False,False,"yup. anything lor, if u dun wan it's ok..."
+ham,Or ill be a little closer like at the bus stop on the same street,0,65,15,0,False,False,or ill be a little closer like at the bus stop on the same street
+ham,No i'm not gonna be able to. || too late notice. || i'll be home in a few weeks anyway. || what are the plans,0,109,25,0,False,False,no i'm not gonna be able to. || too late notice. || i'll be home in a few weeks anyway. || what are the plans
+ham,I'm really sorry i won't b able 2 do this friday.hope u can find an alternative.hope yr term's going ok:-),0,106,20,1,False,False,i'm really sorry i won't b able 2 do this friday.hope u can find an alternative.hope yr term's going ok:-)
+ham,Juz go google n search 4 qet...,0,31,7,1,False,False,juz go google n search 4 qet...
+ham,"Ok. Not much to do here though. H&M Friday, cant wait. Dunno wot the hell im gonna do for another 3 weeks! Become a slob- oh wait, already done that! ",0,150,30,1,False,False,"ok. not much to do here though. h&m friday, cant wait. dunno wot the hell im gonna do for another 3 weeks! become a slob- oh wait, already done that!"
+spam,"Dear Voucher Holder, To claim this weeks offer, at you PC please go to http://www.e-tlp.co.uk/expressoffer Ts&Cs apply. To stop texts, txt STOP to 80062",1,152,24,5,False,True,"dear voucher holder, to claim this weeks offer, at you pc please go to http://www.e-tlp.co.uk/expressoffer ts&cs apply. to stop texts, txt stop to 80062"
+ham,Lol no. I just need to cash in my nitros. Hurry come on before I crash out!,0,75,17,0,False,False,lol no. i just need to cash in my nitros. hurry come on before i crash out!
+ham,THANX4 TODAY CER IT WAS NICE 2 CATCH UP BUT WE AVE 2 FIND MORE TIME MORE OFTEN OH WELL TAKE CARE C U SOON.C,0,107,25,3,False,False,thanx4 today cer it was nice 2 catch up but we ave 2 find more time more often oh well take care c u soon.c
+ham,"""Hello-/@drivby-:0quit edrunk sorry iff pthis makes no senrd-dnot no how ^ dancce 2 drum n basq!ihave fun 2nhite x ros xxxxxxx""",0,127,21,3,False,False,"""hello-/@drivby-:0quit edrunk sorry iff pthis makes no senrd-dnot no how ^ dancce 2 drum n basq!ihave fun 2nhite x ros xxxxxxx"""
+ham,"Gud gud..k, chikku tke care.. sleep well gud nyt",0,48,9,0,False,False,"gud gud..k, chikku tke care.. sleep well gud nyt"
+ham,So your telling me I coulda been your real Valentine and I wasn't? U never pick me for NOTHING!!,0,96,19,0,False,False,so your telling me i coulda been your real valentine and i wasn't? u never pick me for nothing!!
+ham,Haha... can... But i'm having dinner with my cousin...,0,54,9,0,False,False,haha... can... but i'm having dinner with my cousin...
+ham,No he didn't. Spring is coming early yay!,0,41,8,0,False,False,no he didn't. spring is coming early yay!
+spam,You have 1 new message. Please call 08715205273,1,47,8,12,False,True,you have 1 new message. please call 08715205273
+ham,What you need. You have a person to give na.,0,44,10,0,False,False,what you need. you have a person to give na.
+ham,Ü called dad oredi...,0,21,4,0,False,False,ü called dad oredi...
+ham,"Carlos is down but I have to pick it up from him, so I'll swing by usf in a little bit",0,86,21,0,False,False,"carlos is down but i have to pick it up from him, so i'll swing by usf in a little bit"
+ham,"Cool, what time you think you can get here?",0,43,9,0,False,False,"cool, what time you think you can get here?"
+ham,Dear where you. Call me,0,23,5,0,False,False,dear where you. call me
+spam,FREE UNLIMITED HARDCORE PORN direct 2 your mobile Txt PORN to 69200 & get FREE access for 24 hrs then chrgd@50p per day txt Stop 2exit. This msg is free,1,152,30,11,False,True,free unlimited hardcore porn direct 2 your mobile txt porn to 69200 & get free access for 24 hrs then chrgd@50p per day txt stop 2exit. this msg is free
+ham,Hows that watch resizing,0,24,4,0,False,False,hows that watch resizing
+ham,Where @,0,7,2,0,False,False,where @
+ham,What time is ur flight tmr?,0,27,6,0,False,False,what time is ur flight tmr?
+ham,Going to take your babe out ?,0,29,7,0,False,False,going to take your babe out ?
+ham,U R THE MOST BEAUTIFUL GIRL IVE EVER SEEN. U R MY BABY COME AND C ME IN THE COMMON ROOM,0,87,21,0,False,False,u r the most beautiful girl ive ever seen. u r my baby come and c me in the common room
+ham,Uncle Abbey! Happy New Year. Abiola,0,35,6,0,False,False,uncle abbey! happy new year. abiola
+ham,Squeeeeeze!! This is christmas hug.. If u lik my frndshp den hug me back.. If u get 3 u r cute:) 6 u r luvd:* 9 u r so lucky;) None? People hate u:,0,147,34,3,False,False,squeeeeeze!! this is christmas hug.. if u lik my frndshp den hug me back.. if u get 3 u r cute:) 6 u r luvd:* 9 u r so lucky;) none? people hate u:
+ham,Yes see ya not on the dot,0,25,7,0,False,False,yes see ya not on the dot
+ham,"I'll text carlos and let you know, hang on",0,42,9,0,False,False,"i'll text carlos and let you know, hang on"
+ham,I‘ll have a look at the frying pan in case it‘s cheap or a book perhaps. No that‘s silly a frying pan isn‘t likely to be a book,0,127,28,0,False,False,i‘ll have a look at the frying pan in case it‘s cheap or a book perhaps. no that‘s silly a frying pan isn‘t likely to be a book
+ham,"Awesome, be there in a minute",0,29,6,0,False,False,"awesome, be there in a minute"
+ham,Thanks for yesterday sir. You have been wonderful. Hope you enjoyed the burial. MojiBiola,0,89,14,0,False,False,thanks for yesterday sir. you have been wonderful. hope you enjoyed the burial. mojibiola
+ham,"Damn, poor zac doesn't stand a chance",0,37,7,0,False,False,"damn, poor zac doesn't stand a chance"
+ham,Ambrith..madurai..met u in arun dha marrge..remembr?,0,52,6,0,False,False,ambrith..madurai..met u in arun dha marrge..remembr?
+ham,Good words.... But words may leave u in dismay many times.,0,58,11,0,False,False,good words.... but words may leave u in dismay many times.
+ham,Oh k. . I will come tomorrow,0,28,7,0,False,False,oh k. . i will come tomorrow
+spam,"YOU 07801543489 are guaranteed the latests Nokia Phone, a 40GB iPod MP3 player or a £500 prize! Txt word:COLLECT to No:83355! TC-LLC NY-USA 150p/Mt msgrcvd18+",1,158,25,27,True,True,"you 07801543489 are guaranteed the latests nokia phone, a 40gb ipod mp3 player or a £500 prize! txt word:collect to no:83355! tc-llc ny-usa 150p/mt msgrcvd18+"
+ham,No need to say anything to me. I know i am an outsider,0,54,13,0,False,False,no need to say anything to me. i know i am an outsider
+ham,I am waiting machan. Call me once you free.,0,43,9,0,False,False,i am waiting machan. call me once you free.
+ham,Havent mus ask if u can 1st wat. Of meet 4 lunch den u n him meet can already lor. Or u wan 2 go ask da ge 1st then confirm w me asap?,0,134,34,4,False,False,havent mus ask if u can 1st wat. of meet 4 lunch den u n him meet can already lor. or u wan 2 go ask da ge 1st then confirm w me asap?
+ham,I just cooked a rather nice salmon a la you,0,43,10,0,False,False,i just cooked a rather nice salmon a la you
+ham,Is it your yahoo boys that bring in the perf? Or legal.,0,55,12,0,False,False,is it your yahoo boys that bring in the perf? or legal.
+spam,"As a SIM subscriber, you are selected to receive a Bonus! Get it delivered to your door, Txt the word OK to No: 88600 to claim. 150p/msg, EXP. 30Apr",1,148,29,10,False,True,"as a sim subscriber, you are selected to receive a bonus! get it delivered to your door, txt the word ok to no: 88600 to claim. 150p/msg, exp. 30apr"
+ham,I'm going out to buy mum's present ar.,0,38,8,0,False,False,i'm going out to buy mum's present ar.
+ham,That's necessarily respectful,0,29,3,0,False,False,that's necessarily respectful
+ham,Also andros ice etc etc,0,23,5,0,False,False,also andros ice etc etc
+spam,"Customer service announcement. We recently tried to make a delivery to you but were unable to do so, please call 07099833605 to re-schedule. Ref:9280114",1,152,24,18,False,True,"customer service announcement. we recently tried to make a delivery to you but were unable to do so, please call 07099833605 to re-schedule. ref:9280114"
+ham,The Xmas story is peace.. The Xmas msg is love.. The Xmas miracle is jesus.. Hav a blessed month ahead &amp; wish U Merry Xmas...,0,129,25,0,False,False,the xmas story is peace.. the xmas msg is love.. the xmas miracle is jesus.. hav a blessed month ahead &amp; wish u merry xmas...
+ham,No objection. My bf not coming.,0,31,6,0,False,False,no objection. my bf not coming.
+ham,You will be in the place of that man,0,36,9,0,False,False,you will be in the place of that man
+ham,"It's cool, we can last a little while. Getting more any time soon?",0,66,13,0,False,False,"it's cool, we can last a little while. getting more any time soon?"
+ham,Not a lot has happened here. Feels very quiet. Beth is at her aunts and charlie is working lots. Just me and helen in at the mo. How have you been? ,0,148,31,0,False,False,not a lot has happened here. feels very quiet. beth is at her aunts and charlie is working lots. just me and helen in at the mo. how have you been?
+ham,my ex-wife was not able to have kids. Do you want kids one day?,0,63,14,0,False,False,my ex-wife was not able to have kids. do you want kids one day?
+ham,"A swt thought: ""Nver get tired of doing little things 4 lovable persons.."" Coz..somtimes those little things occupy d biggest part in their Hearts.. Gud ni8",0,156,26,2,False,False,"a swt thought: ""nver get tired of doing little things 4 lovable persons.."" coz..somtimes those little things occupy d biggest part in their hearts.. gud ni8"
+ham,"Depends on quality. If you want the type i sent boye, faded glory, then about 6. If you want ralphs maybe 2",0,107,22,2,False,False,"depends on quality. if you want the type i sent boye, faded glory, then about 6. if you want ralphs maybe 2"
+ham,Yes. Nigh you cant aha.,0,23,5,0,False,False,yes. nigh you cant aha.
+ham,"Sez, hows u & de arab boy? Hope u r all good give my love 2 evry1 love ya eshxxxxxxxxxxx",0,88,20,2,False,False,"sez, hows u & de arab boy? hope u r all good give my love 2 evry1 love ya eshxxxxxxxxxxx"
+ham,Guai... Ü shd haf seen him when he's naughty... Ü so free today? Can go jogging...,0,82,16,0,False,False,guai... ü shd haf seen him when he's naughty... ü so free today? can go jogging...
+spam,"WIN: We have a winner! Mr. T. Foley won an iPod! More exciting prizes soon, so keep an eye on ur mobile or visit www.win-82050.co.uk",1,132,25,5,False,True,"win: we have a winner! mr. t. foley won an ipod! more exciting prizes soon, so keep an eye on ur mobile or visit www.win-82050.co.uk"
+ham,Slept? I thinkThis time ( &lt;#&gt;  pm) is not dangerous,0,57,10,0,False,False,slept? i thinkthis time ( &lt;#&gt; pm) is not dangerous
+ham,Carlos says he'll be at mu in  &lt;#&gt;  minutes,0,49,9,0,False,False,carlos says he'll be at mu in &lt;#&gt; minutes
+ham,"Madam,regret disturbance.might receive a reference check from DLF Premarica.kindly be informed.Rgds,Rakhesh,Kerala.",0,115,11,0,False,False,"madam,regret disturbance.might receive a reference check from dlf premarica.kindly be informed.rgds,rakhesh,kerala."
+ham,Mode men or have you left.,0,26,6,0,False,False,mode men or have you left.
+ham,Merry christmas to u too annie!,0,31,6,0,False,False,merry christmas to u too annie!
+ham,"Nope, I'm still in the market",0,29,6,0,False,False,"nope, i'm still in the market"
+ham,Go chase after her and run her over while she's crossing the street,0,67,13,0,False,False,go chase after her and run her over while she's crossing the street
+ham,Leave it. U will always be ignorant.,0,36,7,0,False,False,leave it. u will always be ignorant.
+ham,I am in your office na.,0,23,6,0,False,False,i am in your office na.
+ham,Right it wasnt you who phoned it was someone with a number like yours!,0,70,14,0,False,False,right it wasnt you who phoned it was someone with a number like yours!
+ham,I was up all night too worrying about this appt. It's a shame we missed a girls night out with quizzes popcorn and you doing my hair.,0,133,27,0,False,False,i was up all night too worrying about this appt. it's a shame we missed a girls night out with quizzes popcorn and you doing my hair.
+ham,If I was I wasn't paying attention,0,34,7,0,False,False,if i was i wasn't paying attention
+spam,"New Tones This week include: 1)McFly-All Ab.., 2) Sara Jorge-Shock.. 3) Will Smith-Switch.. To order follow instructions on next message",1,136,20,3,False,False,"new tones this week include: 1)mcfly-all ab.., 2) sara jorge-shock.. 3) will smith-switch.. to order follow instructions on next message"
+ham,Lol u still feeling sick?,0,25,5,0,False,False,lol u still feeling sick?
+ham,Ü collecting ur laptop then going to configure da settings izzit?,0,65,11,0,False,False,ü collecting ur laptop then going to configure da settings izzit?
+ham,Well obviously not because all the people in my cool college life went home ;_;,0,79,15,0,False,False,well obviously not because all the people in my cool college life went home ;_;
+ham,Darren was saying dat if u meeting da ge den we dun meet 4 dinner. Cos later u leave xy will feel awkward. Den u meet him 4 lunch lor.,0,134,30,2,False,False,darren was saying dat if u meeting da ge den we dun meet 4 dinner. cos later u leave xy will feel awkward. den u meet him 4 lunch lor.
+ham,I tot u reach liao. He said t-shirt.,0,36,8,0,False,False,i tot u reach liao. he said t-shirt.
+ham,U wake up already? Thanx 4 e tau sar piah it's quite nice.,0,58,13,1,False,False,u wake up already? thanx 4 e tau sar piah it's quite nice.
+ham,"Set a place for me in your heart and not in your mind, as the mind easily forgets but the heart will always remember. Wish you Happy Valentines Day!",0,148,29,0,False,False,"set a place for me in your heart and not in your mind, as the mind easily forgets but the heart will always remember. wish you happy valentines day!"
+ham,I had it already..sabarish asked me to go..,0,43,8,0,False,False,i had it already..sabarish asked me to go..
+ham,"What are you doing in langport? Sorry, but I'll probably be in bed by 9pm. It sucks being ill at xmas! When do you and go2sri lanka? ",0,133,27,2,False,False,"what are you doing in langport? sorry, but i'll probably be in bed by 9pm. it sucks being ill at xmas! when do you and go2sri lanka?"
+ham,Well there's still a bit left if you guys want to tonight,0,57,12,0,False,False,well there's still a bit left if you guys want to tonight
+ham,"Sometimes we put walls around our hearts,not just to be safe from getting hurt.. But to find out who cares enough to break the walls &amp; get closer.. GOODNOON:)",0,162,29,0,False,False,"sometimes we put walls around our hearts,not just to be safe from getting hurt.. but to find out who cares enough to break the walls &amp; get closer.. goodnoon:)"
+ham,"Erm … ill pick you up at about 6.45pm. That'll give enough time to get there, park and that.",0,92,19,3,False,False,"erm … ill pick you up at about 6.45pm. that'll give enough time to get there, park and that."
+spam,Would you like to see my XXX pics they are so hot they were nearly banned in the uk!,1,84,19,0,False,False,would you like to see my xxx pics they are so hot they were nearly banned in the uk!
+ham,You're not sure that I'm not trying to make xavier smoke because I don't want to smoke after being told I smoke too much?,0,121,24,0,False,False,you're not sure that i'm not trying to make xavier smoke because i don't want to smoke after being told i smoke too much?
+ham,I had askd u a question some hours before. Its answer,0,53,11,0,False,False,i had askd u a question some hours before. its answer
+ham,"see you then, we're all christmassy here!",0,41,7,0,False,False,"see you then, we're all christmassy here!"
+ham,Gokila is talking with you aha:),0,32,6,0,False,False,gokila is talking with you aha:)
+ham,"Okay. No no, just shining on. That was meant to be signing, but that sounds better.",0,83,16,0,False,False,"okay. no no, just shining on. that was meant to be signing, but that sounds better."
+ham,Get ready to put on your excellent sub face :),0,46,10,0,False,False,get ready to put on your excellent sub face :)
+ham,This pay is  &lt;DECIMAL&gt;  lakhs:),0,37,5,0,False,False,this pay is &lt;decimal&gt; lakhs:)
+spam,Burger King - Wanna play footy at a top stadium? Get 2 Burger King before 1st Sept and go Large or Super with Coca-Cola and walk out a winner,1,141,29,2,False,False,burger king - wanna play footy at a top stadium? get 2 burger king before 1st sept and go large or super with coca-cola and walk out a winner
+ham,Otherwise had part time job na-tuition..,0,40,6,0,False,False,otherwise had part time job na-tuition..
+ham,I am joining today formally.Pls keep praying.will talk later.,0,61,9,0,False,False,i am joining today formally.pls keep praying.will talk later.
+ham,Nvm it's ok...,0,14,3,0,False,False,nvm it's ok...
+spam,U have a secret admirer. REVEAL who thinks U R So special. Call 09065174042. To opt out Reply REVEAL STOP. 1.50 per msg recd. Cust care 07821230901,1,147,27,25,False,True,u have a secret admirer. reveal who thinks u r so special. call 09065174042. to opt out reply reveal stop. 1.50 per msg recd. cust care 07821230901
+spam,Congratulations ur awarded either £500 of CD gift vouchers & Free entry 2 our £100 weekly draw txt MUSIC to 87066 TnCs www.Ldew.com1win150ppmx3age16,1,148,23,19,True,True,congratulations ur awarded either £500 of cd gift vouchers & free entry 2 our £100 weekly draw txt music to 87066 tncs www.ldew.com1win150ppmx3age16
+ham,Even i cant close my eyes you are in me our vava playing umma :-D,0,65,15,0,False,False,even i cant close my eyes you are in me our vava playing umma :-d
+ham,"Aight I've been set free, think you could text me blake's address? It occurs to me I'm not quite as sure what I'm doing as I thought I was",0,138,29,0,False,False,"aight i've been set free, think you could text me blake's address? it occurs to me i'm not quite as sure what i'm doing as i thought i was"
+spam,Thanks for the Vote. Now sing along with the stars with Karaoke on your mobile. For a FREE link just reply with SING now.,1,121,24,0,False,False,thanks for the vote. now sing along with the stars with karaoke on your mobile. for a free link just reply with sing now.
+ham,WOT U UP 2 J?,0,13,5,1,False,False,wot u up 2 j?
+spam,"Thanks for your ringtone order, reference number X29. Your mobile will be charged 4.50. Should your tone not arrive please call customer services 09065989180",1,157,24,16,False,True,"thanks for your ringtone order, reference number x29. your mobile will be charged 4.50. should your tone not arrive please call customer services 09065989180"
+ham,"I shall book chez jules for half eight, if that's ok with you?",0,62,13,0,False,False,"i shall book chez jules for half eight, if that's ok with you?"
+ham,Hmmm.but you should give it on one day..,0,40,8,0,False,False,hmmm.but you should give it on one day..
+ham,My sis is catching e show in e afternoon so i'm not watching w her. So c u wan 2 watch today or tmr lor.,0,104,25,1,False,False,my sis is catching e show in e afternoon so i'm not watching w her. so c u wan 2 watch today or tmr lor.
+ham,Ok. I asked for money how far,0,29,7,0,False,False,ok. i asked for money how far
+ham,But am going to college pa. What to do. are else ill come there it self. Pa.,0,76,17,0,False,False,but am going to college pa. what to do. are else ill come there it self. pa.
+ham,Every monday..nxt week vl be completing..,0,41,6,0,False,False,every monday..nxt week vl be completing..
+ham,Congrats ! Treat pending.i am not on mail for 2 days.will mail once thru.Respect mother at home.check mails.,0,108,18,1,False,False,congrats ! treat pending.i am not on mail for 2 days.will mail once thru.respect mother at home.check mails.
+ham,"Whatever, juliana. Do whatever you want.",0,40,6,0,False,False,"whatever, juliana. do whatever you want."
+ham,No got new job at bar in airport on satsgettin 4.47per hour but means no lie in! keep in touch,0,94,20,3,False,False,no got new job at bar in airport on satsgettin 4.47per hour but means no lie in! keep in touch
+ham,How's it going? Got any exciting karaoke type activities planned? I'm debating whether to play football this eve. Feeling lazy though.,0,134,21,0,False,False,how's it going? got any exciting karaoke type activities planned? i'm debating whether to play football this eve. feeling lazy though.
+ham,Have you laid your airtel line to rest?,0,39,8,0,False,False,have you laid your airtel line to rest?
+ham,I donno if they are scorable,0,28,6,0,False,False,i donno if they are scorable
+ham,"Good afternoon, babe. How goes that day ? Any job prospects yet ? I miss you, my love ... *sighs* ... :-(",0,105,22,0,False,False,"good afternoon, babe. how goes that day ? any job prospects yet ? i miss you, my love ... *sighs* ... :-("
+ham,"Yup, leaving right now, be back soon",0,36,7,0,False,False,"yup, leaving right now, be back soon"
+ham,U guys never invite me anywhere :(,0,34,7,0,False,False,u guys never invite me anywhere :(
+ham,Does cinema plus drink appeal tomo? * Is a fr thriller by director i like on at mac at 8.30.,0,92,20,3,False,False,does cinema plus drink appeal tomo? * is a fr thriller by director i like on at mac at 8.30.
+ham,Prof: you have passed in all the papers in this sem congrats . . . . Student: Enna kalaachutaarama..!! Prof:???? Gud mrng!,0,122,22,0,False,False,prof: you have passed in all the papers in this sem congrats . . . . student: enna kalaachutaarama..!! prof:???? gud mrng!
+ham,Nobody can decide where to eat and dad wants Chinese,0,52,10,0,False,False,nobody can decide where to eat and dad wants chinese
+ham,U calling me right? Call my hand phone...,0,41,8,0,False,False,u calling me right? call my hand phone...
+ham,Your pussy is perfect!,0,22,4,0,False,False,your pussy is perfect!
+ham,Tomorrow i am not going to theatre. . . So i can come wherever u call me. . . Tell me where and when to come tomorrow,0,117,27,0,False,False,tomorrow i am not going to theatre. . . so i can come wherever u call me. . . tell me where and when to come tomorrow
+spam,"WELL DONE! Your 4* Costa Del Sol Holiday or £5000 await collection. Call 09050090044 Now toClaim. SAE, TCs, POBox334, Stockport, SK38xh, Cost£1.50/pm, Max10mins",1,160,23,26,True,True,"well done! your 4* costa del sol holiday or £5000 await collection. call 09050090044 now toclaim. sae, tcs, pobox334, stockport, sk38xh, cost£1.50/pm, max10mins"
+ham,Are we doing the norm tomorrow? I finish just a 4.15 cos of st tests. Need to sort library stuff out at some point tomo - got letter from today - access til end march so i better get move on!,0,191,41,3,False,False,are we doing the norm tomorrow? i finish just a 4.15 cos of st tests. need to sort library stuff out at some point tomo - got letter from today - access til end march so i better get move on!
+ham,"Nah I don't think he goes to usf, he lives around here though",0,61,13,0,False,False,"nah i don't think he goes to usf, he lives around here though"
+ham,Hey tmr maybe can meet you at yck,0,33,8,0,False,False,hey tmr maybe can meet you at yck
+ham,ALRITE,0,6,1,0,False,False,alrite
+ham,Thanks. It was only from tescos but quite nice. All gone now. Speak soon ,0,73,14,0,False,False,thanks. it was only from tescos but quite nice. all gone now. speak soon
+ham,Its not the same here. Still looking for a job. How much do Ta's earn there.,0,76,16,0,False,False,its not the same here. still looking for a job. how much do ta's earn there.
+ham,Early bird! Any purchases yet?,0,30,5,0,False,False,early bird! any purchases yet?
+ham,Prepare to be pounded every night...,0,36,6,0,False,False,prepare to be pounded every night...
+ham,He says hi and to get your ass back to south tampa (preferably at a kegger),0,75,16,0,False,False,he says hi and to get your ass back to south tampa (preferably at a kegger)
+ham,"Yeah why not, is the gang all ready",0,35,8,0,False,False,"yeah why not, is the gang all ready"
+ham,Ok i also wan 2 watch e 9 pm show...,0,36,10,2,False,False,ok i also wan 2 watch e 9 pm show...
+ham,Are you willing to go for apps class.,0,37,8,0,False,False,are you willing to go for apps class.
+ham,Lol I would but despite these cramps I like being a girl.,0,57,12,0,False,False,lol i would but despite these cramps i like being a girl.
+ham,We'll join the  &lt;#&gt;  bus,0,30,5,0,False,False,we'll join the &lt;#&gt; bus
+ham,Oh thats late! Well have a good night and i will give u a call tomorrow. Iam now going to go to sleep night night,0,113,25,0,False,False,oh thats late! well have a good night and i will give u a call tomorrow. iam now going to go to sleep night night
+ham,"Ha. You don‘t know either. I did a a clever but simple thing with pears the other day, perfect for christmas.",0,109,21,0,False,False,"ha. you don‘t know either. i did a a clever but simple thing with pears the other day, perfect for christmas."
+ham,Or remind me in a few hrs.,0,26,7,0,False,False,or remind me in a few hrs.
+ham,I accidentally deleted the message. Resend please.,0,50,7,0,False,False,i accidentally deleted the message. resend please.
+ham,"""Hi darlin did youPhone me? Im atHome if youwanna chat.""",0,56,10,0,False,False,"""hi darlin did youphone me? im athome if youwanna chat."""
+ham,I'm glad. You are following your dreams.,0,40,7,0,False,False,i'm glad. you are following your dreams.
+ham,Yes there were many sweets,0,26,5,0,False,False,yes there were many sweets
+spam,"We know someone who you know that fancies you. Call 09058097218 to find out who. POBox 6, LS15HB 150p",1,101,19,17,False,True,"we know someone who you know that fancies you. call 09058097218 to find out who. pobox 6, ls15hb 150p"
+ham,I have a sore throat. It's scratches when I talk,0,48,10,0,False,False,i have a sore throat. it's scratches when i talk
+ham,No management puzzeles.,0,23,3,0,False,False,no management puzzeles.
+spam,RCT' THNQ Adrian for U text. Rgds Vatian,1,40,8,0,False,False,rct' thnq adrian for u text. rgds vatian
+ham,Yes :)it completely in out of form:)clark also utter waste.,0,59,10,0,False,False,yes :)it completely in out of form:)clark also utter waste.
+ham,Ya even those cookies have jelly on them,0,40,8,0,False,False,ya even those cookies have jelly on them
+ham,I'll be in sch fr 4-6... I dun haf da book in sch... It's at home...,0,68,16,2,False,False,i'll be in sch fr 4-6... i dun haf da book in sch... it's at home...
+ham,Happy birthday... May u find ur prince charming soon n dun work too hard...,0,75,14,0,False,False,happy birthday... may u find ur prince charming soon n dun work too hard...
+ham,Do well :)all will for little time. Thing of good times ahead:,0,62,12,0,False,False,do well :)all will for little time. thing of good times ahead:
+ham,There generally isn't one. It's an uncountable noun - u in the dictionary. pieces of research?,0,94,16,0,False,False,there generally isn't one. it's an uncountable noun - u in the dictionary. pieces of research?
+spam,URGENT! Your Mobile number has been awarded with a £2000 prize GUARANTEED. Call 09061790126 from land line. Claim 3030. Valid 12hrs only 150ppm,1,143,23,24,True,True,urgent! your mobile number has been awarded with a £2000 prize guaranteed. call 09061790126 from land line. claim 3030. valid 12hrs only 150ppm
+ham,And by when you're done I mean now,0,34,8,0,False,False,and by when you're done i mean now
+ham,Nothing will ever be easy. But don't be looking for a reason not to take a risk on life and love,0,96,21,0,False,False,nothing will ever be easy. but don't be looking for a reason not to take a risk on life and love
+ham,Your brother is a genius,0,24,5,0,False,False,your brother is a genius
+ham,Pls help me tell sura that i'm expecting a battery from hont. And that if should pls send me a message about how to download movies. Thanks,0,139,27,0,False,False,pls help me tell sura that i'm expecting a battery from hont. and that if should pls send me a message about how to download movies. thanks
+spam,"YOUR CHANCE TO BE ON A REALITY FANTASY SHOW call now = 08707509020 Just 20p per min NTT Ltd, PO Box 1327 Croydon CR9 5WB 0870 is a national = rate call.",1,152,32,23,False,True,"your chance to be on a reality fantasy show call now = 08707509020 just 20p per min ntt ltd, po box 1327 croydon cr9 5wb 0870 is a national = rate call."
+ham,"Lol you forgot it eh ? Yes, I'll bring it in babe",0,49,12,0,False,False,"lol you forgot it eh ? yes, i'll bring it in babe"
+ham,"Remember all those whom i hurt during days of satanic imposter in me.need to pay a price,so be it.may destiny keep me going and as u said pray that i get the mind to get over the same.",0,184,38,0,False,False,"remember all those whom i hurt during days of satanic imposter in me.need to pay a price,so be it.may destiny keep me going and as u said pray that i get the mind to get over the same."
+ham,"Ditto. And you won't have to worry about me saying ANYTHING to you anymore. Like i said last night, you do whatever you want and i'll do the same. Peace.",0,153,30,0,False,False,"ditto. and you won't have to worry about me saying anything to you anymore. like i said last night, you do whatever you want and i'll do the same. peace."
+ham,See the forwarding message for proof,0,36,6,0,False,False,see the forwarding message for proof
+ham,Yeah get the unlimited,0,22,4,0,False,False,yeah get the unlimited
+ham,Hai dear friends... This is my new &amp; present number..:) By Rajitha Raj (Ranju),0,82,14,0,False,False,hai dear friends... this is my new &amp; present number..:) by rajitha raj (ranju)
+ham,Thanks love. But am i doing torch or bold.,0,42,9,0,False,False,thanks love. but am i doing torch or bold.
+ham,Then ur physics get a-?,0,23,5,0,False,False,then ur physics get a-?
+ham,God bless.get good sleep my dear...i will pray!,0,47,8,0,False,False,god bless.get good sleep my dear...i will pray!
+ham,Cps is causing the outages to conserve energy.,0,46,8,0,False,False,cps is causing the outages to conserve energy.
+ham,Now press conference da:),0,25,4,0,False,False,now press conference da:)
+ham,"Sir, i am waiting for your call, once free please call me.",0,58,12,0,False,False,"sir, i am waiting for your call, once free please call me."
+ham,Ill be there on  &lt;#&gt;  ok.,0,31,6,0,False,False,ill be there on &lt;#&gt; ok.
+ham,If you hear a loud scream in about &lt;#&gt; minutes its cause my Gyno will be shoving things up me that don't belong :/,0,120,24,0,False,False,if you hear a loud scream in about &lt;#&gt; minutes its cause my gyno will be shoving things up me that don't belong :/
+ham,"Sorry, I can't text &amp; drive coherently, see you in twenty",0,61,11,0,False,False,"sorry, i can't text &amp; drive coherently, see you in twenty"
+ham,Mmmm ... Fuck ... Not fair ! You know my weaknesses ! *grins* *pushes you to your knee's* *exposes my belly and pulls your head to it* Don't forget ... I know yours too *wicked smile*,0,183,36,0,False,False,mmmm ... fuck ... not fair ! you know my weaknesses ! *grins* *pushes you to your knee's* *exposes my belly and pulls your head to it* don't forget ... i know yours too *wicked smile*
+ham,Mm i am on the way to railway,0,29,8,0,False,False,mm i am on the way to railway
+ham,"Haha... Where got so fast lose weight, thk muz go 4 a month den got effect... Gee,later we go aust put bk e weight.",0,115,24,1,False,False,"haha... where got so fast lose weight, thk muz go 4 a month den got effect... gee,later we go aust put bk e weight."
+spam,Someone has contacted our dating service and entered your phone because they fancy you! To find out who it is call from a landline 09111032124 . PoBox12n146tf150p,1,162,27,19,False,True,someone has contacted our dating service and entered your phone because they fancy you! to find out who it is call from a landline 09111032124 . pobox12n146tf150p
+ham,"Well, I have to leave for my class babe ... You never came back to me ... :-( ... Hope you have a nice sleep, my love",0,117,27,0,False,False,"well, i have to leave for my class babe ... you never came back to me ... :-( ... hope you have a nice sleep, my love"
+ham,Even my brother is not like to speak with me. They treat me like aids patent.,0,77,16,0,False,False,even my brother is not like to speak with me. they treat me like aids patent.
+ham,How to Make a girl Happy? It's not at all difficult to make girls happy. U only need to be... 1. A friend 2. Companion 3. Lover 4. Chef . . .  &lt;#&gt; . Good listener  &lt;#&gt; . Organizer  &lt;#&gt; . Good boyfriend  &lt;#&gt; . Very clean  &lt;#&gt; . Sympathetic  &lt;#&gt; . Athletic  &lt;#&gt; . Warm . . .  &lt;#&gt; . Courageous  &lt;#&gt; . Determined  &lt;#&gt; . True  &lt;#&gt; . Dependable  &lt;#&gt; . Intelligent . . .  &lt;#&gt; . Psychologist  &lt;#&gt; . Pest exterminator  &lt;#&gt; . Psychiatrist  &lt;#&gt; . Healer . .  &lt;#&gt; . Stylist  &lt;#&gt; . Driver . . Aaniye pudunga venaam..,0,611,103,4,False,False,how to make a girl happy? it's not at all difficult to make girls happy. u only need to be... 1. a friend 2. companion 3. lover 4. chef . . . &lt;#&gt; . good listener &lt;#&gt; . organizer &lt;#&gt; . good boyfriend &lt;#&gt; . very clean &lt;#&gt; . sympathetic &lt;#&gt; . athletic &lt;#&gt; . warm . . . &lt;#&gt; . courageous &lt;#&gt; . determined &lt;#&gt; . true &lt;#&gt; . dependable &lt;#&gt; . intelligent . . . &lt;#&gt; . psychologist &lt;#&gt; . pest exterminator &lt;#&gt; . psychiatrist &lt;#&gt; . healer . . &lt;#&gt; . stylist &lt;#&gt; . driver . . aaniye pudunga venaam..
+ham,Hey do you want anything to buy:),0,33,7,0,False,False,hey do you want anything to buy:)
+ham,Well I might not come then...,0,29,6,0,False,False,well i might not come then...
+ham,What happened in interview?,0,27,4,0,False,False,what happened in interview?
+ham,The 2 oz guy is being kinda flaky but one friend is interested in picking up $ &lt;#&gt;  worth tonight if possible,0,115,22,1,True,False,the 2 oz guy is being kinda flaky but one friend is interested in picking up $ &lt;#&gt; worth tonight if possible
+ham,Miles and smiles r made frm same letters but do u know d difference..? smile on ur face keeps me happy even though I am miles away from u.. :-)keep smiling.. Good nyt,0,166,33,0,False,False,miles and smiles r made frm same letters but do u know d difference..? smile on ur face keeps me happy even though i am miles away from u.. :-)keep smiling.. good nyt
+spam,Valentines Day Special! Win over £1000 in our quiz and take your partner on the trip of a lifetime! Send GO to 83600 now. 150p/msg rcvd. CustCare:08718720201.,1,158,27,23,True,True,valentines day special! win over £1000 in our quiz and take your partner on the trip of a lifetime! send go to 83600 now. 150p/msg rcvd. custcare:08718720201.
+ham,Whos this am in class:-),0,24,5,0,False,False,whos this am in class:-)
+ham,Do u hav any frnd by name ashwini in ur college?,0,48,11,0,False,False,do u hav any frnd by name ashwini in ur college?
+ham,Mm feeling sleepy. today itself i shall get that dear,0,53,10,0,False,False,mm feeling sleepy. today itself i shall get that dear
+ham,26th OF JULY,0,12,3,2,False,False,26th of july
+ham,Sen told that he is going to join his uncle finance in cbe,0,58,13,0,False,False,sen told that he is going to join his uncle finance in cbe
+ham,Goodo! Yes we must speak friday - egg-potato ratio for tortilla needed! ,0,72,12,0,False,False,goodo! yes we must speak friday - egg-potato ratio for tortilla needed!
+spam,"Eerie Nokia tones 4u, rply TONE TITLE to 8007 eg TONE DRACULA to 8007 Titles: GHOST, ADDAMSFA, MUNSTERS, EXORCIST, TWILIGHT www.getzed.co.uk POBox36504W45WQ 150p ",1,162,23,19,False,True,"eerie nokia tones 4u, rply tone title to 8007 eg tone dracula to 8007 titles: ghost, addamsfa, munsters, exorcist, twilight www.getzed.co.uk pobox36504w45wq 150p"
+ham,"Ela kano.,il download, come wen ur free..",0,41,7,0,False,False,"ela kano.,il download, come wen ur free.."
+ham,Go fool dont cheat others ok,0,28,6,0,False,False,go fool dont cheat others ok
+ham,HI ITS KATE CAN U GIVE ME A RING ASAP XXX,0,41,11,0,False,False,hi its kate can u give me a ring asap xxx
+ham,"I love you !!! You know? Can you feel it? Does it make your belly warm? I wish it does, my love ... I shall meet you in your dreams, Ahmad ... *adoring kiss*",0,157,34,0,False,False,"i love you !!! you know? can you feel it? does it make your belly warm? i wish it does, my love ... i shall meet you in your dreams, ahmad ... *adoring kiss*"
+ham,I though we shd go out n have some fun so bar in town or something – sound ok?,0,78,19,0,False,False,i though we shd go out n have some fun so bar in town or something – sound ok?
+ham,"Yup, no need. I'll jus wait 4 e rain 2 stop.",0,44,11,2,False,False,"yup, no need. i'll jus wait 4 e rain 2 stop."
+ham,Id have to check but there's only like 1 bowls worth left,0,57,12,1,False,False,id have to check but there's only like 1 bowls worth left
+ham,My love ! How come it took you so long to leave for Zaher's? I got your words on ym and was happy to see them but was sad you had left. I miss you,0,146,35,0,False,False,my love ! how come it took you so long to leave for zaher's? i got your words on ym and was happy to see them but was sad you had left. i miss you
+ham,Just getting back home,0,22,4,0,False,False,just getting back home
+ham,I'm home. Doc gave me pain meds says everything is fine.,0,56,11,0,False,False,i'm home. doc gave me pain meds says everything is fine.
+ham,She.s good. She was wondering if you wont say hi but she.s smiling now. So how are you coping with the long distance,0,116,23,0,False,False,she.s good. she was wondering if you wont say hi but she.s smiling now. so how are you coping with the long distance
+ham,Ok that's great thanx a lot.,0,28,6,0,False,False,ok that's great thanx a lot.
+ham,"Cool, I'll text you when I'm on the way",0,39,9,0,False,False,"cool, i'll text you when i'm on the way"
+ham,", ow u dey.i paid 60,400thousad.i told  u would call . ",0,55,11,5,False,False,", ow u dey.i paid 60,400thousad.i told u would call ."
+ham,Why did I wake up on my own &gt;:(,0,34,9,0,False,False,why did i wake up on my own &gt;:(
+ham,Gud mrng dear have a nice day,0,29,7,0,False,False,gud mrng dear have a nice day
+ham,From someone not to smoke when every time I've smoked in the last two weeks is because of you calling or texting me that you wanted to smoke,0,140,28,0,False,False,from someone not to smoke when every time i've smoked in the last two weeks is because of you calling or texting me that you wanted to smoke
+ham,O ic lol. Should play 9 doors sometime yo,0,41,9,1,False,False,o ic lol. should play 9 doors sometime yo
+spam,Sunshine Quiz Wkly Q! Win a top Sony DVD player if u know which country Liverpool played in mid week? Txt ansr to 82277. £1.50 SP:Tyrone,1,136,26,8,True,True,sunshine quiz wkly q! win a top sony dvd player if u know which country liverpool played in mid week? txt ansr to 82277. £1.50 sp:tyrone
+ham,Olol i printed out a forum post by a guy with the exact same  prob which was fixed with a gpu replacement. Hopefully they dont ignore that.,0,139,27,0,False,False,olol i printed out a forum post by a guy with the exact same prob which was fixed with a gpu replacement. hopefully they dont ignore that.
+ham,Pls send me your address sir.,0,29,6,0,False,False,pls send me your address sir.
+ham,I wonder if you'll get this text?,0,33,7,0,False,False,i wonder if you'll get this text?
+ham,"""Hi darlin i cantdo anythingtomorrow as myparents aretaking me outfor a meal. when are u free? Katexxx""",0,103,17,0,False,False,"""hi darlin i cantdo anythingtomorrow as myparents aretaking me outfor a meal. when are u free? katexxx"""
+ham,"Each Moment in a day,has its own value-Morning brings hope,afternoon brings faith,Evening brings luv,Night brings rest,Wish u find them all today.Good Morning",0,158,22,0,False,False,"each moment in a day,has its own value-morning brings hope,afternoon brings faith,evening brings luv,night brings rest,wish u find them all today.good morning"
+ham,I've sent my wife your text. After we buy them she'll tell you what to do. So just relax. We should go get them this wkend.,0,123,26,0,False,False,i've sent my wife your text. after we buy them she'll tell you what to do. so just relax. we should go get them this wkend.
+ham,What makes you most happy?,0,26,5,0,False,False,what makes you most happy?
+ham,twenty past five he said will this train have been to durham already or not coz i am in a reserved seat,0,103,22,0,False,False,twenty past five he said will this train have been to durham already or not coz i am in a reserved seat
+ham,Let me know when you've got the money so carlos can make the call,0,65,14,0,False,False,let me know when you've got the money so carlos can make the call
+ham,TaKe CaRE n gET WeLL sOOn,0,25,6,0,False,False,take care n get well soon
+ham,Neshanth..tel me who r u?,0,25,5,0,False,False,neshanth..tel me who r u?
+ham,I don't want you to leave. But i'm barely doing what i can to stay sane. fighting with you constantly isn't helping.,0,116,22,0,False,False,i don't want you to leave. but i'm barely doing what i can to stay sane. fighting with you constantly isn't helping.
+spam,"URGENT! Your mobile No 077xxx WON a £2,000 Bonus Caller Prize on 02/06/03! This is the 2nd attempt to reach YOU! Call 09066362206 ASAP! BOX97N7QP, 150ppm",1,153,26,31,True,True,"urgent! your mobile no 077xxx won a £2,000 bonus caller prize on 02/06/03! this is the 2nd attempt to reach you! call 09066362206 asap! box97n7qp, 150ppm"
+ham,Hmmm...k...but i want to change the field quickly da:-)i wanna get system administrator or network administrator..,0,114,16,0,False,False,hmmm...k...but i want to change the field quickly da:-)i wanna get system administrator or network administrator..
+ham,excellent. I spent  &lt;#&gt;  years in the Air Force. Iraq and afghanistan. I am stable and honest. do you like traveling?,0,123,21,0,False,False,excellent. i spent &lt;#&gt; years in the air force. iraq and afghanistan. i am stable and honest. do you like traveling?
+ham,How come i din c ü... Yup i cut my hair...,0,42,11,0,False,False,how come i din c ü... yup i cut my hair...
+ham,Does she usually take fifteen fucking minutes to respond to a yes or no question,0,80,15,0,False,False,does she usually take fifteen fucking minutes to respond to a yes or no question
+spam,You are awarded a SiPix Digital Camera! call 09061221061 from landline. Delivery within 28days. T Cs Box177. M221BP. 2yr warranty. 150ppm. 16 . p p£3.99,1,152,25,28,True,True,you are awarded a sipix digital camera! call 09061221061 from landline. delivery within 28days. t cs box177. m221bp. 2yr warranty. 150ppm. 16 . p p£3.99
+ham,"Sir, I need AXIS BANK account no and bank address.",0,50,10,0,False,False,"sir, i need axis bank account no and bank address."
+ham,"Aight, see you in a bit",0,23,6,0,False,False,"aight, see you in a bit"
+ham,"see, i knew giving you a break a few times woul lead to you always wanting to miss curfew. I was gonna gibe you 'til one, but a MIDNIGHT movie is not gonna get out til after 2. You need to come home. You need to getsleep and, if anything, you need to b studdying ear training.",0,276,57,1,False,False,"see, i knew giving you a break a few times woul lead to you always wanting to miss curfew. i was gonna gibe you 'til one, but a midnight movie is not gonna get out til after 2. you need to come home. you need to getsleep and, if anything, you need to b studdying ear training."
+ham,Depends on individual lor e hair dresser say pretty but my parents say look gong. U kaypoh.. I also dunno wat she collecting.,0,125,23,0,False,False,depends on individual lor e hair dresser say pretty but my parents say look gong. u kaypoh.. i also dunno wat she collecting.
+ham,How is your schedule next week? I am out of town this weekend.,0,62,13,0,False,False,how is your schedule next week? i am out of town this weekend.
+spam,"Thanks for your Ringtone Order, Reference T91. You will be charged GBP 4 per week. You can unsubscribe at anytime by calling customer services on 09057039994",1,157,26,14,False,True,"thanks for your ringtone order, reference t91. you will be charged gbp 4 per week. you can unsubscribe at anytime by calling customer services on 09057039994"
+ham,"Hi elaine, is today's meeting confirmed?",0,40,6,0,False,False,"hi elaine, is today's meeting confirmed?"
+ham,"I don't know, same thing that's wrong everyso often, he panicks starts goin on bout not bein good enough …",0,106,20,0,False,False,"i don't know, same thing that's wrong everyso often, he panicks starts goin on bout not bein good enough …"
+ham,Omg how did u know what I ate?,0,30,8,0,False,False,omg how did u know what i ate?
+ham,First has she gained more than  &lt;#&gt; kg since she took in. Second has she done the blood sugar tests. If she has and its ok and her blood pressure is within normal limits then no worries,0,191,37,0,False,False,first has she gained more than &lt;#&gt; kg since she took in. second has she done the blood sugar tests. if she has and its ok and her blood pressure is within normal limits then no worries
+ham,Heart is empty without love.. Mind is empty without wisdom.. Eyes r empty without dreams &amp; Life is empty without frnds.. So Alwys Be In Touch. Good night &amp; sweet dreams,0,176,31,0,False,False,heart is empty without love.. mind is empty without wisdom.. eyes r empty without dreams &amp; life is empty without frnds.. so alwys be in touch. good night &amp; sweet dreams
+spam,"SMSSERVICES. for yourinclusive text credits, pls goto www.comuk.net login= 3qxj9 unsubscribe with STOP, no extra charge. help 08702840625.COMUK. 220-CM2 9AE",1,156,20,18,False,True,"smsservices. for yourinclusive text credits, pls goto www.comuk.net login= 3qxj9 unsubscribe with stop, no extra charge. help 08702840625.comuk. 220-cm2 9ae"
+ham,No da. I am happy that we sit together na,0,41,10,0,False,False,no da. i am happy that we sit together na
+ham,IM LATE TELLMISS IM ON MY WAY,0,29,7,0,False,False,im late tellmiss im on my way
+ham,Good morning princess! Have a great day!,0,40,7,0,False,False,good morning princess! have a great day!
+ham,Nvm... I'm going to wear my sport shoes anyway... I'm going to be late leh.,0,75,15,0,False,False,nvm... i'm going to wear my sport shoes anyway... i'm going to be late leh.
+ham,Have you had a good day? Mine was really busy are you up to much tomorrow night?,0,80,17,0,False,False,have you had a good day? mine was really busy are you up to much tomorrow night?
+ham,"Yeah, we got one lined up for us",0,32,8,0,False,False,"yeah, we got one lined up for us"
+ham,NEFT Transaction with reference number  &lt;#&gt;  for Rs. &lt;DECIMAL&gt;  has been credited to the beneficiary account on  &lt;#&gt;  at  &lt;TIME&gt; : &lt;#&gt;,0,164,22,0,False,False,neft transaction with reference number &lt;#&gt; for rs. &lt;decimal&gt; has been credited to the beneficiary account on &lt;#&gt; at &lt;time&gt; : &lt;#&gt;
+ham,Anything lar...,0,15,2,0,False,False,anything lar...
+spam,Want 2 get laid tonight? Want real Dogging locations sent direct 2 ur Mob? Join the UK's largest Dogging Network by txting MOAN to 69888Nyt. ec2a. 31p.msg@150p,1,159,27,13,False,True,want 2 get laid tonight? want real dogging locations sent direct 2 ur mob? join the uk's largest dogging network by txting moan to 69888nyt. ec2a. 31p.msg@150p
+ham,That means get the door,0,23,5,0,False,False,that means get the door
+ham,"Hey... Thk we juz go accordin to wat we discussed yest lor, except no kb on sun... Cos there's nt much lesson to go if we attend kb on sat...",0,141,30,0,False,False,"hey... thk we juz go accordin to wat we discussed yest lor, except no kb on sun... cos there's nt much lesson to go if we attend kb on sat..."
+spam,CLAIRE here am havin borin time & am now alone U wanna cum over 2nite? Chat now 09099725823 hope 2 C U Luv CLAIRE xx Calls£1/minmoremobsEMSPOBox45PO139WA,1,153,26,19,True,True,claire here am havin borin time & am now alone u wanna cum over 2nite? chat now 09099725823 hope 2 c u luv claire xx calls£1/minmoremobsemspobox45po139wa
+ham,Must come later.. I normally bathe him in da afternoon mah..,0,60,11,0,False,False,must come later.. i normally bathe him in da afternoon mah..
+ham,Oh ok.. Wat's ur email?,0,23,5,0,False,False,oh ok.. wat's ur email?
+ham,Also track down any lighters you can find,0,41,8,0,False,False,also track down any lighters you can find
+ham,Great! I hope you like your man well endowed. I am  &lt;#&gt;  inches...,0,72,13,0,False,False,great! i hope you like your man well endowed. i am &lt;#&gt; inches...
+ham,"Nah, Wednesday. When should I bring the mini cheetos bag over?",0,62,11,0,False,False,"nah, wednesday. when should i bring the mini cheetos bag over?"
+ham,"Hello, my love! How goes that day ? I wish your well and fine babe and hope that you find some job prospects. I miss you, boytoy ... *a teasing kiss*",0,149,31,0,False,False,"hello, my love! how goes that day ? i wish your well and fine babe and hope that you find some job prospects. i miss you, boytoy ... *a teasing kiss*"
+ham,I know that my friend already told that.,0,40,8,0,False,False,i know that my friend already told that.
+spam,Gr8 new service - live sex video chat on your mob - see the sexiest dirtiest girls live on ur phone - 4 details text horny to 89070 to cancel send STOP to 89070,1,160,34,12,False,True,gr8 new service - live sex video chat on your mob - see the sexiest dirtiest girls live on ur phone - 4 details text horny to 89070 to cancel send stop to 89070
+ham,what is your account number?,0,28,5,0,False,False,what is your account number?
+spam,YOU HAVE WON! As a valued Vodafone customer our computer has picked YOU to win a £150 prize. To collect is easy. Just call 09061743386,1,134,25,14,True,True,you have won! as a valued vodafone customer our computer has picked you to win a £150 prize. to collect is easy. just call 09061743386
+ham,"It's fine, imma get a drink or somethin. Want me to come find you?",0,66,14,0,False,False,"it's fine, imma get a drink or somethin. want me to come find you?"
+ham,Oh k:)after that placement there ah?,0,36,6,0,False,False,oh k:)after that placement there ah?
+ham,Dunno da next show aft 6 is 850. Toa payoh got 650.,0,51,12,7,False,False,dunno da next show aft 6 is 850. toa payoh got 650.
+ham,"""HI BABE UAWAKE?FEELLIKW SHIT.JUSTFOUND OUT VIA ALETTER THATMUM GOTMARRIED 4thNOV.BEHIND OURBACKS  FUCKINNICE!SELFISH,DEVIOUSBITCH.ANYWAY,IL CALL U""",0,150,15,1,False,False,"""hi babe uawake?feellikw shit.justfound out via aletter thatmum gotmarried 4thnov.behind ourbacks  fuckinnice!selfish,deviousbitch.anyway,il call u"""
+ham,"I keep seeing weird shit and bein all ""woah"" then realising it's actually reasonable and I'm all ""oh""",0,101,18,0,False,False,"i keep seeing weird shit and bein all ""woah"" then realising it's actually reasonable and i'm all ""oh"""
+ham,Yup having my lunch buffet now.. U eat already?,0,47,9,0,False,False,yup having my lunch buffet now.. u eat already?
+ham,I like to think there's always the possibility of being in a pub later.,0,71,14,0,False,False,i like to think there's always the possibility of being in a pub later.
+ham,Nope i'll come online now..,0,27,5,0,False,False,nope i'll come online now..
+ham,Yo im right by yo work,0,22,6,0,False,False,yo im right by yo work
+ham,Thought praps you meant another one. Goodo! I'll look tomorrow ,0,63,10,0,False,False,thought praps you meant another one. goodo! i'll look tomorrow
+ham,Sorry i cant take your call right now. It so happens that there r 2waxsto do wat you want. She can come and ill get her medical insurance. And she'll be able to deliver and have basic care. I'm currently shopping for the right medical insurance for her. So just give me til friday morning. Thats when i.ll see the major person that can guide me to the right insurance.,0,368,70,1,False,False,sorry i cant take your call right now. it so happens that there r 2waxsto do wat you want. she can come and ill get her medical insurance. and she'll be able to deliver and have basic care. i'm currently shopping for the right medical insurance for her. so just give me til friday morning. thats when i.ll see the major person that can guide me to the right insurance.
+ham,Also hi wesley how've you been,0,30,6,0,False,False,also hi wesley how've you been
+ham,"Sweetheart, hope you are not having that kind of day! Have one with loads of reasons to smile. Biola",0,100,19,0,False,False,"sweetheart, hope you are not having that kind of day! have one with loads of reasons to smile. biola"
+ham,How i noe... Did ü specify da domain as nusstu... Ü still in sch...,0,67,14,0,False,False,how i noe... did ü specify da domain as nusstu... ü still in sch...
+ham,Just sent it. So what type of food do you like?,0,47,11,0,False,False,just sent it. so what type of food do you like?
+ham,CERI U REBEL! SWEET DREAMZ ME LITTLE BUDDY!! C YA 2MORO! WHO NEEDS BLOKES,0,73,14,1,False,False,ceri u rebel! sweet dreamz me little buddy!! c ya 2moro! who needs blokes
+ham,Watching tv now. I got new job :),0,33,8,0,False,False,watching tv now. i got new job :)
+ham,Xy trying smth now. U eat already? We havent...,0,47,9,0,False,False,xy trying smth now. u eat already? we havent...
+spam,Dear U've been invited to XCHAT. This is our final attempt to contact u! Txt CHAT to 86688 150p/MsgrcvdHG/Suite342/2Lands/Row/W1J6HL LDN 18 yrs,1,143,22,16,False,True,dear u've been invited to xchat. this is our final attempt to contact u! txt chat to 86688 150p/msgrcvdhg/suite342/2lands/row/w1j6hl ldn 18 yrs
+ham,Its a part of checking IQ,0,25,6,0,False,False,its a part of checking iq
+ham,"Not much, just some textin'. How bout you?",0,42,8,0,False,False,"not much, just some textin'. how bout you?"
+ham,Thts wat Wright Brother did to fly..,0,36,7,0,False,False,thts wat wright brother did to fly..
+ham,"Buzz! Hey, my Love ! I think of you and hope your day goes well. Did you sleep in ? I miss you babe. I long for the moment we are together again*loving smile*",0,158,34,0,False,False,"buzz! hey, my love ! i think of you and hope your day goes well. did you sleep in ? i miss you babe. i long for the moment we are together again*loving smile*"
+ham,"""Si.como no?!listened2the plaid album-quite gd&the new air1 which is hilarious-also boughtbraindancea comp.ofstuff on aphexs ;abel,u hav2hear it!c u sn xxxx""",0,160,20,3,False,False,"""si.como no?!listened2the plaid album-quite gd&the new air1 which is hilarious-also boughtbraindancea comp.ofstuff on aphexs ;abel,u hav2hear it!c u sn xxxx"""
+ham,"Single line with a big meaning::::: ""Miss anything 4 ur ""Best Life"" but, don't miss ur best life for anything... Gud nyt...",0,123,22,1,False,False,"single line with a big meaning::::: ""miss anything 4 ur ""best life"" but, don't miss ur best life for anything... gud nyt..."
+spam,Sexy Singles are waiting for you! Text your AGE followed by your GENDER as wither M or F E.G.23F. For gay men text your AGE followed by a G. e.g.23G.,1,149,30,4,False,False,sexy singles are waiting for you! text your age followed by your gender as wither m or f e.g.23f. for gay men text your age followed by a g. e.g.23g.
+ham,"&lt;#&gt;  is fast approaching. So, Wish u a very Happy New Year Happy Sankranti Happy republic day Happy Valentines Day Happy Shivratri Happy Ugadi Happy Fools day Happy May Day Happy Independence Day, Happy Friendship,Mother,Father,Teachers,Childrens Day, &amp; HAPPY BIRTHDAY 4 U. Happy Ganesh festival Happy Dasara Happy Diwali Happy Christmas  &lt;#&gt;  Good Mornings Afternoons, Evenings Nights. RememberI AM the first to WISHING U ALL THESE...your's Raj",0,461,66,1,False,False,"&lt;#&gt; is fast approaching. so, wish u a very happy new year happy sankranti happy republic day happy valentines day happy shivratri happy ugadi happy fools day happy may day happy independence day, happy friendship,mother,father,teachers,childrens day, &amp; happy birthday 4 u. happy ganesh festival happy dasara happy diwali happy christmas &lt;#&gt; good mornings afternoons, evenings nights. rememberi am the first to wishing u all these...your's raj"
+ham,Oh gei. That happend to me in tron. Maybe ill dl it in 3d when its out,0,70,17,1,False,False,oh gei. that happend to me in tron. maybe ill dl it in 3d when its out
+ham,I want to go to perumbavoor,0,27,6,0,False,False,i want to go to perumbavoor
+ham,Do u knw dis no. &lt;#&gt; ?,0,28,7,0,False,False,do u knw dis no. &lt;#&gt; ?
+ham,Don't forget who owns you and who's private property you are ... And be my good boy always .. *passionate kiss*,0,111,21,0,False,False,don't forget who owns you and who's private property you are ... and be my good boy always .. *passionate kiss*
+ham,Oh... Okie lor...We go on sat... ,0,33,6,0,False,False,oh... okie lor...we go on sat...
+ham,Glad to see your reply.,0,23,5,0,False,False,glad to see your reply.
+ham,Send me the new number,0,22,5,0,False,False,send me the new number
+ham,Hi Chachi tried calling u now unable to reach u .. Pl give me a missed cal once u c tiz msg  Kanagu,0,99,23,0,False,False,hi chachi tried calling u now unable to reach u .. pl give me a missed cal once u c tiz msg kanagu
+ham,Today iZ Yellow rose day. If u love my frndship give me 1 misscall &amp; send this to ur frndZ &amp; See how many miss calls u get. If u get 6missed U marry ur Lover.,0,166,36,2,False,False,today iz yellow rose day. if u love my frndship give me 1 misscall &amp; send this to ur frndz &amp; see how many miss calls u get. if u get 6missed u marry ur lover.
+ham,O shore are you takin the bus,0,29,7,0,False,False,o shore are you takin the bus
+ham,Dai what this da.. Can i send my resume to this id.,0,51,12,0,False,False,dai what this da.. can i send my resume to this id.
+spam,"Latest News! Police station toilet stolen, cops have nothing to go on!",1,70,12,0,False,False,"latest news! police station toilet stolen, cops have nothing to go on!"
+ham,"Hmm well, night night ",0,22,4,0,False,False,"hmm well, night night"
+ham,Change again... It's e one next to escalator...,0,47,8,0,False,False,change again... it's e one next to escalator...
+spam,EASTENDERS TV Quiz. What FLOWER does DOT compare herself to? D= VIOLET E= TULIP F= LILY txt D E or F to 84025 NOW 4 chance 2 WIN £100 Cash WKENT/150P16+,1,152,31,15,True,True,eastenders tv quiz. what flower does dot compare herself to? d= violet e= tulip f= lily txt d e or f to 84025 now 4 chance 2 win £100 cash wkent/150p16+
+ham,Ü bot notes oredi... Cos i juz rem i got...,0,43,10,0,False,False,ü bot notes oredi... cos i juz rem i got...
+ham,How u doin baby girl ?? hope u are okay every time I call ure phone is off! I miss u get in touch,0,97,24,0,False,False,how u doin baby girl ?? hope u are okay every time i call ure phone is off! i miss u get in touch
+spam,Fancy a shag? I do.Interested? sextextuk.com txt XXUK SUZY to 69876. Txts cost 1.50 per msg. TnCs on website. X,1,111,20,8,False,True,fancy a shag? i do.interested? sextextuk.com txt xxuk suzy to 69876. txts cost 1.50 per msg. tncs on website. x
+ham,Feel like trying kadeem again? :V,0,33,6,0,False,False,feel like trying kadeem again? :v
+ham,We got a divorce. Lol. She.s here,0,33,7,0,False,False,we got a divorce. lol. she.s here
+ham,"Sorry I flaked last night, shit's seriously goin down with my roommate, what you up to tonight?",0,95,17,0,False,False,"sorry i flaked last night, shit's seriously goin down with my roommate, what you up to tonight?"
+ham,"I do know what u mean,  is the king of not havin credit! I'm goin2bed now. Night night sweet! Only1more sleep! ",0,111,21,2,False,False,"i do know what u mean, is the king of not havin credit! i'm goin2bed now. night night sweet! only1more sleep!"
+ham,Ok ill tell the company,0,23,5,0,False,False,ok ill tell the company
+ham,Its too late:)but its k.wish you the same.,0,42,8,0,False,False,its too late:)but its k.wish you the same.
+ham,"Aight, I should be there by 8 at the latest, probably closer to 7. Are jay and tyler down or should we just do two trips?",0,121,26,2,False,False,"aight, i should be there by 8 at the latest, probably closer to 7. are jay and tyler down or should we just do two trips?"
+ham,Oh all have to come ah?,0,23,6,0,False,False,oh all have to come ah?
+ham,May i call You later Pls,0,24,6,0,False,False,may i call you later pls
+ham,Thats cool princess! I will cover your face in hot sticky cum :),0,64,13,0,False,False,thats cool princess! i will cover your face in hot sticky cum :)
+ham,Well you told others you'd marry them...,0,40,7,0,False,False,well you told others you'd marry them...
+ham,Where are you call me.,0,22,5,0,False,False,where are you call me.
+ham,I've reached sch already...,0,27,4,0,False,False,i've reached sch already...
+ham,"Just dropped em off, omw back now",0,33,7,0,False,False,"just dropped em off, omw back now"
+ham,Was just about to ask. Will keep this one. Maybe that's why you didn't get all the messages we sent you on glo,0,110,23,0,False,False,was just about to ask. will keep this one. maybe that's why you didn't get all the messages we sent you on glo
+ham,Thanks for understanding. I've been trying to tell sura that.,0,61,10,0,False,False,thanks for understanding. i've been trying to tell sura that.
+ham,Wat makes u thk i'll fall down. But actually i thk i'm quite prone 2 falls. Lucky my dad at home i ask him come n fetch me already.,0,131,29,1,False,False,wat makes u thk i'll fall down. but actually i thk i'm quite prone 2 falls. lucky my dad at home i ask him come n fetch me already.
+spam,You are a winner you have been specially selected to receive £1000 cash or a £2000 award. Speak to a live operator to claim call 087147123779am-7pm. Cost 10p,1,157,28,23,True,True,you are a winner you have been specially selected to receive £1000 cash or a £2000 award. speak to a live operator to claim call 087147123779am-7pm. cost 10p
+ham,watever reLation u built up in dis world only thing which remains atlast iz lonlines with lotz n lot memories! feeling..,0,120,21,0,False,False,watever relation u built up in dis world only thing which remains atlast iz lonlines with lotz n lot memories! feeling..
+ham,Oh oh... Wasted... Den muz chiong on sat n sun liao...,0,54,11,0,False,False,oh oh... wasted... den muz chiong on sat n sun liao...
+spam,"Spook up your mob with a Halloween collection of a logo & pic message plus a free eerie tone, txt CARD SPOOK to 8007 zed 08701417012150p per logo/pic ",1,150,28,18,False,True,"spook up your mob with a halloween collection of a logo & pic message plus a free eerie tone, txt card spook to 8007 zed 08701417012150p per logo/pic"
+ham,I have gone into get info bt dont know what to do,0,49,12,0,False,False,i have gone into get info bt dont know what to do
+ham,You got called a tool?,0,22,5,0,False,False,you got called a tool?
+ham,"Please protect yourself from e-threats. SIB never asks for sensitive information like Passwords,ATM/SMS PIN thru email. Never share your password with anybody.",0,159,22,0,False,False,"please protect yourself from e-threats. sib never asks for sensitive information like passwords,atm/sms pin thru email. never share your password with anybody."
+ham,Ü only send me the contents page...,0,35,7,0,False,False,ü only send me the contents page...
+ham,Yo theres no class tmrw right?,0,30,6,0,False,False,yo theres no class tmrw right?
+ham,Now i'm going for lunch.,0,24,5,0,False,False,now i'm going for lunch.
+spam,Do you want a New Nokia 3510i colour phone DeliveredTomorrow? With 300 free minutes to any mobile + 100 free texts + Free Camcorder reply or call 08000930705.,1,158,28,21,False,True,do you want a new nokia 3510i colour phone deliveredtomorrow? with 300 free minutes to any mobile + 100 free texts + free camcorder reply or call 08000930705.
+spam,The current leading bid is 151. To pause this auction send OUT. Customer Care: 08718726270,1,90,15,14,False,True,the current leading bid is 151. to pause this auction send out. customer care: 08718726270
+ham,Which is why i never wanted to tell you any of this. Which is why i'm so short with you and on-edge as of late.,0,111,25,0,False,False,which is why i never wanted to tell you any of this. which is why i'm so short with you and on-edge as of late.
+ham,S....s...india going to draw the series after many years in south african soil..,0,80,13,0,False,False,s....s...india going to draw the series after many years in south african soil..
+spam,"Orange brings you ringtones from all time Chart Heroes, with a free hit each week! Go to Ringtones & Pics on wap. To stop receiving these tips reply STOP.",1,154,29,0,False,False,"orange brings you ringtones from all time chart heroes, with a free hit each week! go to ringtones & pics on wap. to stop receiving these tips reply stop."
+ham,"Hmmm.... Mayb can try e shoppin area one, but forgot e name of hotel...",0,71,14,0,False,False,"hmmm.... mayb can try e shoppin area one, but forgot e name of hotel..."
+ham,You always make things bigger than they are,0,43,8,0,False,False,you always make things bigger than they are
+spam,Check Out Choose Your Babe Videos @ sms.shsex.netUN fgkslpoPW fgkslpo,1,69,10,0,False,False,check out choose your babe videos @ sms.shsex.netun fgkslpopw fgkslpo
+ham,O we cant see if we can join denis and mina? Or does denis want alone time,0,74,17,0,False,False,o we cant see if we can join denis and mina? or does denis want alone time
+ham,"LOL .. *grins* .. I'm not babe, but thanks for thinking of me!",0,62,13,0,False,False,"lol .. *grins* .. i'm not babe, but thanks for thinking of me!"
+ham,Call me when u finish then i come n pick u.,0,43,11,0,False,False,call me when u finish then i come n pick u.
+ham,That one week leave i put know that time. Why.,0,46,10,0,False,False,that one week leave i put know that time. why.
+ham,When did dad get back.,0,22,5,0,False,False,when did dad get back.
+ham,Ü v ma fan...,0,13,4,0,False,False,ü v ma fan...
+spam,Sorry! U can not unsubscribe yet. THE MOB offer package has a min term of 54 weeks> pls resubmit request after expiry. Reply THEMOB HELP 4 more info,1,148,28,3,False,False,sorry! u can not unsubscribe yet. the mob offer package has a min term of 54 weeks> pls resubmit request after expiry. reply themob help 4 more info
+ham,Babe ? I lost you ... :-(,0,25,7,0,False,False,babe ? i lost you ... :-(
+ham,Yup ok thanx...,0,15,3,0,False,False,yup ok thanx...
+ham,S:)s.nervous  &lt;#&gt; :),0,26,3,0,False,False,s:)s.nervous &lt;#&gt; :)
+ham,"Honeybee Said: *I'm d Sweetest in d World* God Laughed &amp; Said: *Wait,U Havnt Met d Person Reading This Msg* MORAL: Even GOD Can Crack Jokes! GM+GN+GE+GN:)",0,158,27,0,False,False,"honeybee said: *i'm d sweetest in d world* god laughed &amp; said: *wait,u havnt met d person reading this msg* moral: even god can crack jokes! gm+gn+ge+gn:)"
+ham,Yes. Please leave at  &lt;#&gt; . So that at  &lt;#&gt;  we can leave,0,69,13,0,False,False,yes. please leave at &lt;#&gt; . so that at &lt;#&gt; we can leave
+ham,Sos! Any amount i can get pls.,0,30,7,0,False,False,sos! any amount i can get pls.
+ham,"Just gettin a bit arty with my collages at the mo, well tryin 2 ne way! Got a roast in a min lovely i shall enjoy that!",0,119,27,1,False,False,"just gettin a bit arty with my collages at the mo, well tryin 2 ne way! got a roast in a min lovely i shall enjoy that!"
+ham,"It'll be tough, but I'll do what I have to",0,42,10,0,False,False,"it'll be tough, but i'll do what i have to"
+ham,See you there! ,0,15,3,0,False,False,see you there!
+ham,How do you guys go to see movies on your side.,0,46,11,0,False,False,how do you guys go to see movies on your side.
+ham,Hi neva worry bout da truth coz the truth will lead me 2 ur heart. Its the least a unique person like u deserve. Sleep tight or morning,0,136,28,1,False,False,hi neva worry bout da truth coz the truth will lead me 2 ur heart. its the least a unique person like u deserve. sleep tight or morning
+ham,K I'll take care of it,0,22,6,0,False,False,k i'll take care of it
+ham,Waaaat?? Lololo ok next time then!,0,34,6,0,False,False,waaaat?? lololo ok next time then!
+ham,Oops sorry. Just to check that you don't mind picking me up tomo at half eight from station. Would that be ok?,0,110,22,0,False,False,oops sorry. just to check that you don't mind picking me up tomo at half eight from station. would that be ok?
+ham,Hey hun-onbus goin 2 meet him. He wants 2go out 4a meal but I donyt feel like it cuz have 2 get last bus home!But hes sweet latelyxxx,0,133,28,4,False,False,hey hun-onbus goin 2 meet him. he wants 2go out 4a meal but i donyt feel like it cuz have 2 get last bus home!but hes sweet latelyxxx
+ham,I think the other two still need to get cash but we can def be ready by 9,0,73,18,1,False,False,i think the other two still need to get cash but we can def be ready by 9
+ham,"Cool, want me to go to kappa or should I meet you outside mu",0,60,14,0,False,False,"cool, want me to go to kappa or should i meet you outside mu"
+ham,You give us back my id proof and  &lt;#&gt;  rs. We wont allow you to work. We will come to your home within days,0,113,24,0,False,False,you give us back my id proof and &lt;#&gt; rs. we wont allow you to work. we will come to your home within days
+ham,"Aight, I'll hit you up when I get some cash",0,43,10,0,False,False,"aight, i'll hit you up when i get some cash"
+ham,Miserable. They don't tell u that the side effects of birth control are massive gut wrenching cramps for the first 2 months. I didn't sleep at all last night.,0,158,29,1,False,False,miserable. they don't tell u that the side effects of birth control are massive gut wrenching cramps for the first 2 months. i didn't sleep at all last night.
+ham,But i haf enuff space got like 4 mb...,0,38,9,1,False,False,but i haf enuff space got like 4 mb...
+ham,May b approve panalam...but it should have more posts..,0,55,9,0,False,False,may b approve panalam...but it should have more posts..
+ham,It vl bcum more difficult..,0,27,5,0,False,False,it vl bcum more difficult..
+ham,Yes i will be there. Glad you made it.,0,38,9,0,False,False,yes i will be there. glad you made it.
+spam,Someonone you know is trying to contact you via our dating service! To find out who it could be call from your mobile or landline 09064015307 BOX334SK38ch ,1,155,27,16,False,True,someonone you know is trying to contact you via our dating service! to find out who it could be call from your mobile or landline 09064015307 box334sk38ch
+ham,Ok i go change also...,0,22,5,0,False,False,ok i go change also...
+ham,Sir send to group mail check it.,0,32,7,0,False,False,sir send to group mail check it.
+ham,That depends. How would you like to be treated? :),0,50,10,0,False,False,that depends. how would you like to be treated? :)
+ham,Then she dun believe wat?,0,25,5,0,False,False,then she dun believe wat?
+ham,Sorry da:)i was thought of calling you lot of times:)lil busy.i will call you at noon..,0,87,16,0,False,False,sorry da:)i was thought of calling you lot of times:)lil busy.i will call you at noon..
+ham,"Give her something to drink, if she takes it and doesn't vomit then you her temp might drop. If she unmits however let me know.",0,127,25,0,False,False,"give her something to drink, if she takes it and doesn't vomit then you her temp might drop. if she unmits however let me know."
+ham,Please dont say like that. Hi hi hi,0,35,8,0,False,False,please dont say like that. hi hi hi
+ham,Fwiw the reason I'm only around when it's time to smoke is that because of gas I can only afford to be around when someone tells me to be and that apparently only happens when somebody wants to light up,0,202,40,0,False,False,fwiw the reason i'm only around when it's time to smoke is that because of gas i can only afford to be around when someone tells me to be and that apparently only happens when somebody wants to light up
+ham,Is there any movie theatre i can go to and watch unlimited movies and just pay once?,0,84,17,0,False,False,is there any movie theatre i can go to and watch unlimited movies and just pay once?
+ham,"Sure thing big man. i have hockey elections at 6, shouldn‘t go on longer than an hour though",0,92,18,1,False,False,"sure thing big man. i have hockey elections at 6, shouldn‘t go on longer than an hour though"
+spam,Send a logo 2 ur lover - 2 names joined by a heart. Txt LOVE NAME1 NAME2 MOBNO eg LOVE ADAM EVE 07123456789 to 87077 Yahoo! POBox36504W45WQ TxtNO 4 no ads 150p.,1,160,32,31,False,True,send a logo 2 ur lover - 2 names joined by a heart. txt love name1 name2 mobno eg love adam eve 07123456789 to 87077 yahoo! pobox36504w45wq txtno 4 no ads 150p.
+ham,K and you're sure I don't have to have consent forms to do it :V,0,64,15,0,False,False,k and you're sure i don't have to have consent forms to do it :v
+ham,"It‘s £6 to get in, is that ok?",0,30,8,1,True,False,"it‘s £6 to get in, is that ok?"
+ham,Dear we are going to our rubber place,0,37,8,0,False,False,dear we are going to our rubber place
+ham,I'm e person who's doing e sms survey...,0,40,8,0,False,False,i'm e person who's doing e sms survey...
+ham,"Ola would get back to you maybe not today but I ve told him you can be his direct link in the US in getting cars he bids for online, you arrange shipping and you get a cut. Or U????? For a partnership where U????? Invest money for shipping and he takes care of the rest!U??Wud b self reliant soon dnt worry",0,306,62,0,False,False,"ola would get back to you maybe not today but i ve told him you can be his direct link in the us in getting cars he bids for online, you arrange shipping and you get a cut. or u????? for a partnership where u????? invest money for shipping and he takes care of the rest!u??wud b self reliant soon dnt worry"
+ham,"Hello. Sort of out in town already. That . So dont rush home, I am eating nachos. Will let you know eta.",0,104,22,0,False,False,"hello. sort of out in town already. that . so dont rush home, i am eating nachos. will let you know eta."
+spam,"Double Mins & 1000 txts on Orange tariffs. Latest Motorola, SonyEricsson & Nokia with Bluetooth FREE! Call MobileUpd8 on 08000839402 or call2optout/HF8",1,151,22,18,False,True,"double mins & 1000 txts on orange tariffs. latest motorola, sonyericsson & nokia with bluetooth free! call mobileupd8 on 08000839402 or call2optout/hf8"
+spam,Please CALL 08712402779 immediately as there is an urgent message waiting for you,1,81,13,11,False,True,please call 08712402779 immediately as there is an urgent message waiting for you
+ham,Have a great trip to India. And bring the light to everyone not just with the project but with everyone that is lucky to see you smile. Bye. Abiola,0,147,29,0,False,False,have a great trip to india. and bring the light to everyone not just with the project but with everyone that is lucky to see you smile. bye. abiola
+ham,Your daily text from me – a favour this time,0,44,10,0,False,False,your daily text from me – a favour this time
+ham,"Yeah probably, I still gotta check out with leo",0,47,9,0,False,False,"yeah probably, i still gotta check out with leo"
+ham,Guess which pub im in? Im as happy as a pig in clover or whatever the saying is! ,0,81,18,0,False,False,guess which pub im in? im as happy as a pig in clover or whatever the saying is!
+ham,I'm in a movie... Collect car oredi...,0,38,7,0,False,False,i'm in a movie... collect car oredi...
+ham,Where did u go? My phone is gonna die you have to stay in here,0,62,15,0,False,False,where did u go? my phone is gonna die you have to stay in here
+ham,1 I don't have her number and 2 its gonna be a massive pain in the ass and i'd rather not get involved if that's possible,0,121,26,2,False,False,1 i don't have her number and 2 its gonna be a massive pain in the ass and i'd rather not get involved if that's possible
+spam,Hi its LUCY Hubby at meetins all day Fri & I will B alone at hotel U fancy cumin over? Pls leave msg 2day 09099726395 Lucy x Calls£1/minMobsmoreLKPOBOX177HP51FL,1,160,28,18,True,True,hi its lucy hubby at meetins all day fri & i will b alone at hotel u fancy cumin over? pls leave msg 2day 09099726395 lucy x calls£1/minmobsmorelkpobox177hp51fl
+ham,"I wonder how you got online, my love ? Had you gone to the net cafe ? Did you get your phone recharged ? Were you on a friends net ? I think of you, boytoy",0,155,36,0,False,False,"i wonder how you got online, my love ? had you gone to the net cafe ? did you get your phone recharged ? were you on a friends net ? i think of you, boytoy"
+ham,"""HEY DAS COOL... IKNOW ALL 2 WELLDA PERIL OF STUDENTFINANCIAL CRISIS!SPK 2 U L8R.""",0,82,14,3,False,False,"""hey das cool... iknow all 2 wellda peril of studentfinancial crisis!spk 2 u l8r."""
+spam,"Win the newest “Harry Potter and the Order of the Phoenix (Book 5) reply HARRY, answer 5 questions - chance to be the first among readers!",1,138,26,2,False,False,"win the newest “harry potter and the order of the phoenix (book 5) reply harry, answer 5 questions - chance to be the first among readers!"
+ham,yay! finally lol. i missed our cinema trip last week :-(,0,56,11,0,False,False,yay! finally lol. i missed our cinema trip last week :-(
+ham,I plane to give on this month end.,0,34,8,0,False,False,i plane to give on this month end.
+ham,Please reserve ticket on saturday eve from chennai to thirunelvali and again from tirunelvali to chennai on sunday eve...i already see in net..no ticket available..i want to book ticket through tackle ..,0,203,32,0,False,False,please reserve ticket on saturday eve from chennai to thirunelvali and again from tirunelvali to chennai on sunday eve...i already see in net..no ticket available..i want to book ticket through tackle ..
+spam,This is the 2nd time we have tried to contact u. U have won the £1450 prize to claim just call 09053750005 b4 310303. T&Cs/stop SMS 08718725756. 140ppm,1,151,28,37,True,True,this is the 2nd time we have tried to contact u. u have won the £1450 prize to claim just call 09053750005 b4 310303. t&cs/stop sms 08718725756. 140ppm
+ham,As per your request 'Melle Melle (Oru Minnaminunginte Nurungu Vettam)' has been set as your callertune for all Callers. Press *9 to copy your friends Callertune,0,160,26,1,False,False,as per your request 'melle melle (oru minnaminunginte nurungu vettam)' has been set as your callertune for all callers. press *9 to copy your friends callertune
+ham,"One of best dialogue in cute reltnship..!! ""Wen i Die, Dont Come Near My Body..!! Bcoz My Hands May Not Come 2 Wipe Ur Tears Off That Time..!Gud ni8",0,148,29,2,False,False,"one of best dialogue in cute reltnship..!! ""wen i die, dont come near my body..!! bcoz my hands may not come 2 wipe ur tears off that time..!gud ni8"
+ham,Dear good morning how you feeling dear,0,38,7,0,False,False,dear good morning how you feeling dear
+ham,I'm serious. You are in the money base,0,38,8,0,False,False,i'm serious. you are in the money base
+ham,Lovely smell on this bus and it ain't tobacco... ,0,49,9,0,False,False,lovely smell on this bus and it ain't tobacco...
+spam,Do you want a new Video handset? 750 any time any network mins? UNLIMITED TEXT? Camcorder? Reply or Call now 08000930705 for del Sat AM,1,135,25,14,False,True,do you want a new video handset? 750 any time any network mins? unlimited text? camcorder? reply or call now 08000930705 for del sat am
+ham,Aiyar sorry lor forgot 2 tell u...,0,34,7,1,False,False,aiyar sorry lor forgot 2 tell u...
+ham,Why de. You looking good only:-)..,0,34,6,0,False,False,why de. you looking good only:-)..
+ham,"Thanks again for your reply today. When is ur visa coming in. And r u still buying the gucci and bags. My sister things are not easy, uncle john also has his own bills so i really need to think about how to make my own money. Later sha.",0,236,49,0,False,False,"thanks again for your reply today. when is ur visa coming in. and r u still buying the gucci and bags. my sister things are not easy, uncle john also has his own bills so i really need to think about how to make my own money. later sha."
+ham,Yes..gauti and sehwag out of odi series.,0,40,7,0,False,False,yes..gauti and sehwag out of odi series.
+ham,PICK UR FONE UP NOW U DUMB?,0,27,7,0,False,False,pick ur fone up now u dumb?
+ham,Ok c ü then.,0,12,4,0,False,False,ok c ü then.
+ham,I am on the way to ur home,0,26,8,0,False,False,i am on the way to ur home
+ham,"Aight, text me tonight and we'll see what's up",0,46,9,0,False,False,"aight, text me tonight and we'll see what's up"
+ham,Dude ive been seeing a lotta corvettes lately,0,45,8,0,False,False,dude ive been seeing a lotta corvettes lately
+spam,GSOH? Good with SPAM the ladies?U could b a male gigolo? 2 join the uk's fastest growing mens club reply ONCALL. mjzgroup. 08714342399.2stop reply STOP. msg@£1.50rcvd,1,166,26,16,True,True,gsoh? good with spam the ladies?u could b a male gigolo? 2 join the uk's fastest growing mens club reply oncall. mjzgroup. 08714342399.2stop reply stop. msg@£1.50rcvd
+ham,Get ready for  &lt;#&gt;  inches of pleasure...,0,47,7,0,False,False,get ready for &lt;#&gt; inches of pleasure...
+ham,S but not able to sleep.,0,24,6,0,False,False,s but not able to sleep.
+ham,:-) :-),0,7,2,0,False,False,:-) :-)
+ham,Tomarrow final hearing on my laptop case so i cant.,0,51,10,0,False,False,tomarrow final hearing on my laptop case so i cant.
+ham,Ok. I.ll do you right later.,0,28,6,0,False,False,ok. i.ll do you right later.
+ham,PS U no ur a grown up now right?,0,32,9,0,False,False,ps u no ur a grown up now right?
+ham,Havent.,0,7,1,0,False,False,havent.
+ham,I am waiting for your call sir.,0,31,7,0,False,False,i am waiting for your call sir.
+spam,Get a brand new mobile phone by being an agent of The Mob! Plus loads more goodies! For more info just text MAT to 87021.,1,121,25,5,False,True,get a brand new mobile phone by being an agent of the mob! plus loads more goodies! for more info just text mat to 87021.
+ham,I'm on da bus going home...,0,27,6,0,False,False,i'm on da bus going home...
+ham,I will come to ur home now,0,26,7,0,False,False,i will come to ur home now
+spam,Guess what! Somebody you know secretly fancies you! Wanna find out who it is? Give us a call on 09065394973 from Landline DATEBox1282EssexCM61XN 150p/min 18,1,156,25,22,False,True,guess what! somebody you know secretly fancies you! wanna find out who it is? give us a call on 09065394973 from landline datebox1282essexcm61xn 150p/min 18
+ham,Delhi and chennai still silent.,0,31,5,0,False,False,delhi and chennai still silent.
+ham,Oh... Lk tt den we take e one tt ends at cine lor... Dun wan yogasana oso can... ,0,81,18,0,False,False,oh... lk tt den we take e one tt ends at cine lor... dun wan yogasana oso can...
+ham,"Awesome, I remember the last time we got somebody high for the first time with diesel :V",0,88,17,0,False,False,"awesome, i remember the last time we got somebody high for the first time with diesel :v"
+ham,Gibbs unsold.mike hussey,0,24,3,0,False,False,gibbs unsold.mike hussey
+ham,K. Did you call me just now ah? ,0,32,8,0,False,False,k. did you call me just now ah?
+ham,Going for dinner.msg you after.,0,31,5,0,False,False,going for dinner.msg you after.
+ham,Good morning pookie pie! Lol hope I didn't wake u up,0,52,11,0,False,False,good morning pookie pie! lol hope i didn't wake u up
+ham,Dunno cos i was v late n when i reach they inside already... But we ate spageddies lor... It's e gals who r laughing at me lor...,0,129,27,0,False,False,dunno cos i was v late n when i reach they inside already... but we ate spageddies lor... it's e gals who r laughing at me lor...
+ham,I dont know what to do to come out of this so only am ask questions like this dont mistake me.,0,94,21,0,False,False,i dont know what to do to come out of this so only am ask questions like this dont mistake me.
+ham,C movie is juz last minute decision mah. Juz watch 2 lar but i tot ü not interested.,0,84,18,1,False,False,c movie is juz last minute decision mah. juz watch 2 lar but i tot ü not interested.
+ham,I doubt you could handle 5 times per night in any case...,0,57,12,1,False,False,i doubt you could handle 5 times per night in any case...
+ham,Okie... Thanx...,0,16,2,0,False,False,okie... thanx...
+ham,Am I the only one who doesn't stalk profiles?,0,45,9,0,False,False,am i the only one who doesn't stalk profiles?
+ham,"Haha... Sounds crazy, dunno can tahan anot...",0,45,7,0,False,False,"haha... sounds crazy, dunno can tahan anot..."
+ham,"Yeah, don't go to bed, I'll be back before midnight",0,51,10,0,False,False,"yeah, don't go to bed, i'll be back before midnight"
+ham,Sure but since my parents will be working on Tuesday I don't really need a cover story,0,86,17,0,False,False,sure but since my parents will be working on tuesday i don't really need a cover story
+ham,Eh u remember how 2 spell his name... Yes i did. He v naughty make until i v wet.,0,81,19,1,False,False,eh u remember how 2 spell his name... yes i did. he v naughty make until i v wet.
+ham,"Oh really? perform, write a paper, go to a movie AND be home by midnight, huh?",0,78,16,0,False,False,"oh really? perform, write a paper, go to a movie and be home by midnight, huh?"
+ham,That's y i said it's bad dat all e gals know u... Wat u doing now?,0,66,16,0,False,False,that's y i said it's bad dat all e gals know u... wat u doing now?
+ham,Lol! U drunkard! Just doing my hair at d moment. Yeah still up 4 tonight. Wats the plan? ,0,89,18,1,False,False,lol! u drunkard! just doing my hair at d moment. yeah still up 4 tonight. wats the plan?
+ham,"No worries, hope photo shoot went well. have a spiffing fun at workage. ",0,72,13,0,False,False,"no worries, hope photo shoot went well. have a spiffing fun at workage."
+ham,"Mum, i've sent you many many messages since i got here. I just want to know that you are actually getting them. Do enjoy the rest of your day.",0,142,29,0,False,False,"mum, i've sent you many many messages since i got here. i just want to know that you are actually getting them. do enjoy the rest of your day."
+ham,Ok lor... Sony ericsson salesman... I ask shuhui then she say quite gd 2 use so i considering...,0,96,18,1,False,False,ok lor... sony ericsson salesman... i ask shuhui then she say quite gd 2 use so i considering...
+ham,Kay... Since we are out already ,0,32,6,0,False,False,kay... since we are out already
+ham,Have a good evening! Ttyl,0,25,5,0,False,False,have a good evening! ttyl
+ham,No it will reach by 9 only. She telling she will be there. I dont know,0,70,16,1,False,False,no it will reach by 9 only. she telling she will be there. i dont know
+ham,G wants to know where the fuck you are,0,38,9,0,False,False,g wants to know where the fuck you are
+ham,U attend ur driving lesson how many times a wk n which day?,0,59,13,0,False,False,u attend ur driving lesson how many times a wk n which day?
+ham,Life style garments account no please.,0,38,6,0,False,False,life style garments account no please.
+spam,"Congrats! 2 mobile 3G Videophones R yours. call 09063458130 now! videochat wid your mates, play java games, Dload polyPH music, noline rentl.",1,141,22,13,False,True,"congrats! 2 mobile 3g videophones r yours. call 09063458130 now! videochat wid your mates, play java games, dload polyph music, noline rentl."
+ham,Hi mom we might be back later than  &lt;#&gt; ,0,46,9,0,False,False,hi mom we might be back later than &lt;#&gt;
+ham,"Sorry man, my stash ran dry last night and I can't pick up more until sunday",0,76,16,0,False,False,"sorry man, my stash ran dry last night and i can't pick up more until sunday"
+ham,Shopping? Eh ger i toking abt syd leh...Haha,0,44,8,0,False,False,shopping? eh ger i toking abt syd leh...haha
+spam,"You are being contacted by our dating service by someone you know! To find out who it is, call from a land line 09050000878. PoBox45W2TG150P",1,140,25,17,False,True,"you are being contacted by our dating service by someone you know! to find out who it is, call from a land line 09050000878. pobox45w2tg150p"
+ham,"Mostly sports type..lyk footbl,crckt..",0,38,4,0,False,False,"mostly sports type..lyk footbl,crckt.."
+ham,They did't play one day last year know even though they have very good team.. Like india.,0,89,17,0,False,False,they did't play one day last year know even though they have very good team.. like india.
+spam,"Want to funk up ur fone with a weekly new tone reply TONES2U 2 this text. www.ringtones.co.uk, the original n best. Tones 3GBP network operator rates apply",1,155,27,3,False,False,"want to funk up ur fone with a weekly new tone reply tones2u 2 this text. www.ringtones.co.uk, the original n best. tones 3gbp network operator rates apply"
+ham,Can you talk with me..,0,22,5,0,False,False,can you talk with me..
+ham,He dint tell anything. He is angry on me that why you told to abi.,0,66,15,0,False,False,he dint tell anything. he is angry on me that why you told to abi.
+ham,They finally came to fix the ceiling.,0,37,7,0,False,False,they finally came to fix the ceiling.
+ham,Sorry . I will be able to get to you. See you in the morning.,0,61,15,0,False,False,sorry . i will be able to get to you. see you in the morning.
+ham,"Nothing much, chillin at home. Any super bowl plan?",0,51,9,0,False,False,"nothing much, chillin at home. any super bowl plan?"
+ham,U should have made an appointment,0,33,6,0,False,False,u should have made an appointment
+ham,K.k:)when are you going?,0,24,4,0,False,False,k.k:)when are you going?
+ham,A lot of this sickness thing going round. Take it easy. Hope u feel better soon. Lol,0,84,17,0,False,False,a lot of this sickness thing going round. take it easy. hope u feel better soon. lol
+ham,Do u konw waht is rael FRIENDSHIP Im gving yuo an exmpel: Jsut ese tihs msg.. Evrey splleing of tihs msg is wrnog.. Bt sitll yuo can raed it wihtuot ayn mitsake.. GOODNIGHT &amp; HAVE A NICE SLEEP..SWEET DREAMS..,0,212,39,0,False,False,do u konw waht is rael friendship im gving yuo an exmpel: jsut ese tihs msg.. evrey splleing of tihs msg is wrnog.. bt sitll yuo can raed it wihtuot ayn mitsake.. goodnight &amp; have a nice sleep..sweet dreams..
+spam,You will recieve your tone within the next 24hrs. For Terms and conditions please see Channel U Teletext Pg 750,1,111,20,5,False,False,you will recieve your tone within the next 24hrs. for terms and conditions please see channel u teletext pg 750
+ham,I called and said all to him:)then he have to choose this future.,0,65,13,0,False,False,i called and said all to him:)then he have to choose this future.
+ham,So no messages. Had food?,0,25,5,0,False,False,so no messages. had food?
+ham,I know girls always safe and selfish know i got it pa. Thank you. good night.,0,77,16,0,False,False,i know girls always safe and selfish know i got it pa. thank you. good night.
+ham,Dude while were makin those weirdy brownies my sister made awesome cookies. I took pics.,0,88,15,0,False,False,dude while were makin those weirdy brownies my sister made awesome cookies. i took pics.
+ham,I see a cup of coffee animation,0,31,7,0,False,False,i see a cup of coffee animation
+ham,Wot u up 2? Thout u were gonna call me!! Txt bak luv K,0,54,14,1,False,False,wot u up 2? thout u were gonna call me!! txt bak luv k
+ham,Friends that u can stay on fb chat with,0,39,9,0,False,False,friends that u can stay on fb chat with
+ham,Talk With Yourself Atleast Once In A Day...!!! Otherwise You Will Miss Your Best FRIEND In This WORLD...!!! -Shakespeare- SHESIL  &lt;#&gt;,0,139,21,0,False,False,talk with yourself atleast once in a day...!!! otherwise you will miss your best friend in this world...!!! -shakespeare- shesil &lt;#&gt;
+ham,No:-)i got rumour that you going to buy apartment in chennai:-),0,63,11,0,False,False,no:-)i got rumour that you going to buy apartment in chennai:-)
+ham,Oh thanks a lot..i already bought 2 eggs ..,0,43,9,1,False,False,oh thanks a lot..i already bought 2 eggs ..
+ham,Nite...,0,7,1,0,False,False,nite...
+ham,If you were/are free i can give. Otherwise nalla adi entey nattil kittum,0,72,13,0,False,False,if you were/are free i can give. otherwise nalla adi entey nattil kittum
+ham,"Babe, I'm answering you, can't you see me ? Maybe you'd better reboot YM ... I got the photo ... It's great !",0,109,23,0,False,False,"babe, i'm answering you, can't you see me ? maybe you'd better reboot ym ... i got the photo ... it's great !"
+ham,"By march ending, i should be ready. But will call you for sure. The problem is that my capital never complete. How far with you. How's work and the ladies",0,154,30,0,False,False,"by march ending, i should be ready. but will call you for sure. the problem is that my capital never complete. how far with you. how's work and the ladies"
+ham,"Good evening Sir, Al Salam Wahleykkum.sharing a happy news.By the grace of God, i got an offer from Tayseer,TISSCO and i joined.Hope you are fine.Inshah Allah,meet you sometime.Rakhesh,visitor from India.",0,204,30,0,False,False,"good evening sir, al salam wahleykkum.sharing a happy news.by the grace of god, i got an offer from tayseer,tissco and i joined.hope you are fine.inshah allah,meet you sometime.rakhesh,visitor from india."
+ham,Just do what ever is easier for you,0,35,8,0,False,False,just do what ever is easier for you
+ham,Have a nice day my dear.,0,24,6,0,False,False,have a nice day my dear.
+spam,"Someone has contacted our dating service and entered your phone becausethey fancy you! To find out who it is call from a landline 09058098002. PoBox1, W14RG 150p",1,161,27,17,False,True,"someone has contacted our dating service and entered your phone becausethey fancy you! to find out who it is call from a landline 09058098002. pobox1, w14rg 150p"
+spam,"New Mobiles from 2004, MUST GO! Txt: NOKIA to No: 89545 & collect yours today! From ONLY £1. www.4-tc.biz 2optout 087187262701.50gbp/mtmsg18 TXTAUCTION.",1,152,22,28,True,True,"new mobiles from 2004, must go! txt: nokia to no: 89545 & collect yours today! from only £1. www.4-tc.biz 2optout 087187262701.50gbp/mtmsg18 txtauction."
+ham,Is that what time you want me to come?,0,38,9,0,False,False,is that what time you want me to come?
+ham,Y?WHERE U AT DOGBREATH? ITS JUST SOUNDING LIKE JAN C THATS AL!!!!!!!!!,0,71,12,0,False,False,y?where u at dogbreath? its just sounding like jan c thats al!!!!!!!!!
+spam,"Romantic Paris. 2 nights, 2 flights from £79 Book now 4 next year. Call 08704439680Ts&Cs apply.",1,95,16,16,True,True,"romantic paris. 2 nights, 2 flights from £79 book now 4 next year. call 08704439680ts&cs apply."
+ham,WHEN THE FIRST STRIKE IS A RED ONE. THE BIRD + ANTELOPE BEGIN TOPLAY IN THE FIELDOF SELFINDEPENDENCE BELIEVE THIS + THE FLOWER OF CONTENTION WILL GROW.RANDOM!,0,158,27,0,False,False,when the first strike is a red one. the bird + antelope begin toplay in the fieldof selfindependence believe this + the flower of contention will grow.random!
+spam,URGENT! Your Mobile number has been awarded with a £2000 prize GUARANTEED. Call 09061790121 from land line. Claim 3030. Valid 12hrs only 150ppm,1,143,23,24,True,True,urgent! your mobile number has been awarded with a £2000 prize guaranteed. call 09061790121 from land line. claim 3030. valid 12hrs only 150ppm
+spam,Wanna get laid 2nite? Want real Dogging locations sent direct to ur mobile? Join the UK's largest Dogging Network. Txt PARK to 69696 now! Nyt. ec2a. 3lp £1.50/msg,1,162,28,11,True,True,wanna get laid 2nite? want real dogging locations sent direct to ur mobile? join the uk's largest dogging network. txt park to 69696 now! nyt. ec2a. 3lp £1.50/msg
+ham,"Fuuuuck I need to stop sleepin, sup",0,35,7,0,False,False,"fuuuuck i need to stop sleepin, sup"
+ham,I.ll hand her my phone to chat wit u,0,36,9,0,False,False,i.ll hand her my phone to chat wit u
+ham,Hi! You just spoke to MANEESHA V. We'd like to know if you were satisfied with the experience. Reply Toll Free with Yes or No.,0,126,25,0,False,False,hi! you just spoke to maneesha v. we'd like to know if you were satisfied with the experience. reply toll free with yes or no.
+ham,"How are you, my Love ? Are you with your brother ? Time to talk english with him ? *grins* Say : Hey Muhommad, Penny says hello from across the sea",0,147,31,0,False,False,"how are you, my love ? are you with your brother ? time to talk english with him ? *grins* say : hey muhommad, penny says hello from across the sea"
+ham,What was she looking for?,0,25,5,0,False,False,what was she looking for?
+ham,"Life is more strict than teacher... Bcoz Teacher teaches lesson &amp; then conducts exam, But Life first conducts Exam &amp; then teaches Lessons. Happy morning. . .",0,165,27,0,False,False,"life is more strict than teacher... bcoz teacher teaches lesson &amp; then conducts exam, but life first conducts exam &amp; then teaches lessons. happy morning. . ."
+ham,What happen dear tell me,0,24,5,0,False,False,what happen dear tell me
+ham,Not yet chikku..wat abt u?,0,26,5,0,False,False,not yet chikku..wat abt u?
+spam,December only! Had your mobile 11mths+? You are entitled to update to the latest colour camera mobile for Free! Call The Mobile Update Co FREE on 08002986906,1,157,27,13,False,True,december only! had your mobile 11mths+? you are entitled to update to the latest colour camera mobile for free! call the mobile update co free on 08002986906
+ham,"""HEY BABE! FAR 2 SPUN-OUT 2 SPK AT DA MO... DEAD 2 DA WRLD. BEEN SLEEPING ON DA SOFA ALL DAY, HAD A COOL NYTHO, TX 4 FONIN HON, CALL 2MWEN IM BK FRMCLOUD 9! J X""",0,161,37,6,False,False,"""hey babe! far 2 spun-out 2 spk at da mo... dead 2 da wrld. been sleeping on da sofa all day, had a cool nytho, tx 4 fonin hon, call 2mwen im bk frmcloud 9! j x"""
+ham,"Its good, we'll find a way",0,26,6,0,False,False,"its good, we'll find a way"
+ham,That sucks. I'll go over so u can do my hair. You'll do it free right?,0,70,16,0,False,False,that sucks. i'll go over so u can do my hair. you'll do it free right?
+ham,Discussed with your mother ah?,0,30,5,0,False,False,discussed with your mother ah?
+ham,Bring it if you got it,0,22,6,0,False,False,bring it if you got it
+ham,Then ü come n pick me at 530 ar?,0,32,9,3,False,False,then ü come n pick me at 530 ar?
+ham,"Yo, the game almost over? Want to go to walmart soon",0,52,11,0,False,False,"yo, the game almost over? want to go to walmart soon"
+ham,Let's pool our money together and buy a bunch of lotto tickets. If we win I get &lt;#&gt; % u get &lt;#&gt; %. Deal?,0,116,24,0,False,False,let's pool our money together and buy a bunch of lotto tickets. if we win i get &lt;#&gt; % u get &lt;#&gt; %. deal?
+ham,&lt;#&gt;  w jetton ave if you forgot,0,37,7,0,False,False,&lt;#&gt; w jetton ave if you forgot
+ham,"Height of ""Oh shit....!!"" situation: A guy throws a luv letter on a gal but falls on her brothers head whos a gay,.;-):-D",0,121,23,0,False,False,"height of ""oh shit....!!"" situation: a guy throws a luv letter on a gal but falls on her brothers head whos a gay,.;-):-d"
+ham,"So check your errors and if you had difficulties, do correction.",0,64,11,0,False,False,"so check your errors and if you had difficulties, do correction."
+ham,"7 wonders in My WORLD 7th You 6th Ur style 5th Ur smile 4th Ur Personality 3rd Ur Nature 2nd Ur SMS and 1st ""Ur Lovely Friendship""... good morning dear",0,151,30,8,False,False,"7 wonders in my world 7th you 6th ur style 5th ur smile 4th ur personality 3rd ur nature 2nd ur sms and 1st ""ur lovely friendship""... good morning dear"
+ham,"Sorry, I'll call later In meeting.",0,34,6,0,False,False,"sorry, i'll call later in meeting."
+ham,Ma head dey swell oh. Thanks for making my day,0,46,10,0,False,False,ma head dey swell oh. thanks for making my day
+ham,";-( oh well, c u later",0,22,6,0,False,False,";-( oh well, c u later"
+ham,"We know TAJ MAHAL as symbol of love. But the other lesser known facts 1. Mumtaz was Shahjahan's 4th wife, out of his 7 wifes. 2. Shahjahan killed Mumtaz's husband to marry her. 3. Mumtaz died in her  &lt;#&gt; th delivery. 4. He then married Mumtaz's sister. Question arises where the Hell is the LOVE?:-| -The Great Hari-",0,322,58,6,False,False,"we know taj mahal as symbol of love. but the other lesser known facts 1. mumtaz was shahjahan's 4th wife, out of his 7 wifes. 2. shahjahan killed mumtaz's husband to marry her. 3. mumtaz died in her &lt;#&gt; th delivery. 4. he then married mumtaz's sister. question arises where the hell is the love?:-| -the great hari-"
+ham,You intrepid duo you! Have a great time and see you both soon. ,0,63,13,0,False,False,you intrepid duo you! have a great time and see you both soon.
+ham,Whom you waited for yesterday,0,29,5,0,False,False,whom you waited for yesterday
+ham,Cool. Do you like swimming? I have a pool and jacuzzi at my house.,0,66,14,0,False,False,cool. do you like swimming? i have a pool and jacuzzi at my house.
+ham,K tell me anything about you.,0,29,6,0,False,False,k tell me anything about you.
+ham,Want to send me a virtual hug?... I need one,0,44,10,0,False,False,want to send me a virtual hug?... i need one
+spam,We tried to call you re your reply to our sms for a video mobile 750 mins UNLIMITED TEXT + free camcorder Reply of call 08000930705 Now,1,135,27,14,False,True,we tried to call you re your reply to our sms for a video mobile 750 mins unlimited text + free camcorder reply of call 08000930705 now
+ham,If you ask her or she say any please message.,0,45,10,0,False,False,if you ask her or she say any please message.
+ham,Ooooooh I forgot to tell u I can get on yoville on my phone,0,59,14,0,False,False,ooooooh i forgot to tell u i can get on yoville on my phone
+ham,Annoying isn't it.,0,18,3,0,False,False,annoying isn't it.
+ham,"I'm home, my love ... If your still awake ... *loving kiss*",0,59,12,0,False,False,"i'm home, my love ... if your still awake ... *loving kiss*"
+spam,<Forwarded from 88877>FREE entry into our £250 weekly comp just send the word ENTER to 88877 NOW. 18 T&C www.textcomp.com,1,121,20,15,True,True,<forwarded from 88877>free entry into our £250 weekly comp just send the word enter to 88877 now. 18 t&c www.textcomp.com
+ham,CHEERS LOU! YEAH WAS A GOODNITE SHAME U NEVA CAME! C YA GAILxx,0,62,13,0,False,False,cheers lou! yeah was a goodnite shame u neva came! c ya gailxx
+ham,Misplaced your number and was sending texts to your old number. Wondering why i've not heard from you this year. All the best in your mcat. Got this number from my atlanta friends,0,179,33,0,False,False,misplaced your number and was sending texts to your old number. wondering why i've not heard from you this year. all the best in your mcat. got this number from my atlanta friends
+ham,Cbe is really good nowadays:)lot of shop and showrooms:)city is shaping good.,0,77,12,0,False,False,cbe is really good nowadays:)lot of shop and showrooms:)city is shaping good.
+ham,"Dude. What's up. How Teresa. Hope you have been okay. When i didnt hear from these people, i called them and they had received the package since dec  &lt;#&gt; . Just thot you'ld like to know. Do have a fantastic year and all the best with your reading. Plus if you can really really Bam first aid for Usmle, then your work is done.",0,332,64,0,False,False,"dude. what's up. how teresa. hope you have been okay. when i didnt hear from these people, i called them and they had received the package since dec &lt;#&gt; . just thot you'ld like to know. do have a fantastic year and all the best with your reading. plus if you can really really bam first aid for usmle, then your work is done."
+ham,But I'm on a diet. And I ate 1 too many slices of pizza yesterday. Ugh I'm ALWAYS on a diet.,0,92,21,1,False,False,but i'm on a diet. and i ate 1 too many slices of pizza yesterday. ugh i'm always on a diet.
+ham,You available now? I'm like right around hillsborough &amp;  &lt;#&gt; th,0,73,11,0,False,False,you available now? i'm like right around hillsborough &amp; &lt;#&gt; th
+ham,Got c... I lazy to type... I forgot ü in lect... I saw a pouch but like not v nice...,0,85,20,0,False,False,got c... i lazy to type... i forgot ü in lect... i saw a pouch but like not v nice...
+ham,"That's the trouble with classes that go well - you're due a dodgey one … Expecting mine tomo! See you for recovery, same time, same place ",0,138,26,0,False,False,"that's the trouble with classes that go well - you're due a dodgey one … expecting mine tomo! see you for recovery, same time, same place"
+ham,Ok leave no need to ask,0,23,6,0,False,False,ok leave no need to ask
+ham,"K will do, addie &amp; I are doing some art so I'll be here when you get home",0,77,18,0,False,False,"k will do, addie &amp; i are doing some art so i'll be here when you get home"
+ham,I'm thinking that chennai forgot to come for auction..,0,54,9,0,False,False,i'm thinking that chennai forgot to come for auction..
+spam,"Free msg. Sorry, a service you ordered from 81303 could not be delivered as you do not have sufficient credit. Please top up to receive the service.",1,148,27,5,False,True,"free msg. sorry, a service you ordered from 81303 could not be delivered as you do not have sufficient credit. please top up to receive the service."
+ham,I can send you a pic if you like :),0,35,10,0,False,False,i can send you a pic if you like :)
+ham,What you thinked about me. First time you saw me in class.,0,58,12,0,False,False,what you thinked about me. first time you saw me in class.
+ham,Or maybe my fat fingers just press all these buttons and it doesn't know what to do.,0,84,17,0,False,False,or maybe my fat fingers just press all these buttons and it doesn't know what to do.
+spam,"Urgent! call 09066350750 from your landline. Your complimentary 4* Ibiza Holiday or 10,000 cash await collection SAE T&Cs PO BOX 434 SK3 8WP 150 ppm 18+ ",1,153,26,27,False,True,"urgent! call 09066350750 from your landline. your complimentary 4* ibiza holiday or 10,000 cash await collection sae t&cs po box 434 sk3 8wp 150 ppm 18+"
+ham,K. I will sent it again,0,23,6,0,False,False,k. i will sent it again
+ham,I keep ten rs in my shelf:) buy two egg.,0,40,10,0,False,False,i keep ten rs in my shelf:) buy two egg.
+ham,"Ever green quote ever told by Jerry in cartoon ""A Person Who Irritates u Always Is the one Who Loves u Vry Much But Fails to Express It...!..!! :-) :-) gud nyt",0,159,32,0,False,False,"ever green quote ever told by jerry in cartoon ""a person who irritates u always is the one who loves u vry much but fails to express it...!..!! :-) :-) gud nyt"
+ham,I think i am disturbing her da,0,30,7,0,False,False,i think i am disturbing her da
+ham,"Ugh y can't u just apologize, admit u were wrong and ask me to take u back?",0,75,17,0,False,False,"ugh y can't u just apologize, admit u were wrong and ask me to take u back?"
+ham,"My life Means a lot to me, Not because I love my life, But because I love the people in my life, The world calls them friends, I call them my World:-).. Ge:-)..",0,160,33,0,False,False,"my life means a lot to me, not because i love my life, but because i love the people in my life, the world calls them friends, i call them my world:-).. ge:-).."
+ham,Havent still waitin as usual... Ü come back sch oredi?,0,54,10,0,False,False,havent still waitin as usual... ü come back sch oredi?
+ham,i cant talk to you now.i will call when i can.dont keep calling.,0,64,13,0,False,False,i cant talk to you now.i will call when i can.dont keep calling.
+ham,Ok good then i later come find ü... C lucky i told ü to go earlier... Later pple take finish ü no more again...,0,111,24,0,False,False,ok good then i later come find ü... c lucky i told ü to go earlier... later pple take finish ü no more again...
+spam,Married local women looking for discreet action now! 5 real matches instantly to your phone. Text MATCH to 69969 Msg cost 150p 2 stop txt stop BCMSFWC1N3XX,1,155,27,12,False,True,married local women looking for discreet action now! 5 real matches instantly to your phone. text match to 69969 msg cost 150p 2 stop txt stop bcmsfwc1n3xx
+ham,How. Its a little difficult but its a simple way to enter this place,0,68,14,0,False,False,how. its a little difficult but its a simple way to enter this place
+spam,Want explicit SEX in 30 secs? Ring 02073162414 now! Costs 20p/min,1,65,11,15,False,True,want explicit sex in 30 secs? ring 02073162414 now! costs 20p/min
+ham,"Hey doc pls I want to get nice t shirt for my hubby nice fiting ones my budget is  &lt;#&gt; k help pls I will load d card abi hw,keep me posted luv. 2 mj",0,154,35,1,False,False,"hey doc pls i want to get nice t shirt for my hubby nice fiting ones my budget is &lt;#&gt; k help pls i will load d card abi hw,keep me posted luv. 2 mj"
+ham,Am surfing online store. For offers do you want to buy any thing.,0,65,13,0,False,False,am surfing online store. for offers do you want to buy any thing.
+ham,Morning only i can ok.,0,22,5,0,False,False,morning only i can ok.
+ham,"""Gimme a few"" was  &lt;#&gt;  minutes ago",0,41,7,0,False,False,"""gimme a few"" was &lt;#&gt; minutes ago"
+ham,I've got it down to a tea. not sure which flavour,0,49,11,0,False,False,i've got it down to a tea. not sure which flavour
+spam,* FREE* POLYPHONIC RINGTONE Text SUPER to 87131 to get your FREE POLY TONE of the week now! 16 SN PoBox202 NR31 7ZS subscription 450pw,1,134,25,16,False,True,* free* polyphonic ringtone text super to 87131 to get your free poly tone of the week now! 16 sn pobox202 nr31 7zs subscription 450pw
+ham,Oh ok wait 4 me there... My lect havent finish,0,46,10,1,False,False,oh ok wait 4 me there... my lect havent finish
+ham,Double eviction this week - Spiral and Michael and good riddance to them!,0,73,13,0,False,False,double eviction this week - spiral and michael and good riddance to them!
+ham,Fyi I'm gonna call you sporadically starting at like  &lt;#&gt;  bc we are not not doin this shit,0,97,18,0,False,False,fyi i'm gonna call you sporadically starting at like &lt;#&gt; bc we are not not doin this shit
+ham,Ok ok take care. I can understand.,0,34,7,0,False,False,ok ok take care. i can understand.
+ham,When u wana see it then,0,23,6,0,False,False,when u wana see it then
+ham,"I‘ve got some salt, you can rub it in my open wounds if you like!",0,65,15,0,False,False,"i‘ve got some salt, you can rub it in my open wounds if you like!"
+ham,For my family happiness..,0,25,4,0,False,False,for my family happiness..
+ham,"I don,t think so. You don't need to be going out that late on a school night. ESPECIALLY when the one class you have is the one you missed last wednesday and probably failed a test in on friday",0,193,39,0,False,False,"i don,t think so. you don't need to be going out that late on a school night. especially when the one class you have is the one you missed last wednesday and probably failed a test in on friday"
+ham,When're you guys getting back? G said you were thinking about not staying for mcr,0,81,15,0,False,False,when're you guys getting back? g said you were thinking about not staying for mcr
+ham,"Sorry,  in meeting I'll call you later",0,38,7,0,False,False,"sorry, in meeting i'll call you later"
+ham,I only work from mon to thurs but Sat i cant leh... Booked liao... Which other day u free?,0,90,19,0,False,False,i only work from mon to thurs but sat i cant leh... booked liao... which other day u free?
+ham,On the road so cant txt,0,23,6,0,False,False,on the road so cant txt
+ham,"Received, understood n acted upon!",0,34,5,0,False,False,"received, understood n acted upon!"
+ham,Happy new year to u too!,0,24,6,0,False,False,happy new year to u too!
+ham,MMM ... Fuck .... Merry Christmas to me,0,39,8,0,False,False,mmm ... fuck .... merry christmas to me
+ham,But really quite funny lor wat... Then u shd haf run shorter distance wat...,0,76,14,0,False,False,but really quite funny lor wat... then u shd haf run shorter distance wat...
+ham,Oops I was in the shower when u called. Hey a parking garage collapsed at university hospital. See I'm not crazy. Stuff like that DOES happen.,0,142,26,0,False,False,oops i was in the shower when u called. hey a parking garage collapsed at university hospital. see i'm not crazy. stuff like that does happen.
+ham,But my family not responding for anything. Now am in room not went to home for diwali but no one called me and why not coming. It makes me feel like died.,0,154,32,0,False,False,but my family not responding for anything. now am in room not went to home for diwali but no one called me and why not coming. it makes me feel like died.
+ham,I think you should go the honesty road. Call the bank tomorrow. Its the tough decisions that make us great people.,0,114,21,0,False,False,i think you should go the honesty road. call the bank tomorrow. its the tough decisions that make us great people.
+ham,You'd like that wouldn't you? Jerk!,0,35,6,0,False,False,you'd like that wouldn't you? jerk!
+ham,Great to hear you are settling well. So what's happenin wit ola?,0,64,12,0,False,False,great to hear you are settling well. so what's happenin wit ola?
+ham,Carry on not disturbing both of you,0,35,7,0,False,False,carry on not disturbing both of you
+ham,What type of stuff do you sing?,0,31,7,0,False,False,what type of stuff do you sing?
+ham,"Hello baby, did you get back to your mom's ? Are you setting up the computer now ? Filling your belly ? How goes it loverboy ? I miss you already ... *sighs*",0,157,33,0,False,False,"hello baby, did you get back to your mom's ? are you setting up the computer now ? filling your belly ? how goes it loverboy ? i miss you already ... *sighs*"
+ham,O. Guess they both got screwd,0,29,6,0,False,False,o. guess they both got screwd
+ham,You do your studies alone without anyones help. If you cant no need to study.,0,77,15,0,False,False,you do your studies alone without anyones help. if you cant no need to study.
+ham,.Please charge my mobile when you get up in morning.,0,52,10,0,False,False,.please charge my mobile when you get up in morning.
+ham,"Think i might have to give it a miss. Am teaching til twelve, then have lecture at two. Damn this working thing.",0,112,22,0,False,False,"think i might have to give it a miss. am teaching til twelve, then have lecture at two. damn this working thing."
+ham,Really do hope the work doesnt get stressful. Have a gr8 day.,0,61,12,1,False,False,really do hope the work doesnt get stressful. have a gr8 day.
+ham,"""HEY HEY WERETHE MONKEESPEOPLE SAY WE MONKEYAROUND! HOWDY GORGEOUS, HOWU DOIN? FOUNDURSELF A JOBYET SAUSAGE?LOVE JEN XXX""",0,121,17,0,False,False,"""hey hey werethe monkeespeople say we monkeyaround! howdy gorgeous, howu doin? foundurself a jobyet sausage?love jen xxx"""
+ham,I have no money 4 steve mate! !,0,31,8,1,False,False,i have no money 4 steve mate! !
+ham,"K, want us to come by now?",0,26,7,0,False,False,"k, want us to come by now?"
+ham,A little. Meds say take once every 8 hours. It's only been 5 but pain is back. So I took another. Hope I don't die,0,114,25,2,False,False,a little. meds say take once every 8 hours. it's only been 5 but pain is back. so i took another. hope i don't die
+ham,O was not into fps then.,0,24,6,0,False,False,o was not into fps then.
+ham,Hi msg me:)i'm in office..,0,26,5,0,False,False,hi msg me:)i'm in office..
+ham,"Jay wants to work out first, how's 4 sound?",0,43,9,1,False,False,"jay wants to work out first, how's 4 sound?"
+ham,hi baby im cruisin with my girl friend what r u up 2? give me a call in and hour at home if thats alright or fone me on this fone now love jenny xxx,0,148,35,1,False,False,hi baby im cruisin with my girl friend what r u up 2? give me a call in and hour at home if thats alright or fone me on this fone now love jenny xxx
+ham,Sac needs to carry on:),0,23,5,0,False,False,sac needs to carry on:)
+ham,When you came to hostel.,0,24,5,0,False,False,when you came to hostel.
+spam,Moby Pub Quiz.Win a £100 High Street prize if u know who the new Duchess of Cornwall will be? Txt her first name to 82277.unsub STOP £1.50 008704050406 SP Arrow,1,160,30,23,True,True,moby pub quiz.win a £100 high street prize if u know who the new duchess of cornwall will be? txt her first name to 82277.unsub stop £1.50 008704050406 sp arrow
+ham,If anyone calls for a treadmill say you'll buy it. Make sure its working. I found an ad on Craigslist selling for $ &lt;#&gt; .,0,127,25,0,True,False,if anyone calls for a treadmill say you'll buy it. make sure its working. i found an ad on craigslist selling for $ &lt;#&gt; .
+ham,"""Hey! do u fancy meetin me at 4 at cha  hav a lil beverage on me. if not txt or ring me and we can meet up l8r. quite tired got in at 3 v.pist ;) love Pete x x x""",0,163,42,3,False,False,"""hey! do u fancy meetin me at 4 at cha  hav a lil beverage on me. if not txt or ring me and we can meet up l8r. quite tired got in at 3 v.pist ;) love pete x x x"""
+ham,Hey company elama po mudyadhu.,0,30,5,0,False,False,hey company elama po mudyadhu.
+spam,Urgent! Please call 09061743811 from landline. Your ABTA complimentary 4* Tenerife Holiday or £5000 cash await collection SAE T&Cs Box 326 CW25WX 150ppm,1,152,23,24,True,True,urgent! please call 09061743811 from landline. your abta complimentary 4* tenerife holiday or £5000 cash await collection sae t&cs box 326 cw25wx 150ppm
+ham,Hey! There's veggie pizza... :/,0,31,5,0,False,False,hey! there's veggie pizza... :/
+ham,"Rose for red,red for blood,blood for heart,heart for u. But u for me.... Send tis to all ur friends.. Including me.. If u like me.. If u get back, 1-u r poor in relation! 2-u need some 1 to support 3-u r frnd 2 many 4-some1 luvs u 5+- some1 is praying god to marry u.:-) try it....",0,281,58,9,False,False,"rose for red,red for blood,blood for heart,heart for u. but u for me.... send tis to all ur friends.. including me.. if u like me.. if u get back, 1-u r poor in relation! 2-u need some 1 to support 3-u r frnd 2 many 4-some1 luvs u 5+- some1 is praying god to marry u.:-) try it...."
+spam,U have a Secret Admirer who is looking 2 make contact with U-find out who they R*reveal who thinks UR so special-call on 09065171142-stopsms-08,1,143,24,14,False,True,u have a secret admirer who is looking 2 make contact with u-find out who they r*reveal who thinks ur so special-call on 09065171142-stopsms-08
+spam,Thanks 4 your continued support Your question this week will enter u in2 our draw 4 £100 cash. Name the NEW US President? txt ans to 80082,1,138,27,11,True,True,thanks 4 your continued support your question this week will enter u in2 our draw 4 £100 cash. name the new us president? txt ans to 80082
+ham,Goodnight da thangam I really miss u dear.,0,42,8,0,False,False,goodnight da thangam i really miss u dear.
+spam,URGENT! Your Mobile number has been awarded a <UKP>2000 prize GUARANTEED. Call 09061790125 from landline. Claim 3030. Valid 12hrs only 150ppm,1,141,21,24,False,True,urgent! your mobile number has been awarded a <ukp>2000 prize guaranteed. call 09061790125 from landline. claim 3030. valid 12hrs only 150ppm
+ham,Does daddy have a bb now.,0,25,6,0,False,False,does daddy have a bb now.
+ham,I dun believe u. I thk u told him.,0,34,9,0,False,False,i dun believe u. i thk u told him.
+ham,"Hey babe! I saw you came online for a second and then you disappeared, what happened ?",0,86,17,0,False,False,"hey babe! i saw you came online for a second and then you disappeared, what happened ?"
+ham,Can you pls send me that company name. In saibaba colany,0,56,11,0,False,False,can you pls send me that company name. in saibaba colany
+ham,Only saturday and sunday holiday so its very difficult:),0,56,9,0,False,False,only saturday and sunday holiday so its very difficult:)
+ham,Ü ready then call me...,0,23,5,0,False,False,ü ready then call me...
+ham,Ü go home liao? Ask dad to pick me up at 6...,0,45,12,1,False,False,ü go home liao? ask dad to pick me up at 6...
+spam,Babe: U want me dont u baby! Im nasty and have a thing 4 filthyguys. Fancy a rude time with a sexy bitch. How about we go slo n hard! Txt XXX SLO(4msgs),1,152,33,2,False,False,babe: u want me dont u baby! im nasty and have a thing 4 filthyguys. fancy a rude time with a sexy bitch. how about we go slo n hard! txt xxx slo(4msgs)
+ham,Poor girl can't go one day lmao,0,31,7,0,False,False,poor girl can't go one day lmao
+spam,"Hi babe its Jordan, how r u? Im home from abroad and lonely, text me back if u wanna chat xxSP visionsms.com Text stop to stopCost 150p 08712400603",1,147,28,14,False,True,"hi babe its jordan, how r u? im home from abroad and lonely, text me back if u wanna chat xxsp visionsms.com text stop to stopcost 150p 08712400603"
+ham,Wat time do u wan 2 meet me later?,0,34,9,1,False,False,wat time do u wan 2 meet me later?
+ham,Congratulations ore mo owo re wa. Enjoy it and i wish you many happy moments to and fro wherever you go,0,103,21,0,False,False,congratulations ore mo owo re wa. enjoy it and i wish you many happy moments to and fro wherever you go
+ham,Its a big difference.  &lt;#&gt;  versus  &lt;#&gt;  every  &lt;#&gt; hrs,0,73,10,0,False,False,its a big difference. &lt;#&gt; versus &lt;#&gt; every &lt;#&gt; hrs
+ham,Were gonna go get some tacos,0,28,6,0,False,False,were gonna go get some tacos
+ham,Nothing spl..wat abt u and whr ru?,0,34,7,0,False,False,nothing spl..wat abt u and whr ru?
+spam,WOW! The Boys R Back. TAKE THAT 2007 UK Tour. Win VIP Tickets & pre-book with VIP Club. Txt CLUB to 81303. Trackmarque Ltd info@vipclub4u.,1,138,25,10,False,True,wow! the boys r back. take that 2007 uk tour. win vip tickets & pre-book with vip club. txt club to 81303. trackmarque ltd info@vipclub4u.
+ham,Jus finish blowing my hair. U finish dinner already?,0,52,9,0,False,False,jus finish blowing my hair. u finish dinner already?
+ham,Should i buy him a blackberry bold 2 or torch. Should i buy him new or used. Let me know. Plus are you saying i should buy the  &lt;#&gt; g wifi ipad. And what are you saying about the about the  &lt;#&gt; g?,0,208,43,1,False,False,should i buy him a blackberry bold 2 or torch. should i buy him new or used. let me know. plus are you saying i should buy the &lt;#&gt; g wifi ipad. and what are you saying about the about the &lt;#&gt; g?
+ham,As in i want custom officer discount oh.,0,40,8,0,False,False,as in i want custom officer discount oh.
+ham,Lol I have to take it. member how I said my aunt flow didn't visit for 6 months? It's cause I developed ovarian cysts. Bc is the only way to shrink them.,0,153,32,1,False,False,lol i have to take it. member how i said my aunt flow didn't visit for 6 months? it's cause i developed ovarian cysts. bc is the only way to shrink them.
+spam,"Oh my god! I've found your number again! I'm so glad, text me back xafter this msgs cst std ntwk chg £1.50",1,106,22,3,True,False,"oh my god! i've found your number again! i'm so glad, text me back xafter this msgs cst std ntwk chg £1.50"
+ham,aathi..where are you dear..,0,27,4,0,False,False,aathi..where are you dear..
+ham,Unless it's a situation where YOU GO GURL would be more appropriate,0,67,12,0,False,False,unless it's a situation where you go gurl would be more appropriate
+ham,Dear we got  &lt;#&gt;  dollars hi hi,0,37,7,0,False,False,dear we got &lt;#&gt; dollars hi hi
+ham,Yes.mum lookin strong:),0,23,3,0,False,False,yes.mum lookin strong:)
+ham,"""Wen u miss someone, the person is definitely special for u..... But if the person is so special, why to miss them, just Keep-in-touch"" gdeve..",0,143,25,0,False,False,"""wen u miss someone, the person is definitely special for u..... but if the person is so special, why to miss them, just keep-in-touch"" gdeve.."
+ham,"They said if its gonna snow, it will start around 8 or 9 pm tonite! They are predicting an inch of accumulation.",0,112,22,2,False,False,"they said if its gonna snow, it will start around 8 or 9 pm tonite! they are predicting an inch of accumulation."
+ham,Are you still getting the goods.,0,32,6,0,False,False,are you still getting the goods.
+ham,Pandy joined 4w technologies today.he got job..,0,47,7,1,False,False,pandy joined 4w technologies today.he got job..
+ham,Stupid auto correct on my phone,0,31,6,0,False,False,stupid auto correct on my phone
+ham,"Thanks, I'll keep that in mind",0,30,6,0,False,False,"thanks, i'll keep that in mind"
+ham,Hi.what you think about match?,0,30,5,0,False,False,hi.what you think about match?
+ham,"Babe! I fucking love you too !! You know? Fuck it was so good to hear your voice. I so need that. I crave it. I can't get enough. I adore you, Ahmad *kisses*",0,157,34,0,False,False,"babe! i fucking love you too !! you know? fuck it was so good to hear your voice. i so need that. i crave it. i can't get enough. i adore you, ahmad *kisses*"
+ham,Ok. So april. Cant wait,0,23,5,0,False,False,ok. so april. cant wait
+ham,I have no idea where you are,0,28,7,0,False,False,i have no idea where you are
+ham,Haven't eaten all day. I'm sitting here staring at this juicy pizza and I can't eat it. These meds are ruining my life.,0,119,23,0,False,False,haven't eaten all day. i'm sitting here staring at this juicy pizza and i can't eat it. these meds are ruining my life.
+spam,IMPORTANT MESSAGE. This is a final contact attempt. You have important messages waiting out our customer claims dept. Expires 13/4/04. Call 08717507382 NOW!,1,156,23,16,False,True,important message. this is a final contact attempt. you have important messages waiting out our customer claims dept. expires 13/4/04. call 08717507382 now!
+ham,Wait . I will msg after  &lt;#&gt;  min.,0,40,8,0,False,False,wait . i will msg after &lt;#&gt; min.
+ham,Erm. I thought the contract ran out the4th of october.,0,54,10,1,False,False,erm. i thought the contract ran out the4th of october.
+spam,"Your account has been credited with 500 FREE Text Messages. To activate, just txt the word: CREDIT to No: 80488 T&Cs www.80488.biz",1,130,22,13,False,True,"your account has been credited with 500 free text messages. to activate, just txt the word: credit to no: 80488 t&cs www.80488.biz"
+ham,What pa tell me.. I went to bath:-),0,35,8,0,False,False,what pa tell me.. i went to bath:-)
+ham,Maybe?! Say hi to  and find out if  got his card. Great escape or wetherspoons? ,0,80,15,0,False,False,maybe?! say hi to and find out if got his card. great escape or wetherspoons?
+ham,"Oops, I'll let you know when my roommate's done",0,47,9,0,False,False,"oops, i'll let you know when my roommate's done"
+ham,Minimum walk is 3miles a day.,0,29,6,1,False,False,minimum walk is 3miles a day.
+ham,Small problem in auction:)punj now asking tiwary,0,48,7,0,False,False,small problem in auction:)punj now asking tiwary
+ham,"Nowadays people are notixiquating the laxinorficated opportunity for bambling of entropication.... Have you ever oblisingately opted ur books for the masteriastering amplikater of fidalfication? It is very champlaxigating, i think it is atrocious.. Wotz Ur Opinion???? Junna",0,274,37,0,False,False,"nowadays people are notixiquating the laxinorficated opportunity for bambling of entropication.... have you ever oblisingately opted ur books for the masteriastering amplikater of fidalfication? it is very champlaxigating, i think it is atrocious.. wotz ur opinion???? junna"
+spam,T-Mobile customer you may now claim your FREE CAMERA PHONE upgrade & a pay & go sim card for your loyalty. Call on 0845 021 3680.Offer ends 28thFeb.T&C's apply,1,159,29,13,False,False,t-mobile customer you may now claim your free camera phone upgrade & a pay & go sim card for your loyalty. call on 0845 021 3680.offer ends 28thfeb.t&c's apply
+spam,"Double mins and txts 4 6months FREE Bluetooth on Orange. Available on Sony, Nokia Motorola phones. Call MobileUpd8 on 08000839402 or call2optout/N9DX",1,149,22,16,False,True,"double mins and txts 4 6months free bluetooth on orange. available on sony, nokia motorola phones. call mobileupd8 on 08000839402 or call2optout/n9dx"
+ham,Hanging out with my brother and his family,0,42,8,0,False,False,hanging out with my brother and his family
+spam,Text PASS to 69669 to collect your polyphonic ringtones. Normal gprs charges apply only. Enjoy your tones,1,105,17,5,False,True,text pass to 69669 to collect your polyphonic ringtones. normal gprs charges apply only. enjoy your tones
+ham,I tot it's my group mate... Lucky i havent reply... Wat time do ü need to leave... ,0,83,17,0,False,False,i tot it's my group mate... lucky i havent reply... wat time do ü need to leave...
+spam,"Bored of speed dating? Try SPEEDCHAT, txt SPEEDCHAT to 80155, if you don't like em txt SWAP and get a new chatter! Chat80155 POBox36504W45WQ 150p/msg rcd 16",1,156,27,22,False,True,"bored of speed dating? try speedchat, txt speedchat to 80155, if you don't like em txt swap and get a new chatter! chat80155 pobox36504w45wq 150p/msg rcd 16"
+ham,"Yeah sure, give me a couple minutes to track down my wallet",0,59,12,0,False,False,"yeah sure, give me a couple minutes to track down my wallet"
+spam,Do you want a New Nokia 3510i colour phone DeliveredTomorrow? With 300 free minutes to any mobile + 100 free texts + Free Camcorder reply or call 08000930705,1,157,28,21,False,True,do you want a new nokia 3510i colour phone deliveredtomorrow? with 300 free minutes to any mobile + 100 free texts + free camcorder reply or call 08000930705
+ham,So when you gonna get rimac access ,0,35,7,0,False,False,so when you gonna get rimac access
+ham,Long time. You remember me today.,0,33,6,0,False,False,long time. you remember me today.
+ham,"Oh, the grand is having a bit of a party but it doesn't mention any cover charge so it's probably first come first served",0,121,24,0,False,False,"oh, the grand is having a bit of a party but it doesn't mention any cover charge so it's probably first come first served"
+ham,How dare you change my ring,0,27,6,0,False,False,how dare you change my ring
+ham,Is ur changes 2 da report big? Cos i've already made changes 2 da previous report.,0,82,16,2,False,False,is ur changes 2 da report big? cos i've already made changes 2 da previous report.
+ham,I will take care of financial problem.i will help:),0,51,9,0,False,False,i will take care of financial problem.i will help:)
+spam,URGENT! We are trying to contact U. Todays draw shows that you have won a £2000 prize GUARANTEED. Call 09058094507 from land line. Claim 3030. Valid 12hrs only,1,159,28,21,True,True,urgent! we are trying to contact u. todays draw shows that you have won a £2000 prize guaranteed. call 09058094507 from land line. claim 3030. valid 12hrs only
+spam,Get your garden ready for summer with a FREE selection of summer bulbs and seeds worth £33:50 only with The Scotsman this Saturday. To stop go2 notxt.co.uk,1,155,27,5,True,False,get your garden ready for summer with a free selection of summer bulbs and seeds worth £33:50 only with the scotsman this saturday. to stop go2 notxt.co.uk
+ham,"Hello! Just got here, st andrews-boy its a long way! Its cold. I will keep you posted",0,85,17,0,False,False,"hello! just got here, st andrews-boy its a long way! its cold. i will keep you posted"
+ham,"HEY THERE BABE, HOW U DOIN? WOT U UP 2 2NITE LOVE ANNIE X.",0,58,14,2,False,False,"hey there babe, how u doin? wot u up 2 2nite love annie x."
+ham,"Ok., is any problem to u frm him? Wats matter?",0,46,10,0,False,False,"ok., is any problem to u frm him? wats matter?"
+ham,Thanks honey. Have a great day.,0,31,6,0,False,False,thanks honey. have a great day.
+ham,No rushing. I'm not working. I'm in school so if we rush we go hungry.,0,70,15,0,False,False,no rushing. i'm not working. i'm in school so if we rush we go hungry.
+ham,Yup i shd haf ard 10 pages if i add figures... Ü all got how many pages?,0,72,17,2,False,False,yup i shd haf ard 10 pages if i add figures... ü all got how many pages?
+ham,Ü wait 4 me in sch i finish ard 5..,0,35,10,2,False,False,ü wait 4 me in sch i finish ard 5..
+ham,"Just wondering, the others just took off",0,40,7,0,False,False,"just wondering, the others just took off"
+ham,But i'm surprised she still can guess right lor...,0,50,9,0,False,False,but i'm surprised she still can guess right lor...
+ham,He says he'll give me a call when his friend's got the money but that he's definitely buying before the end of the week,0,119,24,0,False,False,he says he'll give me a call when his friend's got the money but that he's definitely buying before the end of the week
+ham,"sir, you will receive the account no another 1hr time. Sorry for the delay.",0,75,14,1,False,False,"sir, you will receive the account no another 1hr time. sorry for the delay."
+ham,"In case you wake up wondering where I am, I forgot I have to take care of something for grandma today, should be done before the parade",0,135,27,0,False,False,"in case you wake up wondering where i am, i forgot i have to take care of something for grandma today, should be done before the parade"
+spam,100 dating service cal;l 09064012103 box334sk38ch,1,49,6,19,False,True,100 dating service cal;l 09064012103 box334sk38ch
+spam,Want explicit SEX in 30 secs? Ring 02073162414 now! Costs 20p/min Gsex POBOX 2667 WC1N 3XX,1,90,16,21,False,True,want explicit sex in 30 secs? ring 02073162414 now! costs 20p/min gsex pobox 2667 wc1n 3xx
+ham,"Come round, it's . ",0,19,4,0,False,False,"come round, it's ."
+ham,How i noe... She's in da car now... Later then c lar... I'm wearing shorts...,0,77,15,0,False,False,how i noe... she's in da car now... later then c lar... i'm wearing shorts...
+ham,All sounds good. Fingers . Makes it difficult to type,0,53,10,0,False,False,all sounds good. fingers . makes it difficult to type
+ham,Are you plans with your family set in stone ?,0,45,10,0,False,False,are you plans with your family set in stone ?
+ham,That seems unnecessarily affectionate,0,37,4,0,False,False,that seems unnecessarily affectionate
+spam,Your credits have been topped up for http://www.bubbletext.com Your renewal Pin is tgxxrz,1,89,13,0,False,False,your credits have been topped up for http://www.bubbletext.com your renewal pin is tgxxrz
+ham,"Yes..but they said its IT.,",0,27,5,0,False,False,"yes..but they said its it.,"
+ham,"sure, but make sure he knows we ain't smokin yet",0,48,10,0,False,False,"sure, but make sure he knows we ain't smokin yet"
+ham,Crucify is c not s. You should have told me earlier.,0,52,11,0,False,False,crucify is c not s. you should have told me earlier.
+ham,"Aight yo, dats straight dogg",0,28,5,0,False,False,"aight yo, dats straight dogg"
+ham,hanks lotsly!,0,13,2,0,False,False,hanks lotsly!
+ham,Wow didn't think it was that common. I take it all back ur not a freak! Unless u chop it off:-),0,95,21,0,False,False,wow didn't think it was that common. i take it all back ur not a freak! unless u chop it off:-)
+ham,"Good afternoon, my love ! Any job prospects ? Are you missing me ? What do you do ? Are you being lazy and bleak, hmmm ? Or happy and filled with my love ?",0,155,35,0,False,False,"good afternoon, my love ! any job prospects ? are you missing me ? what do you do ? are you being lazy and bleak, hmmm ? or happy and filled with my love ?"
+spam,important information 4 orange user . today is your lucky day!2find out why log onto http://www.urawinner.com THERE'S A FANTASTIC SURPRISE AWAITING YOU!,1,152,22,2,False,False,important information 4 orange user . today is your lucky day!2find out why log onto http://www.urawinner.com there's a fantastic surprise awaiting you!
+ham,Thnx dude. u guys out 2nite?,0,28,6,1,False,False,thnx dude. u guys out 2nite?
+ham,What time. I‘m out until prob 3 or so,0,37,9,1,False,False,what time. i‘m out until prob 3 or so
+ham,Have your lunch and come quickly and open the door:),0,52,10,0,False,False,have your lunch and come quickly and open the door:)
+spam,FREE for 1st week! No1 Nokia tone 4 ur mob every week just txt NOKIA to 87077 Get txting and tell ur mates. zed POBox 36504 W45WQ norm150p/tone 16+,1,147,29,20,False,True,free for 1st week! no1 nokia tone 4 ur mob every week just txt nokia to 87077 get txting and tell ur mates. zed pobox 36504 w45wq norm150p/tone 16+
+ham,Did he just say somebody is named tampa,0,39,8,0,False,False,did he just say somebody is named tampa
+ham,Any way where are you and what doing.,0,37,8,0,False,False,any way where are you and what doing.
+ham,Have you finished work yet? :),0,30,6,0,False,False,have you finished work yet? :)
+ham,"Haha awesome, be there in a minute",0,34,7,0,False,False,"haha awesome, be there in a minute"
+ham,My friends use to call the same.,0,32,7,0,False,False,my friends use to call the same.
+ham,Midnight at the earliest,0,24,4,0,False,False,midnight at the earliest
+ham,Up to ü... Ü wan come then come lor... But i din c any stripes skirt...,0,71,16,0,False,False,up to ü... ü wan come then come lor... but i din c any stripes skirt...
+ham,Jason says it's cool if we pick some up from his place in like an hour,0,70,16,0,False,False,jason says it's cool if we pick some up from his place in like an hour
+ham,Jordan got voted out last nite!,0,31,6,0,False,False,jordan got voted out last nite!
+ham,"A boy was late 2 home. His father: ""POWER OF FRNDSHIP""",0,54,11,1,False,False,"a boy was late 2 home. his father: ""power of frndship"""
+ham,Unlimited texts. Limited minutes.,0,33,4,0,False,False,unlimited texts. limited minutes.
+ham,Just re read it and I have no shame but tell me how he takes it and if he runs I will blame u 4 ever!! Not really 4 ever just a long time ,0,138,34,2,False,False,just re read it and i have no shame but tell me how he takes it and if he runs i will blame u 4 ever!! not really 4 ever just a long time
+spam,U have a secret admirer who is looking 2 make contact with U-find out who they R*reveal who thinks UR so special-call on 09058094599,1,132,24,12,False,True,u have a secret admirer who is looking 2 make contact with u-find out who they r*reveal who thinks ur so special-call on 09058094599
+ham,Please tell me you have some of that special stock you were talking about,0,73,14,0,False,False,please tell me you have some of that special stock you were talking about
+ham,Lol where do u come up with these ideas?,0,40,9,0,False,False,lol where do u come up with these ideas?
+ham,Sorry i've not gone to that place. I.ll do so tomorrow. Really sorry.,0,69,13,0,False,False,sorry i've not gone to that place. i.ll do so tomorrow. really sorry.

@@ -1,0 +1,24 @@
+HIPERPARAMETRI
+max_words: 5000
+max_len: 50
+batch_size: 64
+epochs: 8
+embedding_dim: 64
+lstm_dim: 64
+device: cpu
+
+VALIDACIONI SKUP
+              precision    recall  f1-score   support
+
+         ham       0.98      0.99      0.99       678
+        spam       0.91      0.89      0.90        98
+
+    accuracy                           0.97       776
+   macro avg       0.95      0.94      0.94       776
+weighted avg       0.97      0.97      0.97       776
+
+
+MATRICA KONFUZIJE NA VALIDACIONOM SKUPU
+              pred_ham  pred_spam
+stvarno_ham        669          9
+stvarno_spam        11         87

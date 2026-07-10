@@ -1,0 +1,24 @@
+IZBOR HIPERPARAMETARA
+  ngram_range  min_df  max_df    C  spam_precision  spam_recall   spam_f1
+2      (1, 2)       5    0.90  5.0        0.938776     0.938776  0.938776
+3      (1, 2)       2    0.95  5.0        0.929293     0.938776  0.934010
+1      (1, 2)       2    0.95  1.0        0.920000     0.938776  0.929293
+0      (1, 1)       2    0.95  1.0        0.910891     0.938776  0.924623
+
+Najbolji parametri: {'ngram_range': (1, 2), 'min_df': 5, 'max_df': 0.9, 'C': 5.0}
+
+VALIDACIONI SKUP
+              precision    recall  f1-score   support
+
+         ham       0.99      0.99      0.99       678
+        spam       0.94      0.94      0.94        98
+
+    accuracy                           0.98       776
+   macro avg       0.96      0.96      0.96       776
+weighted avg       0.98      0.98      0.98       776
+
+
+MATRICA KONFUZIJE NA VALIDACIONOM SKUPU
+              pred_ham  pred_spam
+stvarno_ham        672          6
+stvarno_spam         6         92

@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Pripremi podatke",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/01_prepare_data.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Pokreni TF-IDF + Logistic Regression",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/03_train_tfidf_logreg.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Finalno testiraj TF-IDF model",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/04_evaluate_tfidf_test.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Pokreni LSTM model",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/05_train_lstm.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Uporedi modele",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/scripts/06_compare_models.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

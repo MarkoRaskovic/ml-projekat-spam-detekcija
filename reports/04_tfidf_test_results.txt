@@ -1,0 +1,15 @@
+TEST SKUP
+              precision    recall  f1-score   support
+
+         ham       0.99      0.99      0.99       678
+        spam       0.94      0.92      0.93        98
+
+    accuracy                           0.98       776
+   macro avg       0.96      0.95      0.96       776
+weighted avg       0.98      0.98      0.98       776
+
+
+MATRICA KONFUZIJE NA TEST SKUPU
+              pred_ham  pred_spam
+stvarno_ham        672          6
+stvarno_spam         8         90
