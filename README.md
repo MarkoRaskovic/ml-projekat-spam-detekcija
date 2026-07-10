@@ -83,9 +83,9 @@ Kratak pregled trenutnih rezultata:
 | Model | Skup | Spam precision | Spam recall | Spam F1 |
 |---|---|---:|---:|---:|
 | TF-IDF + Logistic Regression | validacija | 0.94 | 0.94 | 0.94 |
-| LSTM | validacija | 0.95 | 0.88 | 0.91 |
+| LSTM | validacija | 0.90 | 0.91 | 0.90 |
 | TF-IDF + Logistic Regression | test | 0.94 | 0.92 | 0.93 |
-| LSTM | test | 0.89 | 0.88 | 0.88 |
+| LSTM | test | 0.90 | 0.88 | 0.89 |
 
 ## Sacuvani modeli
 

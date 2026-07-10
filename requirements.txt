@@ -2,4 +2,5 @@ pandas
 scikit-learn
 joblib
 torch
+matplotlib
 ipykernel
