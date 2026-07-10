@@ -14,7 +14,7 @@ Ovaj fajl mapira zahteve iz propozicija na konkretne delove projekta.
 | Ne/balansiranost podataka | `README.md`, `notebooks/06_demo_projekta.ipynb` |
 | Train/validation/test podela | `data/processed/splits/`, `notebooks/06_demo_projekta.ipynb` |
 | Validacija i izbor hiperparametara | `scripts/03_train_tfidf_logreg.py`, `reports/03_tfidf_logreg_results.txt` |
-| Matrice konfuzije i metrike | `reports/03_tfidf_logreg_results.txt`, `reports/04_tfidf_test_results.txt`, `reports/05_lstm_results.txt` |
+| Matrice konfuzije i metrike | `reports/03_tfidf_logreg_results.txt`, `reports/04_tfidf_test_results.txt`, `reports/05_lstm_results.txt`, `reports/06_lstm_test_results.txt` |
 | Poredjenje modela | `README.md`, `notebooks/06_demo_projekta.ipynb` |
 | Sacuvani modeli | `models/` |
 | Listing paketa | `requirements.txt` |

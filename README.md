@@ -64,6 +64,7 @@ Najvazniji fajlovi:
 - `reports/03_tfidf_logreg_results.txt` - izbor hiperparametara i validacija TF-IDF modela
 - `reports/04_tfidf_test_results.txt` - finalna provera TF-IDF modela na test skupu
 - `reports/05_lstm_results.txt` - validacija LSTM modela
+- `reports/06_lstm_test_results.txt` - finalna provera LSTM modela na test skupu
 
 Za spam detekciju su najvaznije metrike `precision`, `recall` i `F1-score`, jer je skup nebalansiran.
 
@@ -74,6 +75,7 @@ Kratak pregled trenutnih rezultata:
 | TF-IDF + Logistic Regression | validacija | 0.94 | 0.94 | 0.94 |
 | LSTM | validacija | 0.91 | 0.89 | 0.90 |
 | TF-IDF + Logistic Regression | test | 0.94 | 0.92 | 0.93 |
+| LSTM | test | 0.84 | 0.89 | 0.87 |
 
 ## Struktura projekta
 
@@ -113,6 +115,12 @@ Finalni test TF-IDF modela pokrece se posebno:
 .venv/bin/python scripts/04_evaluate_tfidf_test.py
 ```
 
+Finalni test LSTM modela pokrece se posebno:
+
+```bash
+.venv/bin/python scripts/06_evaluate_lstm_test.py
+```
+
 ## Pokretanje iz VS Code-a
 
 U VS Code-u otvoriti glavni folder projekta:
@@ -138,6 +146,7 @@ Redosled taskova:
 5. `6. Pokreni LSTM model`
 
 Task `5. Finalno testiraj TF-IDF model` koristi se samo za finalnu proveru na test skupu.
+Task `7. Finalno testiraj LSTM model` takodje se koristi samo za finalnu proveru na test skupu.
 
 ## Sacuvani modeli
 
