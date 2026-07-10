@@ -86,11 +86,23 @@ data/
   processed/splits/    train, validation i test skup
 docs/                  pomocni materijali za predaju i odbranu
 models/                sacuvani modeli i recnici
-notebooks/             finalna Jupyter demo sveska
-reports/               tekstualni rezultati i grafikon poredjenja
+notebooks/             numerisane Jupyter sveske za pregled projekta
+reports/               tekstualni rezultati evaluacije
 scripts/               Python skripte
 .vscode/               VS Code podesavanja za lako pokretanje
 ```
+
+## Jupyter sveske
+
+Sveske su numerisane redosledom kojim projekat treba pregledati:
+
+1. `notebooks/01_priprema_podataka.ipynb`
+2. `notebooks/02_treniranje_tfidf_logreg.ipynb`
+3. `notebooks/03_finalna_evaluacija_tfidf.ipynb`
+4. `notebooks/04_treniranje_lstm.ipynb`
+5. `notebooks/05_finalna_evaluacija_lstm.ipynb`
+
+Skripte u folderu `scripts/` ostaju glavna implementacija, dok sveske prate isti tok kroz kod, prikazuju medjukorake i objasnjavaju sta se desava.
 
 ## Pokretanje iz terminala
 
