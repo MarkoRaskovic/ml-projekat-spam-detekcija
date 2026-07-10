@@ -5,7 +5,10 @@ Projekat iz predmeta Masinsko ucenje. Cilj projekta je klasifikacija SMS poruka 
 - `ham` - regularna poruka
 - `spam` - nezeljena/reklamna/prevarna poruka
 
-Glavni model je klasicni NLP pristup `TF-IDF + Logistic Regression`. Zbog zahteva projekta dodat je i jednostavan `LSTM` rekurentni neuronski model.
+U projektu su implementirana i evaluirana dva pristupa:
+
+- `TF-IDF + Logistic Regression`
+- `LSTM` rekurentna neuronska mreza
 
 ## Clan tima
 
@@ -40,20 +43,27 @@ Validacioni skup se koristi za izbor modela i hiperparametara. Test skup se cuva
 
 Tekstualna poruka se prvo pretvara u numericke atribute pomocu TF-IDF vektorizacije. Zatim se nad tim atributima trenira logisticka regresija.
 
-U skripti se proba nekoliko kombinacija hiperparametara:
+Kod ovog pristupa menjaju se hiperparametri TF-IDF vektorizacije i logisticke regresije:
 
 - `ngram_range`
 - `min_df`
 - `max_df`
 - `C` za logisticku regresiju
 
-Najbolja kombinacija se bira prema `F1` meri za spam klasu na validacionom skupu.
+Model se bira na osnovu rezultata na validacionom skupu.
 
 ### LSTM
 
-LSTM model se koristi kao jednostavan rekurentni model. Poruke se tokenizuju, pretvaraju u redne brojeve iz recnika, skracuju ili dopunjuju do iste duzine, a zatim se trenira PyTorch LSTM klasifikator.
+LSTM model poruku posmatra kao niz reci. Poruke se tokenizuju, pretvaraju u redne brojeve iz recnika, skracuju ili dopunjuju do iste duzine, a zatim se trenira PyTorch LSTM klasifikator.
 
-Ovaj model je dodat da projekat ispuni zahtev da postoji rekurentni model, ali je glavni odbranjivi model `TF-IDF + Logistic Regression`, jer je brzi, jednostavniji i daje bolje ili uporedive rezultate na ovom malom skupu.
+Kod LSTM pristupa menjaju se:
+
+- velicina recnika
+- broj epoha
+- dimenzija embedding sloja
+- dimenzija LSTM sloja
+
+I ovaj model se bira na osnovu rezultata na validacionom skupu.
 
 ## Rezultati
 
@@ -76,89 +86,6 @@ Kratak pregled trenutnih rezultata:
 | LSTM | validacija | 0.95 | 0.88 | 0.91 |
 | TF-IDF + Logistic Regression | test | 0.94 | 0.92 | 0.93 |
 | LSTM | test | 0.89 | 0.88 | 0.88 |
-
-## Struktura projekta
-
-```text
-data/
-  raw/                 originalni UCI podaci
-  processed/           obradjeni podaci
-  processed/splits/    train, validation i test skup
-docs/                  pomocni materijali za predaju i odbranu
-models/                sacuvani modeli i recnici
-notebooks/             numerisane Jupyter sveske za pregled projekta
-reports/               tekstualni rezultati evaluacije
-scripts/               Python skripte
-.vscode/               VS Code podesavanja za lako pokretanje
-```
-
-## Jupyter sveske
-
-Sveske su numerisane redosledom kojim projekat treba pregledati:
-
-1. `notebooks/01_priprema_podataka.ipynb`
-2. `notebooks/02_treniranje_tfidf_logreg.ipynb`
-3. `notebooks/03_finalna_evaluacija_tfidf.ipynb`
-4. `notebooks/04_treniranje_lstm.ipynb`
-5. `notebooks/05_finalna_evaluacija_lstm.ipynb`
-
-Skripte u folderu `scripts/` ostaju glavna implementacija, dok sveske prate isti tok kroz kod, prikazuju medjukorake i objasnjavaju sta se desava.
-
-## Pokretanje iz terminala
-
-Prvo napraviti okruzenje i instalirati pakete:
-
-```bash
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
-```
-
-Zatim pokrenuti skripte ovim redosledom:
-
-```bash
-.venv/bin/python scripts/01_prepare_data.py
-.venv/bin/python scripts/03_train_tfidf_logreg.py
-.venv/bin/python scripts/05_train_lstm.py
-```
-
-Finalni test TF-IDF modela pokrece se posebno:
-
-```bash
-.venv/bin/python scripts/04_evaluate_tfidf_test.py
-```
-
-Finalni test LSTM modela pokrece se posebno:
-
-```bash
-.venv/bin/python scripts/06_evaluate_lstm_test.py
-```
-
-## Pokretanje iz VS Code-a
-
-U VS Code-u otvoriti glavni folder projekta:
-
-```text
-/Users/markoraskovic/Desktop/ML projekat
-```
-
-Ne treba otvarati podfolder `scripts`, jer se tada ne vide taskovi iz `.vscode/tasks.json`.
-
-Najjednostavnije je otvoriti fajl `ML projekat.code-workspace` iz glavnog foldera projekta.
-
-Zatim izabrati:
-
-`Terminal -> Run Task...`
-
-Redosled taskova:
-
-1. `1. Napravi Python okruzenje`
-2. `2. Instaliraj pakete`
-3. `3. Pripremi podatke`
-4. `4. Pokreni TF-IDF model`
-5. `6. Pokreni LSTM model`
-
-Task `5. Finalno testiraj TF-IDF model` koristi se samo za finalnu proveru na test skupu.
-Task `7. Finalno testiraj LSTM model` takodje se koristi samo za finalnu proveru na test skupu.
 
 ## Sacuvani modeli
 
