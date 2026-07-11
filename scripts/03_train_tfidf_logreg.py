@@ -1,11 +1,10 @@
 from pathlib import Path
 
-from itertools import product
 import joblib
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import classification_report, confusion_matrix, f1_score, precision_score, recall_score
+from sklearn.metrics import classification_report, confusion_matrix, f1_score
 from sklearn.pipeline import Pipeline
 
 
@@ -30,7 +29,11 @@ y_validation = validation_df["label"]
 
 # Biramo nekoliko brzih kombinacija hiperparametara.
 # Najbolji model biramo prema F1 meri za spam i ham klasu na validacionom skupu.
-candidate_parameters = [(i,j*0.2) for i in range(2,21) for j in range(1,51)]
+candidate_parameters = [
+    (min_df_param, c_param)
+    for min_df_param in [2, 5, 10]
+    for c_param in [0.5, 1.0, 2.0, 5.0]
+]
 
 # Pravimo model koji izvrsava logisticku regresiju.
 def napravi_model(min_df_param,C_param):
@@ -44,6 +47,7 @@ def napravi_model(min_df_param,C_param):
                     ngram_range=(1,2),
                     min_df=min_df_param,
                     max_df=0.90,
+                    max_features=10000,
                     sublinear_tf=True,
                 ),
             ),
@@ -79,7 +83,7 @@ for params in candidate_parameters:
 
     all_results.append([min_df_param,C_param, spam_f1,ham_f1])
 
-    if spam_f1+ham_f1 > best_spam_f1+ham_f1:
+    if spam_f1+ham_f1 > best_spam_f1+best_ham_f1:
         best_spam_f1 = spam_f1
         best_ham_f1=ham_f1
         best_params = params

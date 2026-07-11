@@ -1,24 +1,24 @@
 IZBOR HIPERPARAMETARA
  max_words  epochs  embedding_dim  lstm_dim  spam_precision  spam_recall  spam_f1
-      5000      16            128       128        0.898990     0.908163 0.903553
-      5000      12            128       128        0.907216     0.897959 0.902564
-      5000      12             64        64        0.915789     0.887755 0.901554
-      3000       8             64        64        0.934066     0.867347 0.899471
-      5000      20            128       128        0.897959     0.897959 0.897959
-      5000      20             64        64        0.914894     0.877551 0.895833
-      5000      16             64        64        0.895833     0.877551 0.886598
-      1000       8             32        32        0.839623     0.908163 0.872549
-      5000       8             64        64        0.769912     0.887755 0.824645
+      5000      20             64        64        0.984615     0.914286 0.948148
+      5000      16             64        64        0.955882     0.928571 0.942029
+      5000       8             64        64        0.942029     0.928571 0.935252
+      5000      20            128       128        0.941176     0.914286 0.927536
+      5000      12             64        64        0.904110     0.942857 0.923077
+      5000      12            128       128        0.926471     0.900000 0.913043
+      3000       8             64        64        0.839506     0.971429 0.900662
+      5000      16            128       128        0.842105     0.914286 0.876712
+      1000       8             32        32        0.507812     0.928571 0.656566
 
-Najbolji parametri: {'max_words': 5000, 'epochs': 16, 'embedding_dim': 128, 'lstm_dim': 128}
+Najbolji parametri: {'max_words': 5000, 'epochs': 20, 'embedding_dim': 64, 'lstm_dim': 64}
 
 HIPERPARAMETRI NAJBOLJEG MODELA
 max_words: 5000
 max_len: 50
 batch_size: 64
-epochs: 16
-embedding_dim: 128
-lstm_dim: 128
+epochs: 20
+embedding_dim: 64
+lstm_dim: 64
 learning_rate: 0.001
 dropout: 0.2
 device: mps
@@ -26,15 +26,15 @@ device: mps
 VALIDACIONI SKUP
               precision    recall  f1-score   support
 
-         ham       0.99      0.99      0.99       678
-        spam       0.90      0.91      0.90        98
+         ham       0.98      1.00      0.99       361
+        spam       0.98      0.91      0.95        70
 
-    accuracy                           0.98       776
-   macro avg       0.94      0.95      0.94       776
-weighted avg       0.98      0.98      0.98       776
+    accuracy                           0.98       431
+   macro avg       0.98      0.96      0.97       431
+weighted avg       0.98      0.98      0.98       431
 
 
 MATRICA KONFUZIJE NA VALIDACIONOM SKUPU
               pred_ham  pred_spam
-stvarno_ham        668         10
-stvarno_spam         9         89
+stvarno_ham        360          1
+stvarno_spam         6         64

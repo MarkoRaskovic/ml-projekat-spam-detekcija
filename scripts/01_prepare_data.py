@@ -1,4 +1,5 @@
 from pathlib import Path
+import tarfile
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -6,18 +7,28 @@ from sklearn.model_selection import train_test_split
 
 ROOT = Path(__file__).resolve().parents[1]
 
-RAW_PATH = ROOT / "data" / "raw" / "SMSSpamCollection"
-CLEAN_PATH = ROOT / "data" / "processed" / "sms_spam_clean.csv"
-MODELING_PATH = ROOT / "data" / "processed" / "sms_spam_modeling.csv"
+RAW_PATH = ROOT / "data" / "raw" / "lingspam_public.tar.gz"
+CLEAN_PATH = ROOT / "data" / "processed" / "lingspam_clean.csv"
+MODELING_PATH = ROOT / "data" / "processed" / "lingspam_modeling.csv"
 SPLIT_DIR = ROOT / "data" / "processed" / "splits"
 
 
 rows = []
 
-# Originalni UCI fajl ima format: labela, tab, tekst poruke.
-for line in RAW_PATH.read_text(encoding="utf-8", errors="replace").splitlines():
-    label, message = line.split("\t", 1)
-    rows.append([label, message])
+# Koristimo "bare" verziju Ling-Spam korpusa: bez lematizacije i bez uklonjenih stop reci.
+# Fajlovi cije ime pocinje sa "spmsg" su spam, a ostali fajlovi su ham.
+with tarfile.open(RAW_PATH, "r:gz") as archive:
+    for member in archive.getmembers():
+        is_text_file = member.isfile() and member.name.startswith("lingspam_public/bare/") and member.name.endswith(".txt")
+        if not is_text_file:
+            continue
+
+        file_name = Path(member.name).name
+        label = "spam" if file_name.startswith("spmsg") else "ham"
+
+        extracted_file = archive.extractfile(member)
+        message = extracted_file.read().decode("latin-1", errors="replace").strip()
+        rows.append([label, message])
 
 df = pd.DataFrame(rows, columns=["label", "message"])
 

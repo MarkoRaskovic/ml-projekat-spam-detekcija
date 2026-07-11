@@ -20,4 +20,4 @@ Ovaj fajl mapira zahteve iz propozicija na konkretne delove projekta.
 | Listing paketa | `requirements.txt`, `docs/uputstvo_za_pokretanje.md` |
 | Smernice za podesavanje okruzenja | `docs/uputstvo_za_pokretanje.md`, `.vscode/tasks.json` |
 
-Napomena: test skup postoji, ali se ne koristi tokom izbora modela i hiperparametara. Koristi se samo u skripti `scripts/04_evaluate_tfidf_test.py` za finalnu procenu.
+Napomena: test skup postoji, ali se ne koristi tokom izbora modela i hiperparametara. Koristi se samo u skriptama `scripts/04_evaluate_tfidf_test.py` i `scripts/06_evaluate_lstm_test.py` za finalnu procenu.

@@ -1,9 +1,9 @@
-# Detekcija spam SMS poruka pomocu klasicnih NLP metoda
+# Detekcija spam mejlova pomocu klasicnih NLP metoda
 
-Projekat iz predmeta Masinsko ucenje. Cilj projekta je klasifikacija SMS poruka na dve klase:
+Projekat iz predmeta Masinsko ucenje. Cilj projekta je klasifikacija tekstualnih mejlova na dve klase:
 
-- `ham` - regularna poruka
-- `spam` - nezeljena/reklamna/prevarna poruka
+- `ham` - regularan mejl
+- `spam` - nezeljen/reklamni/prevarni mejl
 
 U projektu su implementirana i evaluirana dva pristupa:
 
@@ -16,20 +16,20 @@ U projektu su implementirana i evaluirana dva pristupa:
 
 ## Skup podataka
 
-Koristi se `UCI SMS Spam Collection` skup podataka. Skup sadrzi SMS poruke obelezene kao `ham` ili `spam`.
+Koristi se `Ling-Spam` skup podataka. Skup sadrzi tekstove mejlova obelezene kao `ham` ili `spam`. U projektu se koristi `bare` verzija korpusa, bez lematizacije i bez unapred uklonjenih stop reci.
 
 Osnovne karakteristike originalnog skupa:
 
-- ukupan broj poruka: 5574
-- ham poruke: 4827 (86.60%)
-- spam poruke: 747 (13.40%)
-- broj dupliranih poruka: 403
+- ukupan broj mejlova: 2893
+- ham mejlovi: 2412 (83.37%)
+- spam mejlovi: 481 (16.63%)
+- broj dupliranih mejlova: 17
 
-Posle uklanjanja duplikata ostaje 5171 poruka. Skup je nebalansiran, jer je spam poruka znatno manje od ham poruka.
+Posle uklanjanja duplikata ostaje 2876 mejlova. Skup je nebalansiran, jer je spam mejlova znatno manje od ham mejlova.
 
 ## Podela podataka
 
-Podaci se dele stratifikovano, da bi odnos `ham` i `spam` poruka ostao isti u svakom delu:
+Podaci se dele stratifikovano, da bi odnos `ham` i `spam` mejlova ostao isti u svakom delu:
 
 - trening skup: 70%
 - validacioni skup: 15%
@@ -41,20 +41,18 @@ Validacioni skup se koristi za izbor modela i hiperparametara. Test skup se cuva
 
 ### TF-IDF + Logistic Regression
 
-Tekstualna poruka se prvo pretvara u numericke atribute pomocu TF-IDF vektorizacije. Zatim se nad tim atributima trenira logisticka regresija.
+Tekst mejla se prvo pretvara u numericke atribute pomocu TF-IDF vektorizacije. Zatim se nad tim atributima trenira logisticka regresija.
 
 Kod ovog pristupa menjaju se hiperparametri TF-IDF vektorizacije i logisticke regresije:
 
-- `ngram_range`
 - `min_df`
-- `max_df`
 - `C` za logisticku regresiju
 
-Model se bira na osnovu rezultata na validacionom skupu.
+Model se bira na osnovu rezultata na validacionom skupu. Pretraga hiperparametara je namerno ogranicena na mali broj kandidata da bi se projekat brzo pokretao na laptopu.
 
 ### LSTM
 
-LSTM model poruku posmatra kao niz reci. Poruke se tokenizuju, pretvaraju u redne brojeve iz recnika, skracuju ili dopunjuju do iste duzine, a zatim se trenira PyTorch LSTM klasifikator.
+LSTM model tekst posmatra kao niz reci. Tekstovi se tokenizuju, pretvaraju u redne brojeve iz recnika, skracuju ili dopunjuju do iste duzine, a zatim se trenira PyTorch LSTM klasifikator.
 
 Kod LSTM pristupa menjaju se:
 
@@ -82,10 +80,10 @@ Kratak pregled trenutnih rezultata:
 
 | Model | Skup | Spam precision | Spam recall | Spam F1 |
 |---|---|---:|---:|---:|
-| TF-IDF + Logistic Regression | validacija | 0.94 | 0.94 | 0.94 |
-| LSTM | validacija | 0.90 | 0.91 | 0.90 |
-| TF-IDF + Logistic Regression | test | 0.94 | 0.92 | 0.93 |
-| LSTM | test | 0.90 | 0.88 | 0.89 |
+| TF-IDF + Logistic Regression | validacija | 0.99 | 0.99 | 0.99 |
+| LSTM | validacija | 0.98 | 0.91 | 0.95 |
+| TF-IDF + Logistic Regression | test | 0.99 | 0.96 | 0.97 |
+| LSTM | test | 0.94 | 0.90 | 0.92 |
 
 ## Sacuvani modeli
 
@@ -99,7 +97,8 @@ Fajlovi su mali, pa mogu da budu deo GitHub repozitorijuma.
 
 ## Literatura
 
-- UCI Machine Learning Repository: SMS Spam Collection
+- Ling-Spam corpus, Ion Androutsopoulos
+- I. Androutsopoulos, J. Koutsias, K.V. Chandrinos, G. Paliouras, C.D. Spyropoulos: `An Evaluation of Naive Bayesian Anti-Spam Filtering`, ECML 2000
 - scikit-learn dokumentacija: `TfidfVectorizer`, `LogisticRegression`, metrike klasifikacije
 - PyTorch dokumentacija: `Embedding`, `LSTM`, `BCEWithLogitsLoss`
 - Materijali sa vezbi iz Masinskog ucenja: `matf-ml/materijali-sa-vezbi-2026`
